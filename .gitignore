@@ -1,0 +1,34 @@
+### Visual Studio & .NET ###
+## Carpetas de compilación y dependencias
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+*.nupkg
+
+## Archivos de configuración específicos (ignorar Web.config globalmente)
+**/Web.config
+/Web.Debug.config
+/Web.Release.config
+
+## Archivos de usuario/IDE (Visual Studio)
+*.user
+*.suo
+*.cache
+*.log
+*.vs/
+.vsconfig
+*.swp
+
+## Otros archivos temporales
+*.tmp
+*.bak
+*.pidb
+*.pdb
+*.ilk
+
+### Git ###
+## Evitar conflictos de merge
+*.orig
+/*.config
