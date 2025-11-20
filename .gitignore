@@ -1,11 +1,16 @@
 ### Visual Studio & .NET ###
+
 ## Carpetas de compilación y dependencias
 [Bb]in/
 [Oo]bj/
 [Dd]ebug/
 [Rr]elease/
 publish/
+*/publish/
 *.nupkg
+
+## Perfiles de publicación
+Properties/PublishProfiles/
 
 ## Archivos de configuración específicos (ignorar Web.config globalmente)
 **/Web.config
@@ -17,7 +22,7 @@ publish/
 *.suo
 *.cache
 *.log
-*.vs/
+.vs/
 .vsconfig
 *.swp
 
