@@ -43,20 +43,17 @@
             <div class="spinner">                
             </div>
             <div class="txt-loading">
+                <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="K" class="letters-loading">
+                    K
+                </span>
                 <span data-text-preloader="A" class="letters-loading">
                     A
                 </span>
-                <span data-text-preloader="R" class="letters-loading">
-                    R
-                </span>
-                <span data-text-preloader="L" class="letters-loading">
-                    L
-                </span>
-                <span data-text-preloader="U" class="letters-loading">
-                    U
-                </span>
-                <span data-text-preloader="X" class="letters-loading">
-                    X
+                <span data-text-preloader="P" class="letters-loading">
+                    P
                 </span>
             </div>
             <p class="text-center">Loading</p>
@@ -191,7 +188,7 @@
                                     <img src="img/logo/black-logo.png" alt="logo-img"/>
                                 </a>
                                 <a href="index.html" class="header-logo-2">
-                                    <img src="img/logo/white-logo.png" alt="logo-img"/>
+                                    <img src="img/logo/black-logo.png" alt="logo-img"/>
                                 </a>
                             </div>
                         </div>
@@ -214,42 +211,322 @@
         </div>
     </header>
 
-
-
-
-
-
-
     <!-- GT Hero Section Start -->
-    <section class="gt-hero-section gt-hero-1 fix bg-cover" style="background-image: url('img/banners/banner-inicio.jpg'); height: 100vh;">
+    <section class="gt-hero-section gt-hero-1 fix bg-cover" style="background-image: url('img/banners/banner-inicio.png'); height: 100vh;">
         <div class="container-fluid">
             <div class="row g-4">
-                <div class="">
-                    <div class="gt-hero-content">
-                        <span class="wow fadeInUp"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO OUR HOTEL</span>
-                        <h1 class="wow fadeInUp" data-wow-delay=".2s">
-                            Experience a Luxurious Hotel Stay Comfort and Style
-                        </h1>
-                        <p class="wow fadeInUp" data-wow-delay=".4s">
-                            Indulge in a luxurious hotel stay where comfort meets style, offering world-class amenities, elegant design, and exceptional personalized service.
-                        </p>
-                        <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                            <a href="contact.html" class="gt-theme-btn style-2">Book Now</a>
-                            <a href="room.html" class="gt-theme-btn">DISCOVER ROOM</a>
-                        </div>
+                <div class="gt-hero-content">
+                    <span class="wow fadeInUp"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO OUR HOTEL</span>
+                    <h1 class="wow fadeInUp" data-wow-delay=".2s">
+                        Experience a Luxurious Hotel Stay Comfort and Style
+                    </h1>
+                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                        Indulge in a luxurious hotel stay where comfort meets style, offering world-class amenities, elegant design, and exceptional personalized service.
+                    </p>
+                    <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                        <a href="contact.html" class="gt-theme-btn style-2">Inscribirse</a>
+                        <a href="room.html" class="gt-theme-btn">Saber Más</a>
                     </div>
                 </div>
-                <%--<div class="col-xl-5">
-                    <div class="gt-hero-image">
-                        <img src="img/home-1/hero/hero-01.png" alt="img"/>
-                        <div class="gt-arrow-shape">
-                            <img src="img/home-1/hero/arrow-shape.png" alt="img"/>
-                        </div>
-                    </div>
-                </div>--%>
             </div>
         </div>
     </section>
+
+    <!-- GT Service Section Start -->
+    <section class="gt-service-section fix section-padding fix section-padding">
+        <div class="container">
+            <div class="gt-section-title text-center">
+                <h6 class="justify-content-center wow fadeInUp">
+                    <img src="img/arrow-left.svg" alt="img" />
+                        FACILITIES
+                    <img src="img/arrow-right-2.svg" alt="img" />
+                </h6>
+                <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                    Hotl’s Facilities
+                </h2>
+            </div>
+            <div class="row row-espacios">
+                <div class="col espacio-item">
+                    <div class="service-box-items">
+                        <img src="img/espacios/zona-hammer.png" alt="img"/>
+
+                        <h4>Zona Hammer</h4>
+                    </div>    
+                </div>
+                <div class="col espacio-item" data-wow-delay=".2s">
+                    <div class="service-box-items">
+                        <img src="img/espacios/zona-poleas.png" alt="img"/>
+
+                        <h4>Zona de Poleas</h4>
+                    </div>    
+                </div>
+                <div class="col espacio-item" data-wow-delay=".4s">
+                    <div class="service-box-items">
+                        <img src="img/espacios/zona-cardiovascular.png" alt="img"/>
+
+                        <h4>Zona Cardiovascular</h4>
+                    </div>    
+                </div>
+                <div class="col espacio-item" data-wow-delay=".6s">
+                    <div class="service-box-items">
+                        <img src="img/espacios/store-coffe.png" alt="img"/>
+
+                        <h4>Store Coffee</h4>
+                    </div>    
+                </div>
+                <div class="col espacio-item" data-wow-delay=".8s">
+                    <div class="service-box-items">
+                        <img src="img/espacios/zona-pilates.png" alt="img"/>
+
+                        <h4>Zona de Pilates</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GT Serviec  Section Start -->
+    <section class="gt-service-section fix section-padding section-bg-3">
+        <div class="container">
+            <div class="gt-service-wrapper-3">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="swiper service-image-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/espacios/img_5.png" alt="img" />
+                                        <span class="offer-text">From $269 / NIGHT</span>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/espacios/img_6.png" alt="img" />
+                                        <span class="offer-text">From $269 / NIGHT</span>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/espacios/img_7.png" alt="img" />
+                                        <span class="offer-text">From $269 / NIGHT</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="array-button-2 justify-content-center">
+                                <button class="array-next"><i class="fa-solid fa-chevron-left"></i></button>
+        
+                                <button class="array-prev"><i class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="service-content">
+                            <div class="gt-section-title mb-0">
+                                <h6 class="wow fadeInUp">
+                                    <img src="img/sub-left-2.svg" alt="img" />
+                                    S E R V I C E S
+                                </h6>
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                Our Offerings
+                                </h2>
+                            </div>
+                            <p class="service-text wow fadeInUp" data-wow-delay=".4s">
+                                At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                            </p>
+                            <div class="faq-item wow fadeInUp" data-wow-delay=".5s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Spa Retreat
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                             <div class="faq-item active wow fadeInUp" data-wow-delay=".6s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Family Fun Package
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                             <div class="faq-item wow fadeInUp" data-wow-delay=".7s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Traveler Special
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                             <div class="faq-item wow fadeInUp" data-wow-delay=".8s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Romantic Getaway
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                            <div class="gt-hero-1">
+                                <div class="gt-hero-content" style="padding-top: 0;">
+                                    <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                        <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="contact.html" class="gt-theme-btn style-2">Saber Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- GT Serviec  Section Start -->
+    <section class="gt-service-section fix section-padding section-bg-3 bg-cover" style="background-image: url('img/banners/banner-secundario.png');">
+        <div class="container">
+            <div class="gt-service-wrapper-3">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="service-content">
+                            <div class="gt-section-title mb-0">
+                                <h6 class="wow fadeInUp">
+                                    <img src="img/sub-left-2.svg" alt="img" />
+                                    S E R V I C E S
+                                </h6>
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                Our Offerings
+                                </h2>
+                            </div>
+                            <p class="service-text wow fadeInUp" data-wow-delay=".4s">
+                                At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                            </p>
+                            <div class="faq-item wow fadeInUp" data-wow-delay=".5s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Spa Retreat
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                             <div class="faq-item active wow fadeInUp" data-wow-delay=".6s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Family Fun Package
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                             <div class="faq-item wow fadeInUp" data-wow-delay=".7s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Traveler Special
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                             <div class="faq-item wow fadeInUp" data-wow-delay=".8s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    Romantic Getaway
+                                </h3>
+                                <p class="faq-text">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                </p>
+                            </div>
+                            <div class="gt-hero-1">
+                                <div class="gt-hero-content" style="padding-top: 0;">
+                                    <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                        <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="contact.html" class="gt-theme-btn style-2">Saber Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GT Booking Reserve Section Start -->
+    <section class="gt-booking-reserve-section fix">
+        <div class="gt-section-title mb-0">
+            <h3 class="wow fadeInUp" data-wow-delay=".2s">
+                Welcome to Our Hotel & Resort Under the Arlux
+            </h3>
+        </div>
+        <div class="gt-booking-reserve-video parallaxie bg-cover" style="background-image: url('img/home-1/booking-video-bg.jpg');">
+            <div class="gt-video-items">
+                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn video-popup">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+            </div>
+        </div>
+        <p class="service-text wow fadeInUp" data-wow-delay=".4s">
+            At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+        </p>
+    </section>
+
+
+    <!-- GT About Section Start -->
+    <section class="gt-about-section-3 section-padding fix bg-cover" style="background-image: url('img/banners/banner-terciario.png');">
+        <div class="container">
+            <div class="gt-about-wrapper-3">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="gt-about-content">
+                            <div class="gt-section-title mb-0">
+                                <h6 class="wow fadeInUp">
+                                    <img src="img/sub-left-2.svg" alt="img" />
+                                        ABOUT US
+                                </h6>
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                    Welcome to Our Hotel & Resort Under the Arlux
+                                </h2>
+                            </div>
+                            <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create unforgettable experiences. Whether you're here for relaxation or celebration
+                            </p>
+                            <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                <li>
+                                    <i class="flaticon-arrow-right"></i>
+                                    Modern & Comfortable Rooms
+                                </li>
+                                <li>
+                                    <i class="flaticon-arrow-right"></i>
+                                    Business Lounge & Meeting Rooms
+                                </li>
+                                <li>
+                                    <i class="flaticon-arrow-right"></i>
+                                    Laundry & Dry Cleaning Services
+                                </li>
+                            </ul>
+                            <div class="gt-hero-1">
+                                <div class="gt-hero-content" style="padding-top: 0;">
+                                    <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                        <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="contact.html" class="gt-theme-btn style-3">Saber Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
@@ -284,5 +561,37 @@
     <script src="js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="js/main.js"></script>
+
+    <style>
+
+        @media (max-width: 1199px) {
+            .row-espacios .espacio-item {
+                margin-bottom: 20px;
+            }
+
+            .gt-theme-btn {
+                padding: 19px 30px;
+            }
+        }
+
+        /* 5 columnas en pantallas grandes */
+        @media (min-width: 1200px) {
+            .row-espacios .espacio-item {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+
+            .row-espacios .service-box-items img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .row-espacios .service-box-items h4 {
+                font-size: 15px;
+            }
+        }
+
+    </style>
+
 </body>
 </html>
