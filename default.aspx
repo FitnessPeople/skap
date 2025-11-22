@@ -11,9 +11,9 @@
     <meta name="author" content="Gramentheme"/>
     <meta name="description" content="Skap Training Club"/>
     <!-- ======== Page title ============ -->
-    <title>SKAP</title>
+    <title>Skap</title>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="img/favicon.svg"/>
+    <link rel="shortcut icon" href="img/favicon.png"/>
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <!--<< All Min Css >>-->
@@ -103,14 +103,14 @@
                     </p>
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
-                        <h4>Contact Info</h4>
+                        <h4>Información de Contacto</h4>
                         <ul>
                             <li class="d-flex align-items-center">
                                 <div class="offcanvas__contact-icon">
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">Cll. 56 #12-01</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -118,15 +118,7 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-clock"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">skap@email.com</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -134,14 +126,10 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
+                                    <a href="tel:+11002345909">300 548 6895</a>
                                 </div>
                             </li>
                         </ul>
-                        <div class="header-button mt-4">
-                        
-                        </div>
-                        <a href="contact.html" class="gt-theme-btn">BOOK NOW</a>
                         <div class="social-icon d-flex align-items-center">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -233,7 +221,7 @@
     </section>
 
     <!-- GT Service Section Start -->
-    <section class="gt-service-section fix section-padding fix section-padding">
+    <section class="gt-service-section fix section-padding fix">
         <div class="container">
             <div class="gt-section-title text-center">
                 <h6 class="justify-content-center wow fadeInUp">
@@ -245,39 +233,34 @@
                     Hotl’s Facilities
                 </h2>
             </div>
-            <div class="row row-espacios">
-                <div class="col espacio-item">
+            <div class="row row-espacios justify-content-center g-4">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item">
                     <div class="service-box-items">
                         <img src="img/espacios/zona-hammer.png" alt="img"/>
-
                         <h4>Zona Hammer</h4>
-                    </div>    
+                    </div>
                 </div>
-                <div class="col espacio-item" data-wow-delay=".2s">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".2s">
                     <div class="service-box-items">
                         <img src="img/espacios/zona-poleas.png" alt="img"/>
-
                         <h4>Zona de Poleas</h4>
-                    </div>    
+                    </div>
                 </div>
-                <div class="col espacio-item" data-wow-delay=".4s">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".4s">
                     <div class="service-box-items">
                         <img src="img/espacios/zona-cardiovascular.png" alt="img"/>
-
                         <h4>Zona Cardiovascular</h4>
-                    </div>    
+                    </div>
                 </div>
-                <div class="col espacio-item" data-wow-delay=".6s">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".6s">
                     <div class="service-box-items">
                         <img src="img/espacios/store-coffe.png" alt="img"/>
-
                         <h4>Store Coffee</h4>
-                    </div>    
+                    </div>
                 </div>
-                <div class="col espacio-item" data-wow-delay=".8s">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".8s">
                     <div class="service-box-items">
                         <img src="img/espacios/zona-pilates.png" alt="img"/>
-
                         <h4>Zona de Pilates</h4>
                     </div>
                 </div>
@@ -295,19 +278,19 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/espacios/img_5.png" alt="img" />
+                                        <img src="img/home-3/service/service-01.jpg" alt="img" />
                                         <span class="offer-text">From $269 / NIGHT</span>
                                     </div>
                                 </div>
                                  <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/espacios/img_6.png" alt="img" />
+                                        <img src="img/home-3/service/service-01.jpg" alt="img" />
                                         <span class="offer-text">From $269 / NIGHT</span>
                                     </div>
                                 </div>
                                  <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/espacios/img_7.png" alt="img" />
+                                        <img src="img/home-3/service/service-01.jpg" alt="img" />
                                         <span class="offer-text">From $269 / NIGHT</span>
                                     </div>
                                 </div>
@@ -465,13 +448,20 @@
                 Welcome to Our Hotel & Resort Under the Arlux
             </h3>
         </div>
-        <div class="gt-booking-reserve-video parallaxie bg-cover" style="background-image: url('img/home-1/booking-video-bg.jpg');">
-            <div class="gt-video-items">
-                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn video-popup">
-                    <i class="fa-solid fa-play"></i>
-                </a>
+
+        <div class="gt-video-wrapper">
+            <div class="gt-video-responsive wow fadeInUp" data-wow-delay=".3s">
+                <iframe  
+                    src="https://www.youtube.com/embed/ehVhALWRin4?si=AvPstpeAD8sZuLbi" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
             </div>
         </div>
+        
         <p class="service-text wow fadeInUp" data-wow-delay=".4s">
             At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
         </p>
@@ -527,15 +517,493 @@
     </section>
 
 
+    <!-- GT Room Section Start -->
+    <section class="gt-room-section fix section-padding section-bg">
+        <div class="gt-room-wrapper">
+            <div class="container">
+                 <div class="gt-section-title text-center">
+                    <h6 class="wow fadeInUp justify-content-center">
+                        <img src="img/arrow-left.svg" alt="img" />
+                           Nuestros Planes
+                        <img src="img/arrow-right.svg" alt="img" />
+                    </h6>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                      Rooms & Suttes
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="gt-room-box-items">
+                            <div class="gt-thumb">
+                                <img src="img/home-1/room/room-01.jpg" alt="img" />
+                                <img src="img/home-1/room/room-01.jpg" alt="img" />
+                                <span class="gt-post-box">
+                                    $269 / NIGHT
+                                </span>
+                            </div>
 
+                            <div class="gt-content">
+                                <a href="room.html" class="gt-post-cat">Luxury Room</a>
 
+                                <h3><a href="room-details.html">Idustry Experience</a></h3>
 
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
+                                </p>
 
-    <form id="form1" runat="server">
-        <div>
-            <h1>Hola mundo</h1>
+                                <ul class="gt-list wow fadeInUp" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Modern & Comfortable Rooms
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Business Lounge & Meeting Rooms
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Laundry & Dry Cleaning Services
+                                    </li>
+                                </ul>
+                                
+                                <div class="gt-hero-1">
+                                    <div class="gt-hero-content">
+                                        <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                            <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="gt-room-box-items">
+                            <div class="gt-thumb">
+                                <img src="img/home-1/room/room-01.jpg" alt="img" />
+                                <img src="img/home-1/room/room-01.jpg" alt="img" />
+                                <span class="gt-post-box">
+                                    $269 / NIGHT
+                                </span>
+                            </div>
+
+                            <div class="gt-content">
+                                <a href="room.html" class="gt-post-cat">Luxury Room</a>
+
+                                <h3><a href="room-details.html">Idustry Experience</a></h3>
+
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
+                                </p>
+
+                                <ul class="gt-list wow fadeInUp" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Modern & Comfortable Rooms
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Business Lounge & Meeting Rooms
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Laundry & Dry Cleaning Services
+                                    </li>
+                                </ul>
+        
+                                <div class="gt-hero-1">
+                                    <div class="gt-hero-content">
+                                        <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                            <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="gt-room-box-items">
+                            <div class="gt-thumb">
+                                <img src="img/home-1/room/room-01.jpg" alt="img" />
+                                <img src="img/home-1/room/room-01.jpg" alt="img" />
+                                <span class="gt-post-box">
+                                    $269 / NIGHT
+                                </span>
+                            </div>
+
+                            <div class="gt-content">
+                                <a href="room.html" class="gt-post-cat">Luxury Room</a>
+
+                                <h3><a href="room-details.html">Idustry Experience</a></h3>
+
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
+                                </p>
+
+                                <ul class="gt-list wow fadeInUp" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Modern & Comfortable Rooms
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Business Lounge & Meeting Rooms
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-arrow-right"></i>
+                                        Laundry & Dry Cleaning Services
+                                    </li>
+                                </ul>
+        
+                                <div class="gt-hero-1">
+                                    <div class="gt-hero-content">
+                                        <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                            <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
         </div>
-    </form>
+    </section>
+
+
+    <!-- GT Testimonial Section Start -->
+    <section class="gt-testimonial-section section-padding fix section-bg-3">
+        <div class="container">
+            <div class="gt-testimonial-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="gt-testimonial-left-content">
+                            <div class="gt-section-title mb-0">
+                                <h6 class="wow fadeInUp">
+                                    <img src="img/arrow-left.svg" alt="img" />
+                                        TESTIMONIAL
+                                </h6>
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                    What Our Guests Sayz
+                                </h2>
+                            </div>
+                            <p class="gt-testimonial-text wow fadeInUp" data-wow-delay=".4s">
+                                We pride ourselves on delivering unforgettable experiences — but don’t just take our word for it. Our guests return time and again for the impeccable service, exquisite surroundings, and the feeling of true indulgence.
+                            </p>
+                            <div class="gt-client-info wow fadeInUp" data-wow-delay=".6s">
+                                <div class="gt-client-image">
+                                    <img src="img/home-1/testimonial/client-info.png" alt="img" />
+                                </div>
+                                <h3>More then <span>25K</span> clients Reviews</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="swiper gt-testimonial-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gt-testimonial-box">
+                                        <div class="quote-icon">
+                                            <img src="img/home-1/testimonial/quote-01.png" alt="img" />
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star color-2"></i>
+                                        </div>
+                                        <p class="gt-testi-text">
+                                            From the moment we arrived, every detail was flawless. The staff anticipated our every need, and the suite was pure perfection. We’ll be back soon!"
+                                        </p>
+                                        <div class="gt-client-info">
+                                            <div class="gt-client-image">
+                                                <img src="img/home-1/testimonial/client-info-right-img.png" alt="img" />
+                                            </div>
+                                            <div class="gt-client-content">
+                                                <h4>Marvin McKinney</h4>
+                                                <p>Product Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="gt-testimonial-box">
+                                        <div class="quote-icon">
+                                            <img src="img/home-1/testimonial/quote-01.png" alt="img" />
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star color-2"></i>
+                                        </div>
+                                        <p class="gt-testi-text">
+                                            From the moment we arrived, every detail was flawless. The staff anticipated our every need, and the suite was pure perfection. We’ll be back soon!"
+                                        </p>
+                                        <div class="gt-client-info">
+                                            <div class="gt-client-image">
+                                                <img src="img/home-1/testimonial/client-info-right-img.png" alt="img" />
+                                            </div>
+                                            <div class="gt-client-content">
+                                                <h4>Marvin McKinney</h4>
+                                                <p>Product Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="gt-testimonial-box">
+                                        <div class="quote-icon">
+                                            <img src="img/home-1/testimonial/quote-01.png" alt="img" />
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star color-2"></i>
+                                        </div>
+                                        <p class="gt-testi-text">
+                                            From the moment we arrived, every detail was flawless. The staff anticipated our every need, and the suite was pure perfection. We’ll be back soon!"
+                                        </p>
+                                        <div class="gt-client-info">
+                                            <div class="gt-client-image">
+                                                <img src="img/home-1/testimonial/client-info-right-img.png" alt="img" />
+                                            </div>
+                                            <div class="gt-client-content">
+                                                <h4>Marvin McKinney</h4>
+                                                <p>Product Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="array-button-2 justify-content-center">
+                            <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                            <div class="swiper-dot1">
+                                <div class="dot"></div>
+                            </div>
+                            <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GT News Section Start -->
+    <section class="news-section-2 section-padding fix">
+        <div class="container">
+            <div class="row g-4 g-lg-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="gt-news-box-item-2" style="margin-top: 0;">
+                        <div class="gt-thumb">
+                            <img src="img/home-2/news/01.jpg" alt="img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s" style="display: flex; align-items: center;">
+                    <div class="service-content" style="display: flex; flex-direction: column; justify-content: space-between; gap: 15px;">
+                        <div class="gt-section-title mb-0">
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                            Our Offerings
+                            </h2>
+                        </div>
+
+                        <p class="service-text wow fadeInUp" data-wow-delay=".4s">
+                            At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                        </p>
+                        
+                        <div class="gt-hero-1">
+                            <div class="gt-hero-content" style="padding-top: 0;">
+                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s" style="margin-top: 20px;">
+                                    <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GT Footer Section Start -->
+    <footer class="gt-footer-section fix bg-cover">
+        <div class="container">
+            <div class="gt-footer-widget-wrapper">
+                <div class="row align-items-start g-5">
+                    <div class="col-8 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="gt-footer-widget-items">
+                            <div class="gt-widget-head">
+                                <a href="index.html" class="gt-footer-logo">
+                                    <img src="img/footer/logo-footer.png" alt="img" />
+                                </a>
+                            </div>
+                            <div class="gt-footer-content">
+                                <div class="gt-social-icon d-flex flex-column">
+                                    <a href="#"><img src="img/icons/llamada-telefonica.png" alt="img" width="25" /> 300 548 6895</a>
+                                    <a href="#"><img src="img/icons/ubicacion.png" alt="img" width="25" /> Palmas arriba haciendo palmas 477</a>
+                                    <a href="#"><img src="img/icons/correo-electronico.png" alt="img" width="25" /> skap@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col wow fadeInUp d-flex justify-content-lg-end" data-wow-delay=".8s">
+                        <div class="gt-footer-widget-items">
+                            <ul class="gt-contact-list">
+                                <li>
+                                    <a href="mailto:info@example.com">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Planes</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Servicios</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Contacto</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Otros</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
+            <div class="container">
+                <div class="footer-wrapper d-flex align-items-center justify-content-between align-items-end">
+                    <p class="footer-note">
+                        <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="footer-socials align-content-center">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                        <a href="#" class="social-btn"><i class="fa-solid fa-envelope"></i> Gmail</a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-tiktok"></i> Tik tok</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-2 wow fadeInUp" data-wow-delay=".3s">
+            <div class="container">
+                <div class="footer-wrapper d-flex align-items-center justify-content-between">
+                    <p class="footer-note">
+                        Copyright © 2025 ClubTraining Palmas. – Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- GT Footer Section Start -->
+    <footer class="gt-footer-section fix bg-cover">
+        <div class="container">
+            <div class="gt-footer-widget-wrapper">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="gt-footer-widget-items">
+                            <div class="gt-widget-head">
+                                <a href="index.html" class="gt-footer-logo">
+                                    <img src="img/footer/logo-footer.png" alt="img" />
+                                </a>
+                            </div>
+                            <div class="gt-footer-content">
+                                <div class="gt-social-icon d-flex flex-column">
+                                    <a href="#"><i class="far fa-phone"></i> 300 548 6895</a>
+                                    <a href="#"><i class="fal fa-map-marker-alt"></i> Palmas arriba haciendo palmas 477</a>
+                                    <a href="#"><i class="fal fa-envelope"></i> skap@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="gt-footer-widget-items">
+                            <ul class="gt-contact-list">
+                                <li>
+                                    <a href="mailto:info@example.com">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Planes</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Servicios</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Contacto</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@example.com">Otros</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
+            <div class="container">
+                <div class="footer-wrapper d-flex align-items-center justify-content-between align-items-end">
+                    <p class="footer-note">
+                        <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="footer-socials align-content-center">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                        <a href="#" class="social-btn"><i class="fa-solid fa-envelope"></i> Gmail</a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-tiktok"></i> Tik tok</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-2 wow fadeInUp" data-wow-delay=".3s">
+            <div class="container">
+                <div class="footer-wrapper d-flex align-items-center justify-content-between">
+                    <p class="footer-note">
+                        Copyright © 2025 ClubTraining Palmas. – Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <style>
+
+        .footer-socials {
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .social-btn {
+            border: 1px solid #d9c7a3;
+            padding: 8px 18px;
+            border-radius: 8px;
+            color: #d9c7a3;
+            text-decoration: none;
+            font-size: 15px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: .3s;
+        }
+
+        .social-btn:hover {
+            background: #d9c7a3;
+            color: #1e2325;
+        }
+
+    </style>
 
     <!--<< All JS Plugins >>-->
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -561,37 +1029,6 @@
     <script src="js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="js/main.js"></script>
-
-    <style>
-
-        @media (max-width: 1199px) {
-            .row-espacios .espacio-item {
-                margin-bottom: 20px;
-            }
-
-            .gt-theme-btn {
-                padding: 19px 30px;
-            }
-        }
-
-        /* 5 columnas en pantallas grandes */
-        @media (min-width: 1200px) {
-            .row-espacios .espacio-item {
-                flex: 0 0 20%;
-                max-width: 20%;
-            }
-
-            .row-espacios .service-box-items img {
-                max-width: 100%;
-                height: auto;
-            }
-
-            .row-espacios .service-box-items h4 {
-                font-size: 15px;
-            }
-        }
-
-    </style>
 
 </body>
 </html>
