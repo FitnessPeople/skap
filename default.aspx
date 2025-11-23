@@ -60,26 +60,19 @@
         </div>
         <div class="loader">
             <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
+                <div class="col-12 loader-section section-left">
                     <div class="bg"></div>
                 </div>
             </div>
         </div>
     </div>
 
+
     <!-- GT Back To Top Start -->
     <button id="gt-back-top" class="gt-back-to-top show">
         <i class="fa-solid fa-chevrons-up"></i>
     </button>
+
 
     <!-- Offcanvas Area Start -->
     <div class="fix-area">
@@ -88,8 +81,8 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
-                            <a href="index.html">
-                                <img src="img/logo/black-logo.png" alt="logo-img"/>
+                            <a href="default.aspx">
+                                <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -110,7 +103,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Cll. 56 #12-01</a>
+                                    <a target="_blank" href="#">Cra. 23 # 04-20, Bosque Encantado</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -118,7 +111,7 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">skap@email.com</span></a>
+                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">skaptrainingclub@gmail.com</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -143,6 +136,7 @@
     </div>
     <div class="offcanvas__overlay"></div>
 
+
     <!-- Header Section Start -->
     <header class="header-section">
         <div id="header-sticky" class="header-1">
@@ -150,33 +144,33 @@
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
                         <div class="logo d-xl-none">
-                            <a href="index.html" class="header-logo">
-                                <img src="img/logo/black-logo.png" alt="logo-img"/>
+                            <a href="default.aspx" class="header-logo">
+                                <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
                             </a>
-                            <a href="index.html" class="header-logo-2">
-                                <img src="img/logo/black-logo.png" alt="logo-img"/>
+                            <a href="default.aspx" class="header-logo-2">
+                                <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
                             </a>
                         </div>
-                        <div class="header-left" style="color: black;">
+                        <div class="header-left">
                             <div class="mean__menu-wrapper">
                                 <div class="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li><a href="contact.html">Incio</a></li>
-                                            <li><a href="contact.html">Servicios</a></li>
-                                            <li><a href="contact.html">Planes</a></li>
-                                            <li><a href="contact.html">Contacto</a></li>
-                                            <li><a href="contact.html">Otros</a></li>
+                                            <li><a href="default.aspx">Incio</a></li>
+                                            <li><a href="default.aspx">Servicios</a></li>
+                                            <li><a href="default.aspx">Planes</a></li>
+                                            <li><a href="default.aspx">Contacto</a></li>
+                                            <li><a href="default.aspx">Otros</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div class="logo d-none d-xl-block">
-                                <a href="index.html" class="header-logo">
-                                    <img src="img/logo/black-logo.png" alt="logo-img"/>
+                                <a href="default.aspx" class="header-logo">
+                                    <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
                                 </a>
-                                <a href="index.html" class="header-logo-2">
-                                    <img src="img/logo/black-logo.png" alt="logo-img"/>
+                                <a href="default.aspx" class="header-logo-2">
+                                    <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
                                 </a>
                             </div>
                         </div>
@@ -199,7 +193,8 @@
         </div>
     </header>
 
-    <!-- GT Hero Section Start -->
+
+    <!-- GT Main Section Start -->
     <section class="gt-hero-section gt-hero-1 fix bg-cover" style="background-image: url('img/banners/banner-inicio.png'); height: 100vh;">
         <div class="container-fluid">
             <div class="row g-4">
@@ -212,15 +207,16 @@
                         Indulge in a luxurious hotel stay where comfort meets style, offering world-class amenities, elegant design, and exceptional personalized service.
                     </p>
                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                        <a href="contact.html" class="gt-theme-btn style-2">Inscribirse</a>
-                        <a href="room.html" class="gt-theme-btn">Saber Más</a>
+                        <a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>
+                        <a href="default.aspx" class="gt-theme-btn">Saber Más</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- GT Service Section Start -->
+
+    <!-- GT Spaces Section Start -->
     <section class="gt-service-section fix section-padding fix">
         <div class="container">
             <div class="gt-section-title text-center">
@@ -268,7 +264,8 @@
         </div>
     </section>
 
-    <!-- GT Serviec  Section Start -->
+
+    <!-- GT Service  Section Start -->
     <section class="gt-service-section fix section-padding section-bg-3">
         <div class="container">
             <div class="gt-service-wrapper-3">
@@ -307,7 +304,7 @@
                         <div class="service-content">
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp">
-                                    <img src="img/sub-left-2.svg" alt="img" />
+                                    <img src="img/arrow-left.svg" alt="img"/>
                                     S E R V I C E S
                                 </h6>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
@@ -354,10 +351,10 @@
                                 </p>
                             </div>
                             <div class="gt-hero-1">
-                                <div class="gt-hero-content" style="padding-top: 0;">
+                                <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="room.html" class="gt-theme-btn">Inscribirse</a>
-                                        <a href="contact.html" class="gt-theme-btn style-2">Saber Más</a>
+                                        <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>
                                     </div>
                                 </div>
                             </div>
@@ -369,8 +366,7 @@
     </section>
 
 
-
-    <!-- GT Serviec  Section Start -->
+    <!-- GT Service  Section Start -->
     <section class="gt-service-section fix section-padding section-bg-3 bg-cover" style="background-image: url('img/banners/banner-secundario.png');">
         <div class="container">
             <div class="gt-service-wrapper-3">
@@ -379,7 +375,7 @@
                         <div class="service-content">
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp">
-                                    <img src="img/sub-left-2.svg" alt="img" />
+                                    <img src="img/arrow-right.svg" alt="img"/>
                                     S E R V I C E S
                                 </h6>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
@@ -426,10 +422,10 @@
                                 </p>
                             </div>
                             <div class="gt-hero-1">
-                                <div class="gt-hero-content" style="padding-top: 0;">
+                                <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="room.html" class="gt-theme-btn">Inscribirse</a>
-                                        <a href="contact.html" class="gt-theme-btn style-2">Saber Más</a>
+                                        <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>
                                     </div>
                                 </div>
                             </div>
@@ -441,14 +437,15 @@
     </section>
 
 
-    <!-- GT Booking Reserve Section Start -->
+    <!-- GT Video Section Start -->
     <section class="gt-booking-reserve-section fix">
         <div class="gt-section-title mb-0">
             <h3 class="wow fadeInUp" data-wow-delay=".2s">
+                <img src="img/arrow-left.svg" alt="img"/>
                 Welcome to Our Hotel & Resort Under the Arlux
+                <img src="img/arrow-right.svg" alt="img"/>
             </h3>
         </div>
-
         <div class="gt-video-wrapper">
             <div class="gt-video-responsive wow fadeInUp" data-wow-delay=".3s">
                 <iframe  
@@ -457,11 +454,10 @@
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
+                    allowfullscreen="">
                 </iframe>
             </div>
         </div>
-        
         <p class="service-text wow fadeInUp" data-wow-delay=".4s">
             At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
         </p>
@@ -477,8 +473,8 @@
                         <div class="gt-about-content">
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp">
-                                    <img src="img/sub-left-2.svg" alt="img" />
-                                        ABOUT US
+                                    <img src="img/arrow-right.svg" alt="img"/>
+                                    ABOUT US
                                 </h6>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
                                     Welcome to Our Hotel & Resort Under the Arlux
@@ -502,10 +498,10 @@
                                 </li>
                             </ul>
                             <div class="gt-hero-1">
-                                <div class="gt-hero-content" style="padding-top: 0;">
+                                <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="room.html" class="gt-theme-btn">Inscribirse</a>
-                                        <a href="contact.html" class="gt-theme-btn style-3">Saber Más</a>
+                                        <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
                                     </div>
                                 </div>
                             </div>
@@ -517,7 +513,7 @@
     </section>
 
 
-    <!-- GT Room Section Start -->
+    <!-- GT Plans Section Start -->
     <section class="gt-room-section fix section-padding section-bg">
         <div class="gt-room-wrapper">
             <div class="container">
@@ -543,9 +539,9 @@
                             </div>
 
                             <div class="gt-content">
-                                <a href="room.html" class="gt-post-cat">Luxury Room</a>
+                                <a href="default.aspx" class="gt-post-cat">Luxury Room</a>
 
-                                <h3><a href="room-details.html">Idustry Experience</a></h3>
+                                <h3><a href="default.aspx">Idustry Experience</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
@@ -569,7 +565,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -587,9 +583,9 @@
                             </div>
 
                             <div class="gt-content">
-                                <a href="room.html" class="gt-post-cat">Luxury Room</a>
+                                <a href="default.aspx" class="gt-post-cat">Luxury Room</a>
 
-                                <h3><a href="room-details.html">Idustry Experience</a></h3>
+                                <h3><a href="default.aspx">Idustry Experience</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
@@ -613,7 +609,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -631,9 +627,9 @@
                             </div>
 
                             <div class="gt-content">
-                                <a href="room.html" class="gt-post-cat">Luxury Room</a>
+                                <a href="default.aspx" class="gt-post-cat">Luxury Room</a>
 
-                                <h3><a href="room-details.html">Idustry Experience</a></h3>
+                                <h3><a href="default.aspx">Idustry Experience</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
@@ -657,7 +653,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -799,14 +795,14 @@
         <div class="container">
             <div class="row g-4 g-lg-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="gt-news-box-item-2" style="margin-top: 0;">
+                    <div class="gt-news-box-item-2 mt-0" >
                         <div class="gt-thumb">
                             <img src="img/home-2/news/01.jpg" alt="img" />
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s" style="display: flex; align-items: center;">
-                    <div class="service-content" style="display: flex; flex-direction: column; justify-content: space-between; gap: 15px;">
+                <div class="d-flex align-items-center col-lg-6 wow fadeInUp" data-wow-delay=".5s" >
+                    <div class="service-content d-flex flex-column justify-content-between" >
                         <div class="gt-section-title mb-0">
                             <h2 class="wow fadeInUp" data-wow-delay=".2s">
                             Our Offerings
@@ -818,9 +814,9 @@
                         </p>
                         
                         <div class="gt-hero-1">
-                            <div class="gt-hero-content" style="padding-top: 0;">
-                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s" style="margin-top: 20px;">
-                                    <a href="room.html" class="gt-theme-btn">Inscribirse</a>
+                            <div class="gt-hero-content pt-0" >
+                                <div class="gt-hero-button wow fadeInUp mt-3" data-wow-delay=".6s" >
+                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
                                 </div>
                             </div>
                         </div>
@@ -835,92 +831,19 @@
     <footer class="gt-footer-section fix bg-cover">
         <div class="container">
             <div class="gt-footer-widget-wrapper">
-                <div class="row align-items-start g-5">
-                    <div class="col-8 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="gt-footer-widget-items">
-                            <div class="gt-widget-head">
-                                <a href="index.html" class="gt-footer-logo">
-                                    <img src="img/footer/logo-footer.png" alt="img" />
-                                </a>
-                            </div>
-                            <div class="gt-footer-content">
-                                <div class="gt-social-icon d-flex flex-column">
-                                    <a href="#"><img src="img/icons/llamada-telefonica.png" alt="img" width="25" /> 300 548 6895</a>
-                                    <a href="#"><img src="img/icons/ubicacion.png" alt="img" width="25" /> Palmas arriba haciendo palmas 477</a>
-                                    <a href="#"><img src="img/icons/correo-electronico.png" alt="img" width="25" /> skap@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 col wow fadeInUp d-flex justify-content-lg-end" data-wow-delay=".8s">
-                        <div class="gt-footer-widget-items">
-                            <ul class="gt-contact-list">
-                                <li>
-                                    <a href="mailto:info@example.com">Inicio</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Planes</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Servicios</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Contacto</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Otros</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
-            <div class="container">
-                <div class="footer-wrapper d-flex align-items-center justify-content-between align-items-end">
-                    <p class="footer-note">
-                        <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
-                    </p>
-                    <div class="footer-socials align-content-center">
-                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
-                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook"></i> Facebook</a>
-                        <a href="#" class="social-btn"><i class="fa-solid fa-envelope"></i> Gmail</a>
-                        <a href="#" class="social-btn"><i class="fa-brands fa-tiktok"></i> Tik tok</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom-2 wow fadeInUp" data-wow-delay=".3s">
-            <div class="container">
-                <div class="footer-wrapper d-flex align-items-center justify-content-between">
-                    <p class="footer-note">
-                        Copyright © 2025 ClubTraining Palmas. – Todos los derechos reservados.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-    <!-- GT Footer Section Start -->
-    <footer class="gt-footer-section fix bg-cover">
-        <div class="container">
-            <div class="gt-footer-widget-wrapper">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="gt-footer-main col-xl-8 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
                         <div class="gt-footer-widget-items">
                             <div class="gt-widget-head">
-                                <a href="index.html" class="gt-footer-logo">
-                                    <img src="img/footer/logo-footer.png" alt="img" />
+                                <a href="default.aspx" class="gt-footer-logo">
+                                    <img src="img/footer/logo-footer.png" alt="img" height="32" />
                                 </a>
                             </div>
                             <div class="gt-footer-content">
                                 <div class="gt-social-icon d-flex flex-column">
-                                    <a href="#"><i class="far fa-phone"></i> 300 548 6895</a>
-                                    <a href="#"><i class="fal fa-map-marker-alt"></i> Palmas arriba haciendo palmas 477</a>
-                                    <a href="#"><i class="fal fa-envelope"></i> skap@gmail.com</a>
+                                    <a href="default.aspx"><i class="far fa-phone"></i> 300 548 6895</a>
+                                    <a href="default.aspx"><i class="fal fa-map-marker-alt"></i> Cra. 23 # 04-20, Bosque Encantado</a>
+                                    <a href="default.aspx"><i class="fal fa-envelope"></i> skaptrainingclub@gmail.com</a>
                                 </div>
                             </div>
                         </div>
@@ -951,20 +874,24 @@
         </div>
         <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
             <div class="container">
-                <div class="footer-wrapper d-flex align-items-center justify-content-between align-items-end">
-                    <p class="footer-note">
+                <div class="footer-wrapper gt-about-content d-flex align-items-center justify-content-between align-items-end">
+                    <p>
                         <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
                     </p>
-                    <div class="footer-socials align-content-center">
-                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
-                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook"></i> Facebook</a>
-                        <a href="#" class="social-btn"><i class="fa-solid fa-envelope"></i> Gmail</a>
-                        <a href="#" class="social-btn"><i class="fa-brands fa-tiktok"></i> Tik tok</a>
+                    <div class="gt-hero-1">
+                        <div class="gt-hero-content">
+                            <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                                <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                                <a href="#" class="gt-theme-btn style-3"><i class="fa-solid fa-envelope"></i> Gmail</a>
+                                <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom-2 wow fadeInUp" data-wow-delay=".3s">
+        <div class="footer-bottom-2 wow fadeInUp">
             <div class="container">
                 <div class="footer-wrapper d-flex align-items-center justify-content-between">
                     <p class="footer-note">
@@ -974,36 +901,6 @@
             </div>
         </div>
     </footer>
-
-
-    <style>
-
-        .footer-socials {
-            display: flex;
-            justify-content: center;
-            gap: 14px;
-            flex-wrap: wrap;
-        }
-
-        .social-btn {
-            border: 1px solid #d9c7a3;
-            padding: 8px 18px;
-            border-radius: 8px;
-            color: #d9c7a3;
-            text-decoration: none;
-            font-size: 15px;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            transition: .3s;
-        }
-
-        .social-btn:hover {
-            background: #d9c7a3;
-            color: #1e2325;
-        }
-
-    </style>
 
     <!--<< All JS Plugins >>-->
     <script src="js/jquery-3.7.1.min.js"></script>

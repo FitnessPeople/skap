@@ -38,44 +38,6 @@ Version: 1.0.0
        >> 23. Testimonial
 
 /*----------------------------------------*/
-/* NOHEMI Regular */
-@font-face {
-    font-family: "Nohemi";
-    src: url("../assets/fonts/nohemi/Nohemi-Regular.woff2") format("woff2"), url("../assets/fonts/nohemi/Nohemi-Regular.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* NOHEMI Medium */
-@font-face {
-    font-family: "Nohemi";
-    src: url("../assets/fonts/nohemi/Nohemi-Medium.woff2") format("woff2"), url("../assets/fonts/nohemi/Nohemi-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* NOHEMI Bold */
-@font-face {
-    font-family: "Nohemi";
-    src: url("../assets/fonts/nohemi/Nohemi-Bold.woff2") format("woff2"), url("../assets/fonts/nohemi/Nohemi-Bold.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* NOHEMI Black */
-@font-face {
-    font-family: "Nohemi";
-    src: url("../assets/fonts/nohemi/Nohemi-Black.woff2") format("woff2"), url("../assets/fonts/nohemi/Nohemi-Black.woff") format("woff");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --gt-body: #fff;
   --gt-black: #000;
@@ -87,7 +49,7 @@ Version: 1.0.0
   --gt-bg: #F8F8F8;
   --gt-bg2: #F8F8F8;
   --gt-bg3: #F7F3EE;
-  --gt-secondary: #AA8453;
+  --gt-secondary: #D5BB96;
   --gt-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
 }
 
@@ -768,39 +730,32 @@ span {
 .gt-about-wrapper-3 .gt-about-content .gt-about-list li:not(:last-child) {
   margin-bottom: 20px;
 }
-
 .gt-about-wrapper-3 .gt-about-content .gt-hero-1 .gt-theme-btn {
   color: var(--gt-black);
   background-color: var(--gt-secondary);
 }
-
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .gt-theme-btn:hover {
   color: var(--gt-secondary);
   background-color: var(--gt-black);
   border: 1px solid var(--gt-secondary);
 }
-
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .gt-theme-btn::before {
   color: var(--gt-secondary);
   background-color: var(--gt-black);
 }
-
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .style-3 {
   color: var(--gt-secondary);
   background-color: transparent;
   border: 1px solid var(--gt-secondary);
 }
-
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .style-3:hover {
   color: var(--gt-black);
   background-color: var(--gt-secondary);
 }
-
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .style-3::before {
   color: var(--gt-black);
   background-color: var(--gt-secondary);
 }
-
 .gt-about-section-3 {
   position: relative;
   z-index: 9;
@@ -811,7 +766,6 @@ span {
   right: 0;
   z-index: -1;
 }
-
 @-webkit-keyframes rippleOne {
   70% {
     -webkit-box-shadow: 0 0 0 40px rgba(244, 68, 56, 0);
@@ -1404,16 +1358,21 @@ span {
   text-align: center;
 }
 
+@media (max-width: 991px) {
+  .gt-booking-reserve-section .gt-section-title, 
+  .gt-booking-reserve-section .service-text {
+    padding: 30px 20px;
+  }
+}
+
 .gt-booking-reserve-section .gt-section-title h3, 
 .gt-booking-reserve-section .service-text {
   color: var(--gt-secondary);
 }
-
 .gt-booking-reserve-section .gt-video-wrapper {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .gt-booking-reserve-section .gt-video-wrapper .gt-video-responsive {
   position: relative;
   width: 80%;
@@ -1423,7 +1382,6 @@ span {
   border-radius: 10px;
   margin: auto;
 }
-
 .gt-booking-reserve-section .gt-video-wrapper .gt-video-responsive iframe {
   position: absolute;
   top: 0;
@@ -2874,7 +2832,13 @@ span {
 }
 @media (max-width: 991px) {
   .gt-footer-widget-wrapper {
-    padding: 50px 0 80px;
+    padding: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .gt-footer-widget-wrapper .gt-footer-main {
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
   }
 }
 .gt-footer-widget-wrapper .gt-footer-widget-items {
@@ -2895,11 +2859,14 @@ span {
   margin-top: 40px;
 }
 .gt-footer-widget-wrapper .gt-footer-widget-items .gt-footer-content .gt-social-icon a {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: var(--gt-secondary);
+  font-size: 17px;
+  gap: 15px;
 }
 .gt-footer-widget-wrapper .gt-footer-widget-items .gt-footer-content .gt-social-icon a:hover {
-  color: var(--gt-theme);
+  /*color: var(--gt-theme);*/
 }
 .gt-footer-widget-wrapper .gt-footer-widget-items .gt-list-area li:not(:last-child) {
   margin-bottom: 16px;
@@ -2929,7 +2896,7 @@ span {
   .gt-footer-widget-wrapper .gt-footer-widget-items .gt-contact-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 .gt-footer-widget-wrapper .gt-footer-widget-items .gt-contact-list li {
@@ -2942,7 +2909,8 @@ span {
   margin-bottom: 20px;
 }*/
 .gt-footer-widget-wrapper .gt-footer-widget-items .gt-contact-list li a {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--gt-secondary);
+  font-size: 17px;
 }
 
 .footer-bottom {
@@ -2965,7 +2933,7 @@ span {
   }
 }
 .footer-bottom .footer-wrapper p {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--gt-secondary);
 }
 .footer-bottom .footer-wrapper p a {
   color: var(--gt-theme);
@@ -2996,16 +2964,37 @@ span {
   background-size: 100% 1px;
   color: var(--gt-theme);
 }
-
+.footer-bottom .footer-wrapper .gt-hero-content {
+  padding-top: 0;
+}
+.footer-bottom .footer-wrapper .gt-hero-content .gt-hero-button {
+  justify-content: center;
+  margin-top: 0;
+}
+.footer-bottom .footer-wrapper .gt-hero-button .style-3 {
+  color: var(--gt-secondary);
+  background-color: transparent;
+  border: 1px solid var(--gt-secondary);
+}
+.footer-bottom .footer-wrapper .gt-hero-button .style-3:hover {
+  color: var(--gt-black);
+  background-color: var(--gt-secondary);
+}
+.footer-bottom .footer-wrapper .gt-hero-button .style-3::before {
+  color: var(--gt-black);
+  background-color: var(--gt-secondary);
+}
+.footer-bottom .footer-wrapper .gt-hero-button .gt-theme-btn {
+  padding: 15px 20px;
+}
 .footer-bottom-2 {
   background-color: var(--gt-white);
   padding: 20px 0;
+  text-align: center;
 }
-
 .footer-bottom-2 p {
   color: var(--gt-theme);
 }
-
 .gt-footer-widget-wrapper-2 {
   padding: 120px 0 120px;
 }
@@ -3368,7 +3357,7 @@ span {
   font-size: 14px;
 }
 .header-main .main-menu ul li a:hover {
-  color: var(--gt-white) !important;
+  /*color: var(--gt-white) !important;*/
 }
 .header-main .main-menu ul li .submenu {
   position: absolute;
@@ -3578,26 +3567,24 @@ span {
 }
 
 /* Centrar logo de NavBar */
-    .header-main .logo.d-none.d-xl-block {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 10;
-    }
-
-    /* Asegura que el contenido lateral no tape el logo */
-    .header-main .header-left,
-    .header-main .header-right {
-        flex: 1; /* hace que ambos lados usen el mismo ancho relativo */
-    }
-
-    /* Opcional: centra los items de la izquierda */
-    .header-main .main-menu ul {
-        display: flex;
-        align-items: center;
-    }
+.header-main .logo.d-none.d-xl-block {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+/* Asegura que el contenido lateral no tape el logo */
+.header-main .header-left,
+.header-main .header-right {
+  flex: 1; /* hace que ambos lados usen el mismo ancho relativo */
+}
+/* Opcional: centra los items de la izquierda */
+.header-main .main-menu ul {
+  display: flex;
+  align-items: center;
+}
 /* Centrar logo de NavBar */
 
 .header-1 .container-fluid {
@@ -6391,7 +6378,7 @@ span {
     /*background-color: var(--gt-bg2);*/
     border-radius: 4px;
     box-sizing: border-box;
-    min-height: 166px;
+    /*min-height: 166px;*/
     text-align: center;
     padding: 10px;
     position: relative;
@@ -6763,15 +6750,15 @@ span {
   left: 0;
   z-index: -1;
 }
-
 .gt-service-section .row-espacios {
   margin-top: 10px;
 }
-
 .gt-service-section .row-espacios .service-box-items img {
   width: 100%;
 }
-
+.gt-service-section .row-espacios .espacio-item h4 {
+  font-size: 19px;
+}
 /* 5 columnas en pantallas grandes */
 @media (min-width: 1200px) {
   .gt-service-section .row-espacios .espacio-item {
@@ -6779,7 +6766,11 @@ span {
     max-width: 20%;
   }
 }
-
+@media (max-width: 1199px) {
+  .gt-service-section .row-espacios .espacio-item h4 {
+    font-size: 17px;
+  }
+}
 .gt-service-details-wrapper .gt-service-details-items .details-image img {
   width: 100%;
   height: 100%;
