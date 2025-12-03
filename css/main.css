@@ -38,6 +38,8 @@ Version: 1.0.0
        >> 23. Testimonial
 
 /*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --gt-body: #fff;
   --gt-black: #000;
@@ -62,7 +64,7 @@ Version: 1.0.0
   background-color: var(--gt-theme);
   color: #fff;
   font-weight: 500;
-  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 19px 35px;
   transition: 500ms;
   text-transform: uppercase;
@@ -102,7 +104,7 @@ Version: 1.0.0
   font-size: 16px;
   font-weight: 700;
   display: inline-block;
-  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   color: var(--gt-white);
   position: relative;
@@ -143,7 +145,7 @@ Version: 1.0.0
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
 body {
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -181,16 +183,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0;
   color: var(--gt-header);
   transition: all 0.4s ease-in-out;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 h1 {
-  font-size: 72px;
+  /*font-size: 72px;*/
+  font-size: 50px;
   font-weight: 400;
   line-height: 112%;
 }
@@ -226,8 +229,9 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
-  font-weight: 400;
+  /*font-size: 48px;*/
+  font-size: 38px;
+  font-weight: 500;
   line-height: 117%;
 }
 @media (max-width: 767px) {
@@ -237,7 +241,8 @@ h2 {
 }
 @media (max-width: 575px) {
   h2 {
-    font-size: 40px;
+    /*font-size: 40px;*/
+    font-size: 30px;
   }
 }
 
@@ -376,7 +381,7 @@ span {
   font-size: 20px;
   font-weight: 400;
   color: var(--gt-header);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-about-wrapper .gt-about-content .gt-list {
   margin-top: 30px;
@@ -385,7 +390,7 @@ span {
   font-size: 18px;
   font-weight: 400;
   color: var(--gt-header);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -437,7 +442,7 @@ span {
 .gt-about-wrapper .gt-about-content .gt-about-button .gt-call-icon .gt-content a {
   font-size: 18px;
   color: var(--gt-theme);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .gt-about-section {
@@ -721,7 +726,7 @@ span {
   font-size: 18px;
   font-weight: 400;
   color: var(--gt-secondary);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-about-wrapper-3 .gt-about-content .gt-about-list li i {
   color: var(--gt-secondary);
@@ -1256,7 +1261,7 @@ span {
   font-size: 18px;
   font-weight: 400;
   display: inline-block;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
   margin-bottom: 10px;
 }
@@ -1441,7 +1446,7 @@ span {
   color: var(--gt-white);
 }
 .gt-contact-wrapper .gt-contact-left-items .gt-contact-list li h4 {
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 5px;
   font-weight: 500;
 }
@@ -1637,7 +1642,7 @@ span {
   display: inline-block;
   color: var(--gt-theme);
   font-size: 18px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 5px;
 }
 .gt-room-wrapper .gt-room-box-items .gt-content h3 a {
@@ -1807,7 +1812,7 @@ span {
 .gt-room-wrapper-3 .top-title a {
   color: var(--gt-white);
   font-size: 24px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 @media (max-width: 1399px) {
   .gt-room-wrapper-3 .top-title a {
@@ -2047,7 +2052,7 @@ span {
   box-shadow: none;
   border-radius: 0 !important;
   padding: 24px 30px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-header);
   border-radius: 8px !important;
   border-bottom-left-radius: 0 !important;
@@ -2074,7 +2079,7 @@ span {
 .gt-faq-wrapper .faq-items .accordion .accordion-button::before {
   position: absolute;
   content: "\f324";
-  font-family: "Nohemi";
+  font-family: "Poppins";
   font-weight: 700;
   transform: rotate(90deg);
   top: 13px;
@@ -2245,7 +2250,7 @@ span {
   font-size: 18px;
   font-weight: 400;
   color: var(--gt-white);
-  font-family: "Nohemi";
+  font-family: "Poppins";
 }
 .gt-hotel-facilities-wrapper-2 .gt-hotel-left-images .gt-hotel-img {
   max-width: 383px;
@@ -2286,7 +2291,7 @@ span {
 .gt-hotel-facilities-wrapper-2 .gt-hotel-right-content .gt-skill-feature-items .gt-skill-feature .gt-box-title {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-hotel-facilities-wrapper-2 .gt-hotel-right-content .gt-skill-feature-items .gt-skill-feature .gt-progress-value {
   margin-bottom: 10px;
@@ -2318,7 +2323,7 @@ span {
   font-size: 18px;
   font-weight: 700;
   color: var(--gt-header);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-hotel-facilities-wrapper-2 .gt-hotel-right-content .gt-theme-btn {
   margin-top: 50px;
@@ -2394,7 +2399,7 @@ span {
   font-size: 18px;
   font-weight: 400;
   color: var(--gt-white);
-  font-family: "Nohemi";
+  font-family: "Poppins";
 }
 .gt-enjoy-hotel-wrapper-3 .gt-hotel-images-items .gt-hotel-image .gt-hotel-image-2 {
   max-width: 443px;
@@ -2439,7 +2444,7 @@ span {
   font-weight: 500;
   font-size: 18px;
   text-align: center;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-enjoy-hotel-wrapper-3 .gt-enjoy-hotel-content .nav .nav-item .nav-link.active {
   background-color: var(--gt-theme);
@@ -2518,7 +2523,7 @@ span {
 .gt-counter-wrapper p {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-header);
   position: absolute;
   top: 50%;
@@ -2590,7 +2595,7 @@ span {
   position: relative;
   color: transparent;
   color: var(--gt-white);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 @media (prefers-reduced-motion: reduce) {
   .marquee .marquee-group {
@@ -2745,7 +2750,7 @@ span {
   color: var(--gt-white);
   -webkit-text-stroke-width: 0.4px;
   -webkit-text-stroke-color: var(--gt-white);
-  font-family: "Nohemi";
+  font-family: "Poppins";
   font-size: 140px;
   font-style: normal;
   font-weight: 400;
@@ -2787,7 +2792,7 @@ span {
 .gt-food-menu-list span {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   right: 30px;
   color: var(--gt-header);
@@ -2807,7 +2812,7 @@ span {
 .gt-food-menu-section .nav .nav-item .nav-link {
   font-size: 24px;
   font-weight: 400;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-header);
 }
 .gt-food-menu-section .nav .nav-item .nav-link img {
@@ -2837,8 +2842,12 @@ span {
 }
 @media (max-width: 991px) {
   .gt-footer-widget-wrapper .gt-footer-main {
-    padding-bottom: 20px;
-    border-bottom: 1px solid;
+    /*padding-bottom: 20px;*/
+  }
+}
+@media (max-width: 991px) {
+  .gt-footer-widget-wrapper .gt-footer-main-2 {
+    display: none;
   }
 }
 .gt-footer-widget-wrapper .gt-footer-widget-items {
@@ -2891,13 +2900,6 @@ span {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-@media (max-width: 991px) {
-  .gt-footer-widget-wrapper .gt-footer-widget-items .gt-contact-list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }
 .gt-footer-widget-wrapper .gt-footer-widget-items .gt-contact-list li {
   display: flex;
@@ -3122,7 +3124,7 @@ span {
 }
 .gt-footer-widget-wrapper-2 .footer-widget-items .gt-social-icon span {
   font-size: 18px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 .gt-footer-widget-wrapper-2 .footer-widget-items .gt-social-icon a {
@@ -3204,7 +3206,7 @@ span {
 }
 .gt-footer-top-wrapper-3 .gt-social-icon span {
   font-size: 18px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 .gt-footer-top-wrapper-3 .gt-social-icon a {
@@ -3299,7 +3301,7 @@ span {
 }
 .gt-footer-widget-wrapper-3 .footer-right-items .footer-widget-items .gt-social-icon span {
   font-size: 18px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 .gt-footer-widget-wrapper-3 .footer-right-items .footer-widget-items .gt-social-icon a {
@@ -3345,7 +3347,7 @@ span {
   font-size: 16px;
   font-weight: 600;
   color: var(--gt-black);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 20px 0;
   text-align: left;
   position: relative;
@@ -3540,7 +3542,7 @@ span {
   display: inline-block;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .header-main .main-menu ul li:hover > a {
   color: var(--gt-theme);
@@ -3693,12 +3695,18 @@ span {
 }
 
 .header-section {
-  position: relative;
+  /*position: relative;*/
   /*border-bottom: 1.5px solid #4E4E4E;*/
-  background: #D5D5D5;
-  z-index: 9999;
-}
+  /*background: transparent;
+  z-index: 9999;*/
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: transparent;
+}
 .header-top-section {
   background-color: var(--gt-theme);
   padding: 12px 0;
@@ -3759,7 +3767,7 @@ span {
   left: 0;
   width: 100%;
   z-index: 9999;
-  transition: all 0.9s;
+  /*transition: all 0.9s;*/
   background-color: var(--gt-white);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -4409,7 +4417,7 @@ span {
   transition: all 0.3s ease-in-out;
   margin: 0 2px;
   border-radius: 4px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .page-nav-wrap ul li .page-numbers.current {
   background-color: var(--gt-theme);
@@ -4467,15 +4475,15 @@ span {
   }
 }
 .gt-hero-1 .gt-hero-content {
-    padding-top: 110px;
-    position: relative;
-    z-index: 9;
+  padding-top: 200px;
+  position: relative;
+  z-index: 9;
 }
 .gt-hero-1 .gt-hero-content span {
   font-size: 18px;
   font-weight: 400;
   color: var(--gt-theme);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   line-height: 1;
   align-items: center;
@@ -4500,7 +4508,7 @@ span {
   color: var(--gt-theme);
 }
 .gt-hero-1 .gt-hero-content p {
-  max-width: 720px;
+  max-width: 550px;
   color: var(--gt-theme);
   opacity: 0.7;
   margin-top: 20px;
@@ -4791,7 +4799,7 @@ span {
   display: inline-block;
   margin-left: 10px;
   font-size: 18px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 30px;
 }
 @media (max-width: 1600px) {
@@ -4860,7 +4868,7 @@ span {
   font-size: 20px;
   font-weight: 500;
   color: var(--gt-theme);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .mean-container a.meanmenu-reveal {
@@ -4900,7 +4908,7 @@ span {
   text-transform: uppercase;
   border-bottom: 1px solid #E5E5E5 !important;
   border: none;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .mean-container .mean-nav ul li a:hover {
   color: var(--gt-theme);
@@ -5221,7 +5229,7 @@ span {
 .news-card-items-3 .news-image .post-box h4 span {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1;
   color: var(--gt-white);
 }
@@ -5679,7 +5687,7 @@ span {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 15px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-news-details-wrapper .gt-news-details-content .text {
   font-size: 24px;
@@ -5699,7 +5707,7 @@ span {
   font-weight: 600;
   display: inline-block;
   color: var(--gt-header);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-right: 15px;
 }
 .gt-news-details-wrapper .gt-news-details-content .gt-tag-share-wrap .tagcloud a {
@@ -5794,7 +5802,7 @@ span {
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-news-details-wrapper .gt-news-details-content .gt-comment-form-wrap .form-clt input, .gt-news-details-wrapper .gt-news-details-content .gt-comment-form-wrap .form-clt textarea {
   width: 100%;
@@ -5854,7 +5862,7 @@ span {
   }
 }
 .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Gilda Display", sans-serif, "Barlow", sans-serif;
+  font: bold 5em "Poppins", sans-serif, "Poppins", sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -5894,7 +5902,7 @@ span {
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   top: -3px;
   transform: rotateY(-90deg);
@@ -6312,14 +6320,14 @@ span {
   letter-spacing: 0.5px;
   line-height: 1;
   color: var(--gt-theme);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   display: flex;
   margin-bottom: 25px;
   gap: 10px;
 }
 .gt-section-title h2 {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 .gt-section-title-area {
@@ -6371,7 +6379,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -6393,7 +6401,7 @@ span {
 }
 .service-box-items h4 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 .service-box-items h4 a {
   background-position: 0 95%;
@@ -6531,7 +6539,7 @@ span {
   color: var(--gt-theme);
   display: inline-block;
   margin-bottom: 12px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-special-offer-wrapper .gt-special-offer-box-items .gt-content p {
   max-width: 435px;
@@ -6550,7 +6558,7 @@ span {
   }
 }
 .gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-list-area .gt-list li {
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-header);
   display: flex;
   align-items: center;
@@ -6574,7 +6582,7 @@ span {
   font-size: 20px;
   font-weight: 400;
   color: var(--gt-theme);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-price-list h4 {
   font-size: 32px;
@@ -6652,10 +6660,15 @@ span {
   cursor: pointer;
   margin: 15px 0 20px;
 }
+.gt-service-wrapper-3 .service-content .faq-item h3 {
+  color: var(--gt-theme);
+  margin-right: 10px;
+  font-size: 20px;
+}
 .gt-service-wrapper-3 .service-content .faq-item h3 i {
   color: var(--gt-theme);
   margin-right: 10px;
-  font-size: 22px;
+  font-size: 18px;
 }
 .gt-service-wrapper-3 .service-content .faq-item.active .faq-text {
   max-height: 200px;
@@ -6684,7 +6697,7 @@ span {
   background-color: var(--gt-theme);
   color: var(--gt-white);
   font-size: 14px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 4px;
   position: absolute;
   top: 24px;
@@ -6757,7 +6770,7 @@ span {
   width: 100%;
 }
 .gt-service-section .row-espacios .espacio-item h4 {
-  font-size: 19px;
+  font-size: 15px;
 }
 /* 5 columnas en pantallas grandes */
 @media (min-width: 1200px) {
@@ -6786,7 +6799,7 @@ span {
   font-size: 20px;
   font-weight: 600;
   color: var(--gt-header);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 8px;
   border-left: 5px solid var(--gt-theme);
   background: #F7F3EE;
@@ -6844,7 +6857,7 @@ span {
   color: var(--gt-header);
   letter-spacing: -0.2px;
   border: none !important;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 0;
   box-shadow: none;
   background: #F4F4F4;
@@ -6874,7 +6887,7 @@ span {
   right: 24px;
   content: "\f324";
   color: var(--gt-header);
-  font-family: "Nohemi";
+  font-family: "Poppins";
   background-image: none;
 }
 .gt-service-details-wrapper .gt-service-details-items .details-content .faq-content .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
@@ -6967,7 +6980,7 @@ span {
   color: var(--gt-white);
   font-weight: 600;
   font-size: 18px;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .team-card-item-3 .team-image img {
   width: 100%;
@@ -7046,7 +7059,7 @@ span {
 .gt-team-experience-wrapper .gt-team-experience-content .gt-skill-feature-items .gt-skill-feature .gt-box-title {
   font-size: 18px;
   font-weight: 500;
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-team-experience-wrapper .gt-team-experience-content .gt-skill-feature-items .gt-skill-feature .gt-progress-value {
   margin-bottom: 10px;
@@ -7077,7 +7090,7 @@ span {
   font-size: 18px;
   font-weight: 500;
   color: var(--gt-header);
-  font-family: "Nohemi", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-team-experience-wrapper .contact-form-items h3 {
   font-size: 36px;

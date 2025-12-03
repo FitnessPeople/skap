@@ -42,21 +42,10 @@
         <div class="animation-preloader">
             <div class="spinner">                
             </div>
-            <div class="txt-loading">
-                <span data-text-preloader="S" class="letters-loading">
-                    S
-                </span>
-                <span data-text-preloader="K" class="letters-loading">
-                    K
-                </span>
-                <span data-text-preloader="A" class="letters-loading">
-                    A
-                </span>
-                <span data-text-preloader="P" class="letters-loading">
-                    P
-                </span>
-            </div>
-            <p class="text-center">Loading</p>
+            <a href="default.aspx" class="header-logo-2">
+                <img src="img/logo/black-logo.png" alt="logo-img" height="50" />
+            </a>
+            <p class="text-center mt-3">Loading</p>
         </div>
         <div class="loader">
             <div class="row">
@@ -195,20 +184,20 @@
 
 
     <!-- GT Main Section Start -->
-    <section class="gt-hero-section gt-hero-1 fix bg-cover" style="background-image: url('img/banners/banner-inicio.png'); height: 100vh;">
+    <section class="gt-hero-section gt-hero-1 fix bg-cover" style="background-image: url('img/banners/banner-inicio.jpg'); height: 100vh;">
         <div class="container-fluid">
             <div class="row g-4">
                 <div class="gt-hero-content">
-                    <span class="wow fadeInUp"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO OUR HOTEL</span>
+                    <span class="wow fadeInUp"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO SKAP</span>
                     <h1 class="wow fadeInUp" data-wow-delay=".2s">
-                        Experience a Luxurious Hotel Stay Comfort and Style
+                        Un Club Exclusivo Donde el Entrenamiento Se Siente Diferente
                     </h1>
                     <p class="wow fadeInUp" data-wow-delay=".4s">
-                        Indulge in a luxurious hotel stay where comfort meets style, offering world-class amenities, elegant design, and exceptional personalized service.
+                        Un lugar donde el diseño, la calma y la guía experta se integran para ofrecerte una experiencia de entrenamiento impecable.
                     </p>
                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                        <a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>
-                        <a href="default.aspx" class="gt-theme-btn">Saber Más</a>
+                        <%--<a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>--%>
+                        <a href="default.aspx" class="gt-theme-btn">Conocer SKAP</a>
                     </div>
                 </div>
             </div>
@@ -222,42 +211,42 @@
             <div class="gt-section-title text-center">
                 <h6 class="justify-content-center wow fadeInUp">
                     <img src="img/arrow-left.svg" alt="img" />
-                        FACILITIES
+                        MÉTODO SKAP
                     <img src="img/arrow-right-2.svg" alt="img" />
                 </h6>
                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                    Hotl’s Facilities
+                    Una experiencia que trasciende el entrenamiento
                 </h2>
             </div>
             <div class="row row-espacios justify-content-center g-4">
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item">
                     <div class="service-box-items">
                         <img src="img/espacios/zona-hammer.png" alt="img"/>
-                        <h4>Zona Hammer</h4>
+                        <h4>Máquinas De Precisión Avanzada</h4>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".2s">
                     <div class="service-box-items">
                         <img src="img/espacios/zona-poleas.png" alt="img"/>
-                        <h4>Zona de Poleas</h4>
+                        <h4>Entrenamiento Semi Personalizado</h4>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".4s">
                     <div class="service-box-items">
-                        <img src="img/espacios/zona-cardiovascular.png" alt="img"/>
-                        <h4>Zona Cardiovascular</h4>
+                        <img src="img/espacios/disenio-y-calma.png" alt="img"/>
+                        <h4>Diseño, Calma Y Comunidad Selecta</h4>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".6s">
                     <div class="service-box-items">
-                        <img src="img/espacios/store-coffe.png" alt="img"/>
-                        <h4>Store Coffee</h4>
+                        <img src="img/espacios/recovery.png" alt="img"/>
+                        <h4>Área De Recovery Integral</h4>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".8s">
                     <div class="service-box-items">
                         <img src="img/espacios/zona-pilates.png" alt="img"/>
-                        <h4>Zona de Pilates</h4>
+                        <h4>Zonas Exclusivas</h4>
                     </div>
                 </div>
             </div>
@@ -275,19 +264,19 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/home-3/service/service-01.jpg" alt="img" />
+                                        <img src="img/escenas/escena-1.jpg" alt="img" />
                                         <span class="offer-text">From $269 / NIGHT</span>
                                     </div>
                                 </div>
                                  <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/home-3/service/service-01.jpg" alt="img" />
+                                        <img src="img/escenas/escena-2.jpg" alt="img" />
                                         <span class="offer-text">From $269 / NIGHT</span>
                                     </div>
                                 </div>
                                  <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/home-3/service/service-01.jpg" alt="img" />
+                                        <img src="img/escenas/escena-3.jpg" alt="img" />
                                         <span class="offer-text">From $269 / NIGHT</span>
                                     </div>
                                 </div>
@@ -305,56 +294,47 @@
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp">
                                     <img src="img/arrow-left.svg" alt="img"/>
-                                    S E R V I C E S
+                                    Rendimiento estético. Bienestar consciente.
                                 </h6>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                Our Offerings
+                                Entrenar puede sentirse distinto.
                                 </h2>
                             </div>
                             <p class="service-text wow fadeInUp" data-wow-delay=".4s">
-                                At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+                                En SKAP, cada detalle está pensado para que moverse sea un acto de enfoque, estética y calma. No se trata solo de entrenar, sino de habitar un espacio que te exige, te eleva y te representa.
                             </p>
                             <div class="faq-item wow fadeInUp" data-wow-delay=".5s">
                                 <h3>
                                     <i class="fa-solid fa-circle-chevron-right"></i>
-                                    Spa Retreat
+                                    Técnica, diseño y propósito
                                 </h3>
-                                <p class="faq-text">
+                                <%--<p class="faq-text">
                                     At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
-                                </p>
+                                </p>--%>
                             </div>
-                             <div class="faq-item active wow fadeInUp" data-wow-delay=".6s">
+                             <div class="faq-item wow fadeInUp" data-wow-delay=".6s">
                                 <h3>
                                     <i class="fa-solid fa-circle-chevron-right"></i>
-                                    Family Fun Package
+                                    Ambientes que invitan al rendimiento
                                 </h3>
-                                <p class="faq-text">
+                                <%--<p class="faq-text">
                                     At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
-                                </p>
+                                </p>--%>
                             </div>
                              <div class="faq-item wow fadeInUp" data-wow-delay=".7s">
                                 <h3>
                                     <i class="fa-solid fa-circle-chevron-right"></i>
-                                    Traveler Special
+                                    Una comunidad que entrena distinto
                                 </h3>
-                                <p class="faq-text">
+                                <%--<p class="faq-text">
                                     At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
-                                </p>
-                            </div>
-                             <div class="faq-item wow fadeInUp" data-wow-delay=".8s">
-                                <h3>
-                                    <i class="fa-solid fa-circle-chevron-right"></i>
-                                    Romantic Getaway
-                                </h3>
-                                <p class="faq-text">
-                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
-                                </p>
+                                </p>--%>
                             </div>
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                                         <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
-                                        <a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>
+                                        <%--<a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>--%>
                                     </div>
                                 </div>
                             </div>
@@ -848,7 +828,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="gt-footer-main-2 col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".8s">
                         <div class="gt-footer-widget-items">
                             <ul class="gt-contact-list">
                                 <li>
