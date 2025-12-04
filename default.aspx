@@ -221,32 +221,32 @@
             <div class="row row-espacios justify-content-center g-4">
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item">
                     <div class="service-box-items">
-                        <img src="img/espacios/zona-hammer.png" alt="img"/>
+                        <img src="img/espacios/maquinas-precision.png" alt="img"/>
                         <h4>Máquinas De Precisión Avanzada</h4>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".2s">
                     <div class="service-box-items">
-                        <img src="img/espacios/zona-poleas.png" alt="img"/>
+                        <img src="img/espacios/semi-personalizado.png" alt="img"/>
                         <h4>Entrenamiento Semi Personalizado</h4>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".4s">
                     <div class="service-box-items">
-                        <img src="img/espacios/disenio-y-calma.png" alt="img"/>
+                        <img src="img/espacios/diseño-calma-comunidad.png" alt="img"/>
                         <h4>Diseño, Calma Y Comunidad Selecta</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".8s">
+                    <div class="service-box-items">
+                        <img src="img/espacios/zonas-exclusivas.png" alt="img"/>
+                        <h4>Zonas Exclusivas</h4>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".6s">
                     <div class="service-box-items">
                         <img src="img/espacios/recovery.png" alt="img"/>
                         <h4>Área De Recovery Integral</h4>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".8s">
-                    <div class="service-box-items">
-                        <img src="img/espacios/zona-pilates.png" alt="img"/>
-                        <h4>Zonas Exclusivas</h4>
                     </div>
                 </div>
             </div>
