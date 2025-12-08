@@ -677,6 +677,8 @@ span {
 .gt-about-wrapper-3 .gt-about-content .gt-about-text {
   margin-top: 25px;
   color: var(--gt-secondary);
+  max-width: 450px;
+  font-weight: 300;
 }
 .gt-about-wrapper-3 .gt-about-content .gt-icon-items {
   margin-top: 30px;
@@ -720,20 +722,20 @@ span {
   font-size: 20px;
 }
 .gt-about-wrapper-3 .gt-about-content .gt-about-list {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 .gt-about-wrapper-3 .gt-about-content .gt-about-list li {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--gt-secondary);
   font-family: "Poppins", sans-serif;
 }
 .gt-about-wrapper-3 .gt-about-content .gt-about-list li i {
   color: var(--gt-secondary);
-  margin-right: 8px;
+  margin-right: 4px;
 }
 .gt-about-wrapper-3 .gt-about-content .gt-about-list li:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .gt-about-wrapper-3 .gt-about-content .gt-hero-1 .gt-theme-btn {
   color: var(--gt-black);
@@ -750,12 +752,13 @@ span {
 }
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .style-3 {
   color: var(--gt-secondary);
-  background-color: transparent;
+  background-color: var(--gt-black);
   border: 1px solid var(--gt-secondary);
 }
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .style-3:hover {
   color: var(--gt-black);
   background-color: var(--gt-secondary);
+  border: 1px solid var(--gt-black);
 }
 .gt-about-wrapper-3 .gt-about-content .gt-hero-button .style-3::before {
   color: var(--gt-black);
@@ -6358,7 +6361,7 @@ span {
 }
 
 .section-bg-3 {
-  background-color: var(--gt-bg3);
+  background-color: var(--gt-white);
 }
 
 .section-padding {
@@ -6379,7 +6382,6 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -6664,7 +6666,7 @@ span {
 .gt-service-wrapper-3 .service-content .faq-item h3 {
   color: var(--gt-theme);
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .gt-service-wrapper-3 .service-content .faq-item h3 i {
   color: var(--gt-theme);

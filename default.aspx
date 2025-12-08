@@ -92,7 +92,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Cra. 23 # 04-20, Bosque Encantado</a>
+                                    <a target="_blank" href="#">Cra 29A #45-25, Sotomayor, Bucaramanga, Santander</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -113,10 +113,10 @@
                             </li>
                         </ul>
                         <div class="social-icon d-flex align-items-center">
+                            <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
 
 
     <!-- GT Spaces Section Start -->
-    <section class="gt-service-section fix section-padding fix">
+    <section class="gt-service-section fix section-padding pb-4">
         <div class="container">
             <div class="gt-section-title text-center">
                 <h6 class="justify-content-center wow fadeInUp">
@@ -265,19 +265,19 @@
                                 <div class="swiper-slide">
                                     <div class="service-image">
                                         <img src="img/escenas/escena-1.jpg" alt="img" />
-                                        <span class="offer-text">From $269 / NIGHT</span>
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <div class="swiper-slide">
+                                 <%--<div class="swiper-slide">
                                     <div class="service-image">
                                         <img src="img/escenas/escena-2.jpg" alt="img" />
                                         <span class="offer-text">From $269 / NIGHT</span>
                                     </div>
-                                </div>
+                                </div>--%>
                                  <div class="swiper-slide">
                                     <div class="service-image">
                                         <img src="img/escenas/escena-3.jpg" alt="img" />
-                                        <span class="offer-text">From $269 / NIGHT</span>
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@
                             </p>
                             <div class="faq-item wow fadeInUp" data-wow-delay=".5s">
                                 <h3>
-                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <i class="fa-solid fa-circle-check"></i>
                                     Técnica, diseño y propósito
                                 </h3>
                                 <%--<p class="faq-text">
@@ -314,7 +314,7 @@
                             </div>
                              <div class="faq-item wow fadeInUp" data-wow-delay=".6s">
                                 <h3>
-                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <i class="fa-solid fa-circle-check"></i>
                                     Ambientes que invitan al rendimiento
                                 </h3>
                                 <%--<p class="faq-text">
@@ -323,7 +323,7 @@
                             </div>
                              <div class="faq-item wow fadeInUp" data-wow-delay=".7s">
                                 <h3>
-                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <i class="fa-solid fa-circle-check"></i>
                                     Una comunidad que entrena distinto
                                 </h3>
                                 <%--<p class="faq-text">
@@ -346,8 +346,262 @@
     </section>
 
 
-    <!-- GT Service  Section Start -->
-    <section class="gt-service-section fix section-padding section-bg-3 bg-cover" style="background-image: url('img/banners/banner-secundario.png');">
+    <!-- Slider main container -->
+    <!-- Slider -->
+    <section class="swiper myFullSlider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1">
+
+                <section class="gt-about-section-3 section-padding fix">
+                    <div class="container">
+                        <div class="gt-about-wrapper-3">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="gt-about-content">
+                                        <div class="gt-section-title mb-0">
+                                            <h6 class="wow fadeInUp">
+                                                <img src="img/arrow-right.svg" alt="img"/>
+                                                SKAP FOUNDER EXPERIENC
+                                            </h6>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                                 Sé de los primeros en descubrir SKAP
+                                            </h2>
+                                        </div>
+                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                            Entrenar en SKAP antes que nadie:
+                                            <br />
+                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
+                                            <br />
+                                            Convertite en uno de los 200 Elite Founders.
+                                        </p>
+                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Tarifa exclusiva por 12 meses
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Invita a 2 personas con el mismo beneficio
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Acceso a eventos privados de apertura
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Obsequios exclusivos
+                                            </li>
+                                        </ul>
+                                        <div class="gt-hero-1">
+                                            <div class="gt-hero-content pt-0" >
+                                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="swiper-slide slide-2">
+
+                <section class="gt-about-section-3 section-padding fix">
+                    <div class="container">
+                        <div class="gt-about-wrapper-3">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="gt-about-content">
+                                        <div class="gt-section-title mb-0">
+                                            <h6 class="wow fadeInUp">
+                                                <img src="img/arrow-right.svg" alt="img"/>
+                                                SKAP FOUNDER EXPERIENC
+                                            </h6>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                                 Sé de los primeros en descubrir SKAP
+                                            </h2>
+                                        </div>
+                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                            Entrenar en SKAP antes que nadie:
+                                            <br />
+                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
+                                            <br />
+                                            Convertite en uno de los 200 Elite Founders.
+                                        </p>
+                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Tarifa exclusiva por 12 meses
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Invita a 2 personas con el mismo beneficio
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Acceso a eventos privados de apertura
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Obsequios exclusivos
+                                            </li>
+                                        </ul>
+                                        <div class="gt-hero-1">
+                                            <div class="gt-hero-content pt-0" >
+                                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="swiper-slide slide-3">
+
+                <section class="gt-about-section-3 section-padding fix">
+                    <div class="container">
+                        <div class="gt-about-wrapper-3">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="gt-about-content">
+                                        <div class="gt-section-title mb-0">
+                                            <h6 class="wow fadeInUp">
+                                                <img src="img/arrow-right.svg" alt="img"/>
+                                                SKAP FOUNDER EXPERIENC
+                                            </h6>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                                 Sé de los primeros en descubrir SKAP
+                                            </h2>
+                                        </div>
+                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                            Entrenar en SKAP antes que nadie:
+                                            <br />
+                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
+                                            <br />
+                                            Convertite en uno de los 200 Elite Founders.
+                                        </p>
+                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Tarifa exclusiva por 12 meses
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Invita a 2 personas con el mismo beneficio
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Acceso a eventos privados de apertura
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Obsequios exclusivos
+                                            </li>
+                                        </ul>
+                                        <div class="gt-hero-1">
+                                            <div class="gt-hero-content pt-0" >
+                                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="swiper-slide slide-4">
+
+                <section class="gt-about-section-3 section-padding fix">
+                    <div class="container">
+                        <div class="gt-about-wrapper-3">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="gt-about-content">
+                                        <div class="gt-section-title mb-0">
+                                            <h6 class="wow fadeInUp">
+                                                <img src="img/arrow-right.svg" alt="img"/>
+                                                SKAP FOUNDER EXPERIENC
+                                            </h6>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                                 Sé de los primeros en descubrir SKAP
+                                            </h2>
+                                        </div>
+                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                            Entrenar en SKAP antes que nadie:
+                                            <br />
+                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
+                                            <br />
+                                            Convertite en uno de los 200 Elite Founders.
+                                        </p>
+                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Tarifa exclusiva por 12 meses
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Invita a 2 personas con el mismo beneficio
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Acceso a eventos privados de apertura
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Obsequios exclusivos
+                                            </li>
+                                        </ul>
+                                        <div class="gt-hero-1">
+                                            <div class="gt-hero-content pt-0" >
+                                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Opcionales -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-next">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="swiper-button-prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </div>
+    </section>
+
+
+    <!-- GT Service Section Start -->
+    <%--<section class="gt-service-section fix section-padding section-bg-3 bg-cover" style="background-image: url('img/banners/banner-secundario.png');">
         <div class="container">
             <div class="gt-service-wrapper-3">
                 <div class="row g-4">
@@ -414,7 +668,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
 
     <!-- GT Video Section Start -->
@@ -454,27 +708,35 @@
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp">
                                     <img src="img/arrow-right.svg" alt="img"/>
-                                    ABOUT US
+                                    SKAP FOUNDER EXPERIENC
                                 </h6>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                    Welcome to Our Hotel & Resort Under the Arlux
+                                     Sé de los primeros en descubrir SKAP
                                 </h2>
                             </div>
                             <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create unforgettable experiences. Whether you're here for relaxation or celebration
+                                Entrenar en SKAP antes que nadie:
+                                <br />
+                                Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
+                                <br />
+                                Convertite en uno de los 200 Elite Founders.
                             </p>
                             <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                 <li>
-                                    <i class="flaticon-arrow-right"></i>
-                                    Modern & Comfortable Rooms
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Tarifa exclusiva por 12 meses
                                 </li>
                                 <li>
-                                    <i class="flaticon-arrow-right"></i>
-                                    Business Lounge & Meeting Rooms
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Invita a 2 personas con el mismo beneficio
                                 </li>
                                 <li>
-                                    <i class="flaticon-arrow-right"></i>
-                                    Laundry & Dry Cleaning Services
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Acceso a eventos privados de apertura
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Obsequios exclusivos
                                 </li>
                             </ul>
                             <div class="gt-hero-1">
@@ -508,7 +770,7 @@
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
@@ -552,7 +814,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
@@ -596,7 +858,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <%--<div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
@@ -639,7 +901,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--%>
                 </div> 
             </div>
         </div>
@@ -647,7 +909,7 @@
 
 
     <!-- GT Testimonial Section Start -->
-    <section class="gt-testimonial-section section-padding fix section-bg-3">
+    <%--<section class="gt-testimonial-section section-padding fix section-bg-3">
         <div class="container">
             <div class="gt-testimonial-wrapper">
                 <div class="row g-4">
@@ -767,11 +1029,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
 
     <!-- GT News Section Start -->
-    <section class="news-section-2 section-padding fix">
+    <%--<section class="news-section-2 section-padding fix">
         <div class="container">
             <div class="row g-4 g-lg-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
@@ -804,7 +1066,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
 
     <!-- GT Footer Section Start -->
@@ -822,7 +1084,7 @@
                             <div class="gt-footer-content">
                                 <div class="gt-social-icon d-flex flex-column">
                                     <a href="default.aspx"><i class="far fa-phone"></i> 300 548 6895</a>
-                                    <a href="default.aspx"><i class="fal fa-map-marker-alt"></i> Cra. 23 # 04-20, Bosque Encantado</a>
+                                    <a href="default.aspx"><i class="fal fa-map-marker-alt"></i> Cra 29A #45-25, Sotomayor, Bucaramanga, Santander</a>
                                     <a href="default.aspx"><i class="fal fa-envelope"></i> skaptrainingclub@gmail.com</a>
                                 </div>
                             </div>
@@ -861,7 +1123,7 @@
                     <div class="gt-hero-1">
                         <div class="gt-hero-content">
                             <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                                <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank" class="gt-theme-btn style-3"><i class="fa-brands fa-instagram"></i> Instagram</a>
                                 <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-facebook"></i> Facebook</a>
                                 <a href="#" class="gt-theme-btn style-3"><i class="fa-solid fa-envelope"></i> Gmail</a>
                                 <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>
@@ -875,7 +1137,7 @@
             <div class="container">
                 <div class="footer-wrapper d-flex align-items-center justify-content-between">
                     <p class="footer-note">
-                        Copyright © 2025 ClubTraining Palmas. – Todos los derechos reservados.
+                        Copyright © 2025 Club Training Palmas. – Todos los derechos reservados.
                     </p>
                 </div>
             </div>
@@ -906,6 +1168,86 @@
     <script src="js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="js/main.js"></script>
+
+
+    <style>
+
+        .myFullSlider,
+        .myFullSlider .swiper-slide {
+            width: 100%;
+            height: 100vh; /* Full height */
+        }
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Asigna aquí tus imágenes */
+        .slide-1 { background-image: url('img/banners-clases/01_skap-hit.jpg'); }
+        .slide-2 { background-image: url('img/banners-clases/02_skap-form.jpg'); }
+        .slide-3 { background-image: url('img/banners-clases/03_skap-level.jpg'); }
+        .slide-4 { background-image: url('img/banners-clases/04_skap-control.jpg'); }
+
+        /* Color de todos los bullets - Paginación */
+        .swiper-pagination-bullet {
+            background-color: var(--gt-white);
+            opacity: 1;
+        }
+
+        /* Bullet activo */
+        .swiper-pagination-bullet-active {
+            background-color: var(--gt-secondary);
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 4px;
+            background-color: var(--gt-bg);
+            color: var(--gt-theme);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+            background-color: var(--gt-theme);
+            color: var(--gt-white);
+        }
+
+        .swiper-button-next::after {
+            content: none;
+        }
+
+        .swiper-button-prev::after {
+            content: none;
+        }
+
+    </style>
+
+    <script>
+
+        var swiper = new Swiper(".myFullSlider", {
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+            speed: 2000
+        });
+
+    </script>
 
 </body>
 </html>
