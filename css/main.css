@@ -52,6 +52,7 @@ Version: 1.0.0
   --gt-bg2: #F8F8F8;
   --gt-bg3: #F7F3EE;
   --gt-secondary: #D5BB96;
+  --gt-tertiary: #103639;
   --gt-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
 }
 
@@ -4474,11 +4475,19 @@ span {
 }
 @media (max-width: 1199px) {
   .gt-hero-1 .container-fluid {
-    padding: 0 30px;
+    /*padding: 0 30px;*/
   }
 }
+.gt-hero-section {
+    background-image: url('../img/banners/banner-inicio.jpg'); 
+    height: 100vh;
+}
+.gt-hero-section .container-fluid {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 .gt-hero-1 .gt-hero-content {
-  padding-top: 200px;
   position: relative;
   z-index: 9;
 }
@@ -6390,7 +6399,7 @@ span {
     box-sizing: border-box;
     /*min-height: 166px;*/
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     position: relative;
     z-index: 9;
 }
@@ -7454,3 +7463,226 @@ span {
     padding: 0 30px;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
+.myFullSlider,
+.myFullSlider .swiper-slide {
+    width: 100%;
+    height: 100vh; /* Full height */
+}
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+/* Asignación de imágenes */
+.slide-1 { background-image: url('../img/banners-clases/01_skap-hit_10-12-2025.jpg'); }
+.slide-2 { background-image: url('../img/banners-clases/02_skap-form_10-12-2025.jpg'); }
+.slide-3 { background-image: url('../img/banners-clases/03_skap-level_10-12-2025.jpg'); }
+.slide-4 { background-image: url('../img/banners-clases/04_skap-control_10-12-2025.jpg'); }
+.slide-5 { background-image: url('../img/banners-clases/05_skap-recovery_10-12-2025.jpg'); }
+/* Asignación de imágenes */
+.swiper-slide .gt-about-section-3 {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.swiper-slide .gt-about-section-3 .gt-about-content h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.slide-5 .gt-about-section-3 .gt-about-content h2 {
+    color: var(--gt-tertiary);
+}
+.swiper-slide .gt-about-section-3 .gt-about-content p {
+    margin-top: 10px;
+    font-size: 25px;
+    color: var(--gt-white);
+}
+.swiper-slide .gt-about-section-3 .gt-about-content .gt-about-list li {
+    font-size: 20px;
+    color: var(--gt-white);
+}
+.slide-5 .gt-about-section-3 .gt-about-content .gt-about-list li i {
+    color: var(--gt-tertiary);
+}
+.slide-5 .gt-about-section-3 .gt-about-content .gt-hero-1 .gt-hero-content .gt-theme-btn {
+    border: 1px solid var(--gt-white);
+}
+.slide-5 .gt-about-section-3 .gt-about-content .gt-hero-1 .gt-hero-content .gt-theme-btn::before {
+    background-color: var(--gt-tertiary);
+}
+.slide-5 .gt-about-section-3 .gt-about-content .gt-hero-1 .gt-hero-content .gt-theme-btn:hover {
+    color: var(--gt-white);
+}
+.slide-5 .gt-about-section-3 .gt-about-content .gt-hero-1 .gt-hero-content .gt-theme-btn.style-2 {
+    background-color: var(--gt-tertiary);
+    border: 1px solid var(--gt-white);
+    color: var(--gt-white);
+}
+.slide-5 .gt-about-section-3 .gt-about-content .gt-hero-1 .gt-hero-content .gt-theme-btn.style-2::before {
+    background-color: var(--gt-secondary);
+}
+.slide-5 .gt-about-section-3 .gt-about-content .gt-hero-1 .gt-hero-content .gt-theme-btn.style-2:hover {
+    color: var(--gt-black);
+}
+/* Color de todos los bullets - Paginación */
+.swiper-pagination-bullet {
+    background-color: var(--gt-white);
+    opacity: 1;
+}
+/* Bullet activo */
+.swiper-pagination-bullet-active {
+    background-color: var(--gt-secondary);
+}
+/* Estilos de los botones */
+.swiper-button-next,
+.swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--gt-bg);
+    color: var(--gt-theme);
+    transition: all 0.4s ease-in-out;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: var(--gt-theme);
+    color: var(--gt-white);
+}
+.swiper-button-next::after {
+    content: none;
+}
+.swiper-button-prev::after {
+    content: none;
+}
+
+
+@media (max-width: 920px) {
+    .gt-theme-btn {
+        padding: 19px 26px;
+    }
+    /* - */
+    .gt-hero-section {
+        background-image: url('../img/banners/banner-inicio-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gt-hero-section .container-fluid {
+        align-items: flex-end;
+    }
+
+    .gt-hero-section .container-fluid .gt-hero-content {
+        padding: 15px;
+    }
+
+    .gt-hero-1 .gt-hero-content span {
+        margin-bottom: 15px;
+    }
+
+    .gt-hero-1 .gt-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .gt-hero-1 .gt-hero-content p {
+        margin-top: 10px;
+        line-height: 1.2;
+    }
+
+    .gt-hero-1 .gt-hero-content .gt-hero-button {
+        margin-top: 15px;
+    }
+
+    /* - */
+
+    .gt-service-section {
+        padding: 30px 5px;
+    }
+
+    .gt-service-section .row-espacios .service-box-items h4 {
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    /* - */
+
+    .gt-service-section .service-content .gt-section-title h6 {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .gt-service-section .service-content .service-text {
+        margin: 15px 0;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .gt-service-section .service-content .faq-item {
+        margin: 15px 0 0;
+    }
+
+    .gt-service-section .service-content .faq-item h3 {
+        font-size: 14px;
+        display: flex;
+    }
+
+    /* - */
+
+    .swiper-slide .gt-about-section-3 {
+        align-items: flex-end;
+        padding: 0 0 50px 10px;
+    }
+
+    .swiper-slide .gt-about-section-3 .gt-about-content h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .swiper-slide .gt-about-section-3 .gt-about-content p {
+        margin-top: 10px;
+        font-size: 19px;
+        color: var(--gt-white);
+    }
+
+    .swiper-slide .gt-about-section-3 .gt-about-content .gt-about-list {
+        margin-top: 20px;
+    }
+
+    .swiper-slide .gt-about-section-3 .gt-about-content .gt-about-list li {
+        font-size: 17px;
+        color: var(--gt-white);
+    }
+
+    .slide-1 { background-image: url('../img/banners-clases/01_skap-hit-mobile.jpg'); }
+    .slide-2 { background-image: url('../img/banners-clases/02_skap-form-mobile.jpg'); }
+    .slide-3 { background-image: url('../img/banners-clases/03_skap-level-mobile.jpg'); }
+    .slide-4 { background-image: url('../img/banners-clases/04_skap-control-mobile.jpg'); }
+    .slide-5 { background-image: url('../img/banners-clases/05_skap-recovery-mobile.jpg'); }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+        background: none;
+        color: var(--gt-white);
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        background: none;
+        color: var(--gt-white);
+    }
+
+    /* - */
+
+    /* VIDEO */
+
+    /* - */
+
+
+}

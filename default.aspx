@@ -184,7 +184,7 @@
 
 
     <!-- GT Main Section Start -->
-    <section class="gt-hero-section gt-hero-1 fix bg-cover" style="background-image: url('img/banners/banner-inicio.jpg'); height: 100vh;">
+    <section class="gt-hero-section gt-hero-1 fix bg-cover">
         <div class="container-fluid">
             <div class="row g-4">
                 <div class="gt-hero-content">
@@ -237,16 +237,16 @@
                         <h4>Diseño, Calma Y Comunidad Selecta</h4>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".8s">
-                    <div class="service-box-items">
-                        <img src="img/espacios/zonas-exclusivas.png" alt="img"/>
-                        <h4>Zonas Exclusivas</h4>
-                    </div>
-                </div>
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".6s">
                     <div class="service-box-items">
                         <img src="img/espacios/recovery.png" alt="img"/>
                         <h4>Área De Recovery Integral</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item" data-wow-delay=".8s">
+                    <div class="service-box-items">
+                        <img src="img/espacios/zonas-exclusivas.png" alt="img"/>
+                        <h4>Zonas Exclusivas</h4>
                     </div>
                 </div>
             </div>
@@ -359,37 +359,21 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h6 class="wow fadeInUp">
-                                                <img src="img/arrow-right.svg" alt="img"/>
-                                                SKAP FOUNDER EXPERIENC
-                                            </h6>
                                             <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                                 Sé de los primeros en descubrir SKAP
+                                                 SKAP HIROX
                                             </h2>
                                         </div>
                                         <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Entrenar en SKAP antes que nadie:
-                                            <br />
-                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
-                                            <br />
-                                            Convertite en uno de los 200 Elite Founders.
+                                            Alta intensidad, máxima energía.
                                         </p>
                                         <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Tarifa exclusiva por 12 meses
+                                                Cardio, fuerza y potencia.
                                             </li>
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Invita a 2 personas con el mismo beneficio
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Acceso a eventos privados de apertura
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Obsequios exclusivos
+                                                Sesiones dinámicas y controladas.
                                             </li>
                                         </ul>
                                         <div class="gt-hero-1">
@@ -418,37 +402,21 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h6 class="wow fadeInUp">
-                                                <img src="img/arrow-right.svg" alt="img"/>
-                                                SKAP FOUNDER EXPERIENC
-                                            </h6>
                                             <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                                 Sé de los primeros en descubrir SKAP
+                                                 SKAP FORM
                                             </h2>
                                         </div>
                                         <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Entrenar en SKAP antes que nadie:
-                                            <br />
-                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
-                                            <br />
-                                            Convertite en uno de los 200 Elite Founders.
+                                            Define tu silueta con intención.
                                         </p>
                                         <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Tarifa exclusiva por 12 meses
+                                                Glúteo, abdomen y piernas en una clase.
                                             </li>
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Invita a 2 personas con el mismo beneficio
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Acceso a eventos privados de apertura
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Obsequios exclusivos
+                                                Estética, eficiencia y guiada.
                                             </li>
                                         </ul>
                                         <div class="gt-hero-1">
@@ -477,37 +445,21 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h6 class="wow fadeInUp">
-                                                <img src="img/arrow-right.svg" alt="img"/>
-                                                SKAP FOUNDER EXPERIENC
-                                            </h6>
                                             <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                                 Sé de los primeros en descubrir SKAP
+                                                 SKAP LEVEL
                                             </h2>
                                         </div>
                                         <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Entrenar en SKAP antes que nadie:
-                                            <br />
-                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
-                                            <br />
-                                            Convertite en uno de los 200 Elite Founders.
+                                            Construye fuerza. Sube de nivel.
                                         </p>
                                         <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Tarifa exclusiva por 12 meses
+                                                Entrenamiento estructural con técnica.
                                             </li>
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Invita a 2 personas con el mismo beneficio
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Acceso a eventos privados de apertura
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Obsequios exclusivos
+                                                Carga y progresión real.
                                             </li>
                                         </ul>
                                         <div class="gt-hero-1">
@@ -536,37 +488,25 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h6 class="wow fadeInUp">
-                                                <img src="img/arrow-right.svg" alt="img"/>
-                                                SKAP FOUNDER EXPERIENC
-                                            </h6>
                                             <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                                 Sé de los primeros en descubrir SKAP
+                                                 SKAP PILATES
                                             </h2>
                                         </div>
                                         <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Entrenar en SKAP antes que nadie:
-                                            <br />
-                                            Es formar parte de un inicio, de una comunidad que valora el diseño, la intención y la diferencia.
-                                            <br />
-                                            Convertite en uno de los 200 Elite Founders.
+                                            Estabilidad, fuerza y control.
                                         </p>
                                         <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Tarifa exclusiva por 12 meses
+                                                Movimiento preciso.
                                             </li>
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Invita a 2 personas con el mismo beneficio
+                                                Respiración consciente.
                                             </li>
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Acceso a eventos privados de apertura
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Obsequios exclusivos
+                                                Técnica elegante.
                                             </li>
                                         </ul>
                                         <div class="gt-hero-1">
@@ -574,6 +514,49 @@
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                                                     <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
                                                     <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="swiper-slide slide-5">
+
+                <section class="gt-about-section-3 section-padding fix">
+                    <div class="container">
+                        <div class="gt-about-wrapper-3">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="gt-about-content">
+                                        <div class="gt-section-title mb-0">
+                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                                 SKAP RESET
+                                            </h2>
+                                        </div>
+                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                            Tu cuerpo también necesita volver al equilibrio.
+                                        </p>
+                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Espacios en calma.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Técnicas de recuperación post-entrenamiento.
+                                            </li>
+                                        </ul>
+                                        <div class="gt-hero-1">
+                                            <div class="gt-hero-content pt-0" >
+                                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1172,59 +1155,7 @@
 
     <style>
 
-        .myFullSlider,
-        .myFullSlider .swiper-slide {
-            width: 100%;
-            height: 100vh; /* Full height */
-        }
-
-        .swiper-slide {
-            background-size: cover;
-            background-position: center;
-        }
-
-        /* Asigna aquí tus imágenes */
-        .slide-1 { background-image: url('img/banners-clases/01_skap-hit.jpg'); }
-        .slide-2 { background-image: url('img/banners-clases/02_skap-form.jpg'); }
-        .slide-3 { background-image: url('img/banners-clases/03_skap-level.jpg'); }
-        .slide-4 { background-image: url('img/banners-clases/04_skap-control.jpg'); }
-
-        /* Color de todos los bullets - Paginación */
-        .swiper-pagination-bullet {
-            background-color: var(--gt-white);
-            opacity: 1;
-        }
-
-        /* Bullet activo */
-        .swiper-pagination-bullet-active {
-            background-color: var(--gt-secondary);
-        }
-
-        .swiper-button-next,
-        .swiper-button-prev {
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
-            text-align: center;
-            border-radius: 4px;
-            background-color: var(--gt-bg);
-            color: var(--gt-theme);
-            transition: all 0.4s ease-in-out;
-        }
-
-        .swiper-button-next:hover,
-        .swiper-button-prev:hover {
-            background-color: var(--gt-theme);
-            color: var(--gt-white);
-        }
-
-        .swiper-button-next::after {
-            content: none;
-        }
-
-        .swiper-button-prev::after {
-            content: none;
-        }
+        
 
     </style>
 
@@ -1241,7 +1172,7 @@
                 prevEl: ".swiper-button-prev",
             },
             autoplay: {
-                delay: 8000,
+                delay: 90000,
                 disableOnInteraction: false,
             },
             speed: 2000
