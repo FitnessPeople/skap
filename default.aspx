@@ -188,8 +188,8 @@
         <div class="container-fluid">
             <div class="row g-4">
                 <div class="gt-hero-content">
-                    <span class="wow fadeInUp"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO SKAP</span>
-                    <h1 class="wow fadeInUp" data-wow-delay=".2s">
+                    <span class="wow fadeInUp" data-wow-delay=".4s"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO SKAP</span>
+                    <h1 class="wow fadeInUp" data-wow-delay=".4s">
                         Un Club Exclusivo Donde el Entrenamiento Se Siente Diferente
                     </h1>
                     <p class="wow fadeInUp" data-wow-delay=".4s">
@@ -294,7 +294,7 @@
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp">
                                     <img src="img/arrow-left.svg" alt="img"/>
-                                    Rendimiento estético. Bienestar consciente.
+                                    RENDIMIENTO ESTÉTICO. BIENESTAR CONSCIENTE.
                                 </h6>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
                                 Entrenar puede sentirse distinto.
@@ -359,7 +359,7 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                                  SKAP HIROX
                                             </h2>
                                         </div>
@@ -402,7 +402,7 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                                  SKAP FORM
                                             </h2>
                                         </div>
@@ -445,7 +445,7 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                                  SKAP LEVEL
                                             </h2>
                                         </div>
@@ -488,7 +488,7 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                                  SKAP PILATES
                                             </h2>
                                         </div>
@@ -535,7 +535,7 @@
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
-                                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                                  SKAP RESET
                                             </h2>
                                         </div>
@@ -682,19 +682,19 @@
 
 
     <!-- GT About Section Start -->
-    <section class="gt-about-section-3 section-padding fix bg-cover" style="background-image: url('img/banners/banner-terciario.png');">
-        <div class="container">
-            <div class="gt-about-wrapper-3">
-                <div class="row g-4">
-                    <div class="col-lg-6">
+    <section class="founder-experience">
+        <section class="gt-about-section-3 fix bg-cover">
+            <div class="container">
+                <div class="gt-about-wrapper-3">
+                    <div class="row g-4">
                         <div class="gt-about-content">
                             <div class="gt-section-title mb-0">
                                 <h6 class="wow fadeInUp">
                                     <img src="img/arrow-right.svg" alt="img"/>
-                                    SKAP FOUNDER EXPERIENC
+                                    SKAP FOUNDER EXPERIENCE
                                 </h6>
                                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                     Sé de los primeros en descubrir SKAP
+                                    Sé de los primeros en descubrir SKAP
                                 </h2>
                             </div>
                             <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
@@ -734,9 +734,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
-
+    
 
     <!-- GT Plans Section Start -->
     <section class="gt-room-section fix section-padding section-bg">
@@ -745,45 +745,51 @@
                  <div class="gt-section-title text-center">
                     <h6 class="wow fadeInUp justify-content-center">
                         <img src="img/arrow-left.svg" alt="img" />
-                           Nuestros Planes
+                           PLANES SKAP
                         <img src="img/arrow-right.svg" alt="img" />
                     </h6>
-                    <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                    <%--<h2 class="wow fadeInUp" data-wow-delay=".2s">
                       Rooms & Suttes
-                    </h2>
+                    </h2>--%>
                 </div>
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
                                 <span class="gt-post-box">
-                                    $269 / NIGHT
+                                    $390.000 / ANTES
+                                    <br />
+                                    $290.000 / AHORA
                                 </span>
                             </div>
 
                             <div class="gt-content">
-                                <a href="default.aspx" class="gt-post-cat">Luxury Room</a>
-
-                                <h3><a href="default.aspx">Idustry Experience</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>BASELINE</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
+                                    Para quienes entrenan con disciplina y compromiso.
                                 </p>
 
-                                <ul class="gt-list wow fadeInUp" data-wow-delay=".8s">
+                                <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
+
+                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Modern & Comfortable Rooms
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Acceso completo al gimnasio.
                                     </li>
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Business Lounge & Meeting Rooms
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Clases semi personalizadas de FORM y HIROX.
                                     </li>
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Laundry & Dry Cleaning Services
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Cita inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Permanencia mínima de 12 meses.
                                     </li>
                                 </ul>
                                 
@@ -797,40 +803,51 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
+
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
                                 <span class="gt-post-box">
-                                    $269 / NIGHT
+                                    $445.000 / ANTES
+                                    <br />
+                                    $345.000 / AHORA
                                 </span>
                             </div>
 
                             <div class="gt-content">
-                                <a href="default.aspx" class="gt-post-cat">Luxury Room</a>
-
-                                <h3><a href="default.aspx">Idustry Experience</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>FOCUS</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
+                                    Diseñado para quienes buscan resultados reales con acompañamiento profesional.
                                 </p>
 
-                                <ul class="gt-list wow fadeInUp" data-wow-delay=".8s">
+                                <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
+
+                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Modern & Comfortable Rooms
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Acceso completo al gimnasio.
                                     </li>
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Business Lounge & Meeting Rooms
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Clases semi personalizadas de FORM y HIROX.
                                     </li>
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Laundry & Dry Cleaning Services
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Cita inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Cita nutricional personalizada.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sin permanencia.
                                     </li>
                                 </ul>
-        
+            
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -841,40 +858,51 @@
                             </div>
                         </div>
                     </div>
-                    <%--<div class="col-xl-4 col-lg-6 col-md-6">
+
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
                                 <img src="img/home-1/room/room-01.jpg" alt="img" />
                                 <span class="gt-post-box">
-                                    $269 / NIGHT
+                                    $490.000 / ANTES
+                                    <br />
+                                    $390.000 / AHORA
                                 </span>
                             </div>
 
                             <div class="gt-content">
-                                <a href="default.aspx" class="gt-post-cat">Luxury Room</a>
-
-                                <h3><a href="default.aspx">Idustry Experience</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SUPREME</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                    At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully curated to create
+                                    La experiencia SKAP en su nivel más alto.
                                 </p>
 
-                                <ul class="gt-list wow fadeInUp" data-wow-delay=".8s">
+                                <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
+
+                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Modern & Comfortable Rooms
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Acceso completo al gimnasio.
                                     </li>
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Business Lounge & Meeting Rooms
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Clases semi personalizadas de FORM y HIROX.
                                     </li>
                                     <li>
-                                        <i class="flaticon-arrow-right"></i>
-                                        Laundry & Dry Cleaning Services
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Cita inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        3 sesiones de recovery (masaje, crioterapia y técnicas de restauración).
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sin permanencia.
                                     </li>
                                 </ul>
-        
+            
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -884,7 +912,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>--%>
+                    </div>
                 </div> 
             </div>
         </div>

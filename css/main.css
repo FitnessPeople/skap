@@ -4493,7 +4493,7 @@ span {
 }
 .gt-hero-1 .gt-hero-content span {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--gt-theme);
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -6775,6 +6775,9 @@ span {
   left: 0;
   z-index: -1;
 }
+.gt-service-section .gt-section-title h6 {
+  font-weight: 600;
+}
 .gt-service-section .row-espacios {
   margin-top: 10px;
 }
@@ -7464,7 +7467,7 @@ span {
   }
 }/*# sourceMappingURL=main.css.map */
 
-
+/* --- */
 .myFullSlider,
 .myFullSlider .swiper-slide {
     width: 100%;
@@ -7490,21 +7493,26 @@ span {
 .swiper-slide .gt-about-section-3 .gt-about-content h2 {
     font-size: 50px;
     font-weight: 600;
+    text-shadow: 2px 2px 4px var(--gt-black);
 }
 .slide-5 .gt-about-section-3 .gt-about-content h2 {
     color: var(--gt-tertiary);
+    text-shadow: 1px 1px 4px var(--gt-white);
 }
 .swiper-slide .gt-about-section-3 .gt-about-content p {
     margin-top: 10px;
     font-size: 25px;
     color: var(--gt-white);
+    text-shadow: 2px 2px 4px var(--gt-black);
 }
 .swiper-slide .gt-about-section-3 .gt-about-content .gt-about-list li {
     font-size: 20px;
     color: var(--gt-white);
+    text-shadow: 2px 2px 4px var(--gt-black);
 }
 .slide-5 .gt-about-section-3 .gt-about-content .gt-about-list li i {
     color: var(--gt-tertiary);
+    text-shadow: 1px 1px 4px var(--gt-white);
 }
 .slide-5 .gt-about-section-3 .gt-about-content .gt-hero-1 .gt-hero-content .gt-theme-btn {
     border: 1px solid var(--gt-white);
@@ -7558,6 +7566,69 @@ span {
 .swiper-button-prev::after {
     content: none;
 }
+/* --- */
+
+/* +++ */
+.founder-experience {
+    width: 100%;
+    height: 100vh; /* Full height */
+    background-image: url('../img/banners/founder-experience.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.founder-experience .gt-about-section-3 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.founder-experience .gt-about-section-3 .gt-about-content .gt-section-title h6 {
+    font-weight: 600;
+}
+
+.founder-experience .gt-about-section-3 .gt-about-content p {
+    color: var(--gt-white);
+}
+
+.founder-experience .gt-about-section-3 .gt-about-content .gt-about-list li {
+    color: var(--gt-white);
+}
+/* +++ */
+
+/* --- */
+.gt-room-section .gt-section-title h6 {
+    font-weight: 600;
+}
+
+.gt-room-section .gt-room-box-items .gt-thumb .gt-post-box {
+   top: 10px;
+   right: 10px;
+}
+
+.gt-room-section .gt-room-box-items .gt-content h3 {
+    /*font-weight: 600;*/
+}
+
+.gt-room-section .gt-room-box-items .gt-content .gt-about-text {
+    /*font-size: 15px;*/
+    line-height: 1.3;
+}
+
+.gt-room-section .gt-room-box-items .gt-content .gt-post-cat {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.gt-room-section .gt-room-box-items .gt-content .gt-about-list {
+    font-size: 15px;
+}
+
+.gt-room-section .gt-room-box-items .gt-content .gt-about-list li i {
+    margin-right: 5px;
+}
+/* --- */
+
 
 
 @media (max-width: 920px) {
@@ -7684,5 +7755,45 @@ span {
 
     /* - */
 
+    .founder-experience {
+        background-image: url('../img/banners/founder-experience-mobile.jpg');
+    }
 
+    .founder-experience .gt-about-section-3 {
+        align-items: flex-end;
+        padding: 0 0 25px 10px;
+    }
+
+    .founder-experience .gt-about-section-3 .gt-about-content .gt-section-title h6 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .founder-experience .gt-about-section-3 .gt-about-content .gt-section-title h2 {
+        font-size: 25px;
+    }
+
+    .founder-experience .gt-about-section-3 .gt-about-content p {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .founder-experience .gt-about-section-3 .gt-about-content .gt-about-list {
+        margin-top: 5px;
+    }
+
+    .founder-experience .gt-about-section-3 .gt-about-content .gt-about-list li:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .founder-experience .gt-about-section-3 .gt-about-content .gt-about-list li {
+        font-size: 13px;
+    }
+
+    /* - */
+
+    .gt-room-section .gt-room-box-items .gt-content .gt-about-text {
+        /*font-size:*/
+    }
 }
