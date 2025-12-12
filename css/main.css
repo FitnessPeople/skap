@@ -4480,7 +4480,7 @@ span {
 }
 .gt-hero-section {
     background-image: url('../img/banners/banner-inicio.jpg'); 
-    height: 100dvh;
+    height: 100vh;
 }
 .gt-hero-section .container-fluid {
   height: 100%;
@@ -7471,7 +7471,7 @@ span {
 .myFullSlider,
 .myFullSlider .swiper-slide {
     width: 100%;
-    height: 100dvh; /* Full height */
+    height: 100vh; /* Full height */
 }
 .swiper-slide {
     background-size: cover;
@@ -7571,7 +7571,7 @@ span {
 /* +++ */
 .founder-experience {
     width: 100%;
-    height: 100dvh; /* Full height */
+    height: 100vh; /* Full height */
     background-image: url('../img/banners/founder-experience.jpg');
     background-size: cover;
     background-position: center;
