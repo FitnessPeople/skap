@@ -100,7 +100,7 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">skaptrainingclub@gmail.com</span></a>
+                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">skaptrainingclub</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -756,13 +756,13 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/home-1/room/room-01.jpg" alt="img" />
-                                <img src="img/home-1/room/room-01.jpg" alt="img" />
-                                <span class="gt-post-box">
+                                <img src="img/planes/01_plan.jpg" alt="img" />
+                                <%--<img src="img/planes/01_plan.jpg" alt="img" />--%>
+                                <%--<span class="gt-post-box">
                                     $390.000 / ANTES
                                     <br />
                                     $290.000 / AHORA
-                                </span>
+                                </span>--%>
                             </div>
 
                             <div class="gt-content">
@@ -807,13 +807,12 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/home-1/room/room-01.jpg" alt="img" />
-                                <img src="img/home-1/room/room-01.jpg" alt="img" />
-                                <span class="gt-post-box">
+                                <img src="img/planes/02_plan.jpg" alt="img" />
+                                <%--<span class="gt-post-box">
                                     $445.000 / ANTES
                                     <br />
                                     $345.000 / AHORA
-                                </span>
+                                </span>--%>
                             </div>
 
                             <div class="gt-content">
@@ -862,13 +861,12 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/home-1/room/room-01.jpg" alt="img" />
-                                <img src="img/home-1/room/room-01.jpg" alt="img" />
-                                <span class="gt-post-box">
+                                <img src="img/planes/03_plan.jpg" alt="img" />
+                                <%--<span class="gt-post-box">
                                     $490.000 / ANTES
                                     <br />
                                     $390.000 / AHORA
-                                </span>
+                                </span>--%>
                             </div>
 
                             <div class="gt-content">
