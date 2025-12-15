@@ -114,9 +114,9 @@
                         </ul>
                         <div class="social-icon d-flex align-items-center">
                             <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <%--<a href="#"><i class="fab fa-facebook-f"></i></a>--%>
                             <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <%--<a href="#"><i class="fab fa-tiktok"></i></a>--%>
                         </div>
                     </div>
                 </div>
@@ -264,19 +264,55 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/escena-1.jpg" alt="img" />
+                                        <img src="img/escenas/01-escena.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <%--<div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/escena-2.jpg" alt="img" />
-                                        <span class="offer-text">From $269 / NIGHT</span>
+                                        <img src="img/escenas/02-escena.jpg" alt="img" />
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
-                                </div>--%>
+                                </div>
                                  <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/escena-3.jpg" alt="img" />
+                                        <img src="img/escenas/03-escena.jpg" alt="img" />
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/escenas/04-escena.jpg" alt="img" />
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/escenas/05-escena.jpg" alt="img" />
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/escenas/06-escena.jpg" alt="img" />
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/escenas/07-escena.jpg" alt="img" />
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/escenas/08-escena.jpg" alt="img" />
+                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
+                                    </div>
+                                </div>
+                                 <div class="swiper-slide">
+                                    <div class="service-image">
+                                        <img src="img/escenas/09-escena.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
@@ -666,8 +702,8 @@
         <div class="gt-video-wrapper">
             <div class="gt-video-responsive wow fadeInUp" data-wow-delay=".3s">
                 <iframe  
-                    src="https://www.youtube.com/embed/ehVhALWRin4?si=AvPstpeAD8sZuLbi" 
-                    title="YouTube video player" 
+                    src="https://www.youtube.com/embed/hM8wkAG2KQ8?si=d3zwN9SgjXVRZMsV" 
+                    title="Skap" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy="strict-origin-when-cross-origin" 
@@ -752,17 +788,16 @@
                       Rooms & Suttes
                     </h2>--%>
                 </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="row justify-content-center">
+                    <%--<div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/planes/01_plan.jpg" alt="img" />
-                                <%--<img src="img/planes/01_plan.jpg" alt="img" />--%>
-                                <%--<span class="gt-post-box">
+                                <span class="gt-post-box">
                                     $390.000 / ANTES
                                     <br />
                                     $290.000 / AHORA
-                                </span>--%>
+                                </span>
                             </div>
 
                             <div class="gt-content">
@@ -802,17 +837,17 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--%>
 
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-6 col-lg-6 col-md-6 planes">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/planes/02_plan.jpg" alt="img" />
-                                <%--<span class="gt-post-box">
+                                <img src="img/planes/01_plan-focus.jpg" alt="img" />
+                                <span class="gt-post-box">
                                     $445.000 / ANTES
                                     <br />
                                     $345.000 / AHORA
-                                </span>--%>
+                                </span>
                             </div>
 
                             <div class="gt-content">
@@ -824,7 +859,7 @@
 
                                 <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
 
-                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
                                         Acceso completo al gimnasio.
@@ -845,6 +880,25 @@
                                         <i class="fa-solid fa-circle-check"></i>
                                         Sin permanencia.
                                     </li>
+                                </ul>--%>
+
+                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Acceso completo al gimnasio.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Clases semi personalizadas de FORM y HIROX.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Cita inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Permanencia mínima de 12 meses.
+                                    </li>
                                 </ul>
             
                                 <div class="gt-hero-1">
@@ -858,15 +912,15 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-6 col-lg-6 col-md-6 planes">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/planes/03_plan.jpg" alt="img" />
-                                <%--<span class="gt-post-box">
+                                <img src="img/planes/02_plan-supreme.jpg" alt="img" />
+                                <span class="gt-post-box">
                                     $490.000 / ANTES
                                     <br />
                                     $390.000 / AHORA
-                                </span>--%>
+                                </span>
                             </div>
 
                             <div class="gt-content">
@@ -1133,9 +1187,9 @@
                         <div class="gt-hero-content">
                             <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                                 <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank" class="gt-theme-btn style-3"><i class="fa-brands fa-instagram"></i> Instagram</a>
-                                <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                                <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-facebook"></i> Facebook</a>--%>
                                 <a href="#" class="gt-theme-btn style-3"><i class="fa-solid fa-envelope"></i> Gmail</a>
-                                <a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>
+                                <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>--%>
                             </div>
                         </div>
                     </div>
@@ -1178,12 +1232,6 @@
     <!--<< Main.js >>-->
     <script src="js/main.js"></script>
 
-
-    <style>
-
-        
-
-    </style>
 
     <script>
 

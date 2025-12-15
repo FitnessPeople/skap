@@ -6726,7 +6726,7 @@ span {
   writing-mode: vertical-rl;
   transform: rotate(180deg) translateY(-50%);
   position: absolute;
-  top: 27%;
+  top: 30%;
   right: 0;
   z-index: 99;
 }
@@ -7597,6 +7597,10 @@ span {
 /* +++ */
 
 /* --- */
+.gt-room-section .planes {
+    max-width: 500px;
+}
+
 .gt-room-section .gt-section-title h6 {
     font-weight: 600;
 }
@@ -7702,6 +7706,10 @@ span {
         display: flex;
     }
 
+    .gt-service-wrapper-3 .array-button-2 {
+        top: 21%;
+    }
+
     /* - */
 
     .swiper-slide .gt-about-section-3 {
@@ -7732,7 +7740,7 @@ span {
     .slide-1 { background-image: url('../img/banners-clases/01_skap-hit-mobile.jpg'); }
     .slide-2 { background-image: url('../img/banners-clases/02_skap-form-mobile.jpg'); }
     .slide-3 { background-image: url('../img/banners-clases/03_skap-level-mobile.jpg'); }
-    .slide-4 { background-image: url('../img/banners-clases/04_skap-control-mobile.jpg'); }
+    .slide-4 { background-image: url('../img/banners-clases/04_skap-control-mobile_15-12-2025.jpg'); }
     .slide-5 { background-image: url('../img/banners-clases/05_skap-recovery-mobile.jpg'); }
 
     .swiper-button-next,
@@ -7793,7 +7801,7 @@ span {
 
     /* - */
 
-
+    /* PLANES */
     
     /* - */
 
