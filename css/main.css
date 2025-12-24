@@ -1635,9 +1635,16 @@ span {
   padding: 5px 14px;
   color: var(--gt-white);
   position: absolute;
-  top: 24px;
-  right: 24px;
+  /*top: 24px;*/
+  /*right: 24px;*/
+  /*top: 235px;
+  left: 200px;*/
+  bottom: 5px;
+  right: 5px;
   z-index: 9;
+}
+.fs-13 {
+  font-size: 13px;
 }
 .gt-room-wrapper .gt-room-box-items .gt-content {
   padding: 24px;
@@ -7598,7 +7605,8 @@ span {
 
 /* --- */
 .gt-room-section .planes {
-    max-width: 500px;
+    /* VISUALIZAR SOLO 2 PLANES */
+    /*max-width: 500px;*/
 }
 
 .gt-room-section .gt-section-title h6 {
@@ -7606,8 +7614,8 @@ span {
 }
 
 .gt-room-section .gt-room-box-items .gt-thumb .gt-post-box {
-   top: 10px;
-   right: 10px;
+   /*top: 10px;*/
+   /*right: 10px;*/
 }
 
 .gt-room-section .gt-room-box-items .gt-content h3 {
@@ -7759,7 +7767,14 @@ span {
 
     /* - */
 
-    /* VIDEO */
+    .gt-booking-reserve-section .gt-section-title h3 {
+        font-size: 25px;
+    }
+
+    .gt-booking-reserve-section p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
 
     /* - */
 

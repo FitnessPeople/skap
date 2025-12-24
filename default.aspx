@@ -100,7 +100,7 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">skaptrainingclub</span></a>
+                                    <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><span class="mailto:comunicaciones@skaptrainingclub.com">skaptrainingclub.com</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -108,14 +108,14 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">300 548 6895</a>
+                                    <a href="https://api.whatsapp.com/send/?phone=573102186485" target="_blank">310 218 6485</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="social-icon d-flex align-items-center">
                             <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank"><i class="fab fa-instagram"></i></a>
                             <%--<a href="#"><i class="fab fa-facebook-f"></i></a>--%>
-                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
                             <%--<a href="#"><i class="fab fa-tiktok"></i></a>--%>
                         </div>
                     </div>
@@ -145,11 +145,11 @@
                                 <div class="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li><a href="default.aspx">Incio</a></li>
-                                            <li><a href="default.aspx">Servicios</a></li>
-                                            <li><a href="default.aspx">Planes</a></li>
-                                            <li><a href="default.aspx">Contacto</a></li>
-                                            <li><a href="default.aspx">Otros</a></li>
+                                            <li><a href="default.aspx">Inicio</a></li>
+                                            <li><a href="#servicios">Servicios</a></li>
+                                            <li><a href="#conocenos">Conocenos</a></li>
+                                            <li><a href="#planes">Planes</a></li>
+                                            <li><a href="#footer">Contacto</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -197,7 +197,7 @@
                     </p>
                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>--%>
-                        <a href="default.aspx" class="gt-theme-btn">Conocer SKAP</a>
+                        <a href="#conocenos" class="gt-theme-btn">Conocer SKAP</a>
                     </div>
                 </div>
             </div>
@@ -369,7 +369,7 @@
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="#planes" class="gt-theme-btn">Inscribirse</a>
                                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>--%>
                                     </div>
                                 </div>
@@ -384,10 +384,9 @@
 
     <!-- Slider main container -->
     <!-- Slider -->
-    <section class="swiper myFullSlider">
+    <section id="servicios" class="swiper myFullSlider">
         <div class="swiper-wrapper">
             <div class="swiper-slide slide-1">
-
                 <section class="gt-about-section-3 section-padding fix">
                     <div class="container">
                         <div class="gt-about-wrapper-3">
@@ -415,8 +414,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -426,11 +425,9 @@
                         </div>
                     </div>
                 </section>
-
             </div>
 
             <div class="swiper-slide slide-2">
-
                 <section class="gt-about-section-3 section-padding fix">
                     <div class="container">
                         <div class="gt-about-wrapper-3">
@@ -458,8 +455,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -469,11 +466,9 @@
                         </div>
                     </div>
                 </section>
-
             </div>
 
             <div class="swiper-slide slide-3">
-
                 <section class="gt-about-section-3 section-padding fix">
                     <div class="container">
                         <div class="gt-about-wrapper-3">
@@ -501,8 +496,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -512,11 +507,9 @@
                         </div>
                     </div>
                 </section>
-
             </div>
 
             <div class="swiper-slide slide-4">
-
                 <section class="gt-about-section-3 section-padding fix">
                     <div class="container">
                         <div class="gt-about-wrapper-3">
@@ -548,8 +541,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -559,11 +552,9 @@
                         </div>
                     </div>
                 </section>
-
             </div>
 
             <div class="swiper-slide slide-5">
-
                 <section class="gt-about-section-3 section-padding fix">
                     <div class="container">
                         <div class="gt-about-wrapper-3">
@@ -591,8 +582,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>
+                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#planes" class="gt-theme-btn style-2">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -602,7 +593,6 @@
                         </div>
                     </div>
                 </section>
-
             </div>
         </div>
 
@@ -691,12 +681,12 @@
 
 
     <!-- GT Video Section Start -->
-    <section class="gt-booking-reserve-section fix">
+    <section id="conocenos" class="gt-booking-reserve-section fix">
         <div class="gt-section-title mb-0">
             <h3 class="wow fadeInUp" data-wow-delay=".2s">
-                <img src="img/arrow-left.svg" alt="img"/>
-                Welcome to Our Hotel & Resort Under the Arlux
-                <img src="img/arrow-right.svg" alt="img"/>
+                <%--<img src="img/arrow-left.svg" alt="img"/>--%>
+                Así se vive el rendimiento de alto nivel.
+                <%--<img src="img/arrow-right.svg" alt="img"/>--%>
             </h3>
         </div>
         <div class="gt-video-wrapper">
@@ -711,8 +701,11 @@
                 </iframe>
             </div>
         </div>
-        <p class="service-text wow fadeInUp" data-wow-delay=".4s">
-            At our hotel, luxury is more than just a word — it's a tradition. From exquisite design to personalized service, every detail is thoughtfully 
+        <p class="service-text wow fadeInUp pb-0" data-wow-delay=".4s">
+            Cada espacio, cada línea, cada equipo fue pensado para con precisión y elegancia.
+        </p>
+        <p class="service-text wow fadeInUp fw-semibold pt-0" data-wow-delay=".4s">
+            SKAP no es un lugar más. Es un club exclusivo.
         </p>
     </section>
 
@@ -761,8 +754,8 @@
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
-                                        <a href="default.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                        <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
                                     </div>
                                 </div>
                             </div>
@@ -775,7 +768,7 @@
     
 
     <!-- GT Plans Section Start -->
-    <section class="gt-room-section fix section-padding section-bg">
+    <section id="planes" class="gt-room-section fix section-padding section-bg">
         <div class="gt-room-wrapper">
             <div class="container">
                  <div class="gt-section-title text-center">
@@ -789,22 +782,21 @@
                     </h2>--%>
                 </div>
                 <div class="row justify-content-center">
-                    <%--<div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/planes/01_plan.jpg" alt="img" />
-                                <span class="gt-post-box">
-                                    $390.000 / ANTES
-                                    <br />
-                                    $290.000 / AHORA
-                                </span>
+                                <img src="img/planes/01_plan_23-12-2025.jpg" alt="img" />
+                                <div class="gt-post-box text-center">
+                                    <p class="fs-13">$349.000 | REFERENCIA</p>
+                                    <p class="fw-semibold">$249.000 | AHORA</p>
+                                </div>
                             </div>
 
                             <div class="gt-content">
                                 <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>BASELINE</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                    Para quienes entrenan con disciplina y compromiso.
+                                    Para quienes forjan su disciplina desde el primer día.
                                 </p>
 
                                 <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
@@ -812,15 +804,23 @@
                                 <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso completo al gimnasio.
+                                        Acceso al SKAP club (sede de tu elección).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Clases semi personalizadas de FORM y HIROX.
+                                        Sesiones guiadas de FORM y HIROX (semi personalizadas).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Cita inicial con fisioterapeuta.
+                                        Valoración inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sistema de reservas para cupos limitados en cada sesión.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        App de seguimiento para registrar tu evolución.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -837,63 +837,55 @@
                                 </div>
                             </div>
                         </div>
-                    </div>--%>
+                    </div>
 
-                    <div class="col-xl-6 col-lg-6 col-md-6 planes">
+                    <div class="col-xl-4 col-lg-6 col-md-6 planes">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/planes/01_plan-focus.jpg" alt="img" />
-                                <span class="gt-post-box">
-                                    $445.000 / ANTES
-                                    <br />
-                                    $345.000 / AHORA
-                                </span>
+                                <div class="gt-post-box text-center">
+                                    <p class="fs-13">$445.000 | REFERENCIA</p>
+                                    <p class="fw-semibold">$345.000 | AHORA</p>
+                                </div>
                             </div>
 
                             <div class="gt-content">
                                 <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>FOCUS</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                    Diseñado para quienes buscan resultados reales con acompañamiento profesional.
+                                    Para quienes entrenan con enfoque y acompañamiento integral.
                                 </p>
 
                                 <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
 
-                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Acceso completo al gimnasio.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Clases semi personalizadas de FORM y HIROX.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Cita inicial con fisioterapeuta.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Cita nutricional personalizada.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sin permanencia.
-                                    </li>
-                                </ul>--%>
-
                                 <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso completo al gimnasio.
+                                        Acceso completo al SKAP club (todas las sedes).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Clases semi personalizadas de FORM y HIROX.
+                                        Sesiones guiadas de FORM y HIROX (semi personalizadas).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Cita inicial con fisioterapeuta.
+                                        4 sesiones de Pilates.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Cita con nutricionista.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Valoración inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sistema de reservas para cupos limitados en cada sesión.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        App de seguimiento para registrar tu evolución.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -912,15 +904,14 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-6 col-lg-6 col-md-6 planes">
+                    <div class="col-xl-4 col-lg-6 col-md-6 planes">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
                                 <img src="img/planes/02_plan-supreme.jpg" alt="img" />
-                                <span class="gt-post-box">
-                                    $490.000 / ANTES
-                                    <br />
-                                    $390.000 / AHORA
-                                </span>
+                                <div class="gt-post-box text-center">
+                                    <p class="fs-13">$590.000 | REFERENCIA</p>
+                                    <p class="fw-semibold">$490.000 | AHORA</p>
+                                </div>
                             </div>
 
                             <div class="gt-content">
@@ -935,19 +926,27 @@
                                 <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso completo al gimnasio.
+                                        Acceso completo al SKAP club (todas las sedes).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Clases semi personalizadas de FORM y HIROX.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Cita inicial con fisioterapeuta.
+                                        Sesiones guiadas de FORM y HIROX (semi personalizadas).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
                                         3 sesiones de recovery (masaje, crioterapia y técnicas de restauración).
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Valoración inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sistema de reservas para cupos limitados en cada sesión.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        App de seguimiento para registrar tu progreso y optimizar resultados.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1133,7 +1132,7 @@
 
 
     <!-- GT Footer Section Start -->
-    <footer class="gt-footer-section fix bg-cover">
+    <footer id="footer" class="gt-footer-section fix bg-cover">
         <div class="container">
             <div class="gt-footer-widget-wrapper">
                 <div class="row">
@@ -1146,9 +1145,9 @@
                             </div>
                             <div class="gt-footer-content">
                                 <div class="gt-social-icon d-flex flex-column">
-                                    <a href="default.aspx"><i class="far fa-phone"></i> 300 548 6895</a>
+                                    <a href="https://api.whatsapp.com/send/?phone=573102186485" target="_blank"><i class="far fa-phone"></i> 310 218 6485</a>
                                     <a href="default.aspx"><i class="fal fa-map-marker-alt"></i> Cra 29A #45-25, Sotomayor, Bucaramanga, Santander</a>
-                                    <a href="default.aspx"><i class="fal fa-envelope"></i> skaptrainingclub@gmail.com</a>
+                                    <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><i class="fal fa-envelope"></i> skaptrainingclub.com</a>
                                 </div>
                             </div>
                         </div>
@@ -1156,21 +1155,11 @@
                     <div class="gt-footer-main-2 col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".8s">
                         <div class="gt-footer-widget-items">
                             <ul class="gt-contact-list">
-                                <li>
-                                    <a href="mailto:info@example.com">Inicio</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Planes</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Servicios</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Contacto</a>
-                                </li>
-                                <li>
-                                    <a href="mailto:info@example.com">Otros</a>
-                                </li>
+                                <li><a href="default.aspx">Inicio</a></li>
+                                <li><a href="#servicios">Servicios</a></li>
+                                <li><a href="#conocenos">Conocenos</a></li>
+                                <li><a href="#planes">Planes</a></li>
+                                <li><a href="#footer">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1179,16 +1168,16 @@
         </div>
         <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
             <div class="container">
-                <div class="footer-wrapper gt-about-content d-flex align-items-center justify-content-between align-items-end">
-                    <p>
+                <div class="footer-wrapper gt-about-content d-flex justify-content-normal">
+                    <%--<p>
                         <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
-                    </p>
+                    </p>--%>
                     <div class="gt-hero-1">
                         <div class="gt-hero-content">
                             <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                                 <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank" class="gt-theme-btn style-3"><i class="fa-brands fa-instagram"></i> Instagram</a>
                                 <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-facebook"></i> Facebook</a>--%>
-                                <a href="#" class="gt-theme-btn style-3"><i class="fa-solid fa-envelope"></i> Gmail</a>
+                                <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank" class="gt-theme-btn style-3"><i class="fa-solid fa-envelope"></i> Gmail</a>
                                 <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>--%>
                             </div>
                         </div>
