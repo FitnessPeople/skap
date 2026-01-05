@@ -793,7 +793,7 @@
                             </div>
 
                             <div class="gt-content">
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>BASELINE</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ONE</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes forjan su disciplina desde el primer día.
@@ -831,7 +831,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2441" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -850,7 +850,7 @@
                             </div>
 
                             <div class="gt-content">
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>FOCUS</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ALL</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes entrenan con enfoque y acompañamiento integral.
@@ -896,7 +896,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2440" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -915,7 +915,7 @@
                             </div>
 
                             <div class="gt-content">
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SUPREME</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP SUPREME</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     La experiencia SKAP en su nivel más alto.
@@ -957,7 +957,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="default.aspx" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2438" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
