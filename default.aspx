@@ -80,9 +80,9 @@
                             </button>
                         </div>
                     </div>
-                    <p class="text d-none d-xl-block">
+                    <%--<p class="text d-none d-xl-block">
                         Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                    </p>
+                    </p>--%>
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
                         <h4>Información de Contacto</h4>
@@ -831,7 +831,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2441" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2442" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -957,7 +957,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2438" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2441" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
