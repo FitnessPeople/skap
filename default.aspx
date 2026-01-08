@@ -395,7 +395,7 @@
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                                 SKAP HIROX
+                                                 SKAP HYROX
                                             </h2>
                                         </div>
                                         <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
@@ -808,7 +808,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas de FORM y HIROX (semi personalizadas).
+                                        Sesiones guiadas de FORM y HYROX (semi personalizadas).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -865,7 +865,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas de FORM y HIROX (semi personalizadas).
+                                        Sesiones guiadas de FORM y HYROX (semi personalizadas).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -930,7 +930,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas de FORM y HIROX (semi personalizadas).
+                                        Sesiones guiadas de FORM y HYROX (semi personalizadas).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1196,6 +1196,24 @@
         </div>
     </footer>
 
+    <div class="modal fade" id="modalPromoScroll" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content" style="background: transparent; border: none;">
+                <button type="button"
+                        class="btn-close position-absolute end-0 me-2 mt-2 bg-white"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                        tabindex="-1"
+                        style="z-index: 10;"></button>
+
+                <img src="img/modals/modal-01.jpg"
+                     class="img-fluid rounded"
+                     alt="Promoción" 
+                     />
+            </div>
+        </div>
+    </div>
+
     <!--<< All JS Plugins >>-->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!--<< Viewport Js >>-->
@@ -1221,6 +1239,49 @@
     <!--<< Main.js >>-->
     <script src="js/main.js"></script>
 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const modalEl = document.getElementById('modalPromoScroll');
+            if (!modalEl) return;
+
+            const modalPromo = new bootstrap.Modal(modalEl, {
+                backdrop: true,
+                focus: false
+            });
+
+            let shown = false;
+
+            function showModal() {
+                if (shown) return;
+                shown = true;
+
+                setTimeout(() => {
+                    modalPromo.show();
+                }, 150); // 💥 clave para mobile
+            }
+
+            /* CLICK MENU (desktop + mobile) */
+            document.body.addEventListener('click', function (e) {
+                const link = e.target.closest('a[href="#planes"]');
+                if (link) showModal();
+            });
+
+            /* SCROLL */
+            const planes = document.getElementById('planes');
+            if (planes && 'IntersectionObserver' in window) {
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) showModal();
+                    });
+                }, { threshold: 0.3 });
+
+                observer.observe(planes);
+            }
+
+        });
+    </script>
 
     <script>
 
