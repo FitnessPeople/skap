@@ -6519,7 +6519,7 @@ span {
   }
 }
 .gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb {
-  max-width: 348px;
+  /*max-width: 348px;*/
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -6527,7 +6527,7 @@ span {
 @media (max-width: 1399px) {
   .gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb {
     max-width: 800px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
   }
 }
 .gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb img {
@@ -6540,7 +6540,7 @@ span {
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-.gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb img:first-child {
+/*.gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb img:first-child {
   position: absolute;
   left: 0;
   top: 0;
@@ -6552,7 +6552,7 @@ span {
   opacity: 0;
   -webkit-filter: blur(10px);
   filter: blur(10px);
-}
+}*/
 .gt-special-offer-wrapper .gt-special-offer-box-items .gt-content span {
   font-size: 16px;
   color: var(--gt-theme);
@@ -7641,7 +7641,15 @@ span {
 }
 /* --- */
 
-
+/*   */
+.banner-plan {
+    height: 420px;
+    position: relative;
+    display: table;
+    width: 100%;
+    background-image: url('../img/banners-clases/01_skap-hit_10-12-2025.jpg');
+}
+/*   */
 
 @media (max-width: 920px) {
     .gt-theme-btn {

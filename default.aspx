@@ -1,4 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Skap._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Skap._default" Debug="true"%>
+
+<%@ Register Src="~/Controls/MainMenu.ascx" TagPrefix="uc" TagName="MainMenu" %>
 
 <!DOCTYPE html>
 
@@ -10,6 +12,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="author" content="Gramentheme"/>
     <meta name="description" content="Skap Training Club"/>
+    <!-- ========== End Meta Tags ========== -->
+
+    <!-- ========== Microsoft Clarity ========== -->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "v3xsfkjb0n");
+    </script>
+    <!-- ========== End Microsoft Clarity ========== -->
+
     <!-- ======== Page title ============ -->
     <title>Skap</title>
     <!--<< Favcion >>-->
@@ -37,150 +51,7 @@
 </head>
 <body>
 
-    <!-- Preloader Start -->
-    <div id="preloader" class="preloader">
-        <div class="animation-preloader">
-            <div class="spinner">                
-            </div>
-            <a href="default.aspx" class="header-logo-2">
-                <img src="img/logo/black-logo.png" alt="logo-img" height="50" />
-            </a>
-            <p class="text-center mt-3">Loading</p>
-        </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-12 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- GT Back To Top Start -->
-    <button id="gt-back-top" class="gt-back-to-top show">
-        <i class="fa-solid fa-chevrons-up"></i>
-    </button>
-
-
-    <!-- Offcanvas Area Start -->
-    <div class="fix-area">
-        <div class="offcanvas__info">
-            <div class="offcanvas__wrapper">
-                <div class="offcanvas__content">
-                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                        <div class="offcanvas__logo">
-                            <a href="default.aspx">
-                                <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
-                            </a>
-                        </div>
-                        <div class="offcanvas__close">
-                            <button>
-                            <i class="fas fa-times"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <%--<p class="text d-none d-xl-block">
-                        Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                    </p>--%>
-                    <div class="mobile-menu fix mb-3"></div>
-                    <div class="offcanvas__contact">
-                        <h4>Información de Contacto</h4>
-                        <ul>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon">
-                                    <i class="fal fa-map-marker-alt"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Cra 29A #45-25, Sotomayor, Bucaramanga, Santander</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><span class="mailto:comunicaciones@skaptrainingclub.com">skaptrainingclub.com</span></a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="far fa-phone"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="https://api.whatsapp.com/send/?phone=573102186485" target="_blank">310 218 6485</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <%--<a href="#"><i class="fab fa-facebook-f"></i></a>--%>
-                            <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                            <%--<a href="#"><i class="fab fa-tiktok"></i></a>--%>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas__overlay"></div>
-
-
-    <!-- Header Section Start -->
-    <header class="header-section">
-        <div id="header-sticky" class="header-1">
-            <div class="container-fluid">
-                <div class="mega-menu-wrapper">
-                    <div class="header-main">
-                        <div class="logo d-xl-none">
-                            <a href="default.aspx" class="header-logo">
-                                <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
-                            </a>
-                            <a href="default.aspx" class="header-logo-2">
-                                <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
-                            </a>
-                        </div>
-                        <div class="header-left">
-                            <div class="mean__menu-wrapper">
-                                <div class="main-menu">
-                                    <nav id="mobile-menu">
-                                        <ul>
-                                            <li><a href="default.aspx">Inicio</a></li>
-                                            <li><a href="#servicios">Servicios</a></li>
-                                            <li><a href="#conocenos">Conocenos</a></li>
-                                            <li><a href="#planes">Planes</a></li>
-                                            <li><a href="#footer">Contacto</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="logo d-none d-xl-block">
-                                <a href="default.aspx" class="header-logo">
-                                    <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
-                                </a>
-                                <a href="default.aspx" class="header-logo-2">
-                                    <img src="img/logo/black-logo.png" alt="logo-img" height="25" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="header-right d-flex justify-content-end align-items-center">
-                            <%--<div class="hero-button">
-                                <a href="contact.html" class="gt-theme-btn">INICIAR SESIÓN</a>
-                            </div>--%>
-                            <div class="header__hamburger my-auto">
-                                <div class="sidebar__toggle">
-                                    <div class="header-bar">
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <uc:mainmenu runat="server" ID="MainMenu" />
 
 
     <!-- GT Main Section Start -->
@@ -563,7 +434,7 @@
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                                 SKAP RESET
+                                                 SKAP RECOVERY
                                             </h2>
                                         </div>
                                         <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
@@ -831,7 +702,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2442" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2442" class="gt-theme-btn">Saber Más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -918,7 +789,7 @@
                                 <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP SUPREME</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                    La experiencia SKAP en su nivel más alto.
+                                    Para quienes llevan la experiencia SKAP a su máximo nivel.
                                 </p>
 
                                 <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
@@ -934,7 +805,11 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        3 sesiones de recovery (masaje, crioterapia y técnicas de restauración).
+                                        4 sesiones de Pilates.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        3 sesiones de recovery (1 de masaje, 1 de crioterapia y 1 de técnicas de restauración).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>

@@ -7,20 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Skap
+namespace Skap.Controls
 {
 
 
-    public partial class _default
+    public partial class MainMenu
     {
-
-        /// <summary>
-        /// Control MainMenu.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::Skap.Controls.MainMenu MainMenu;
     }
 }
