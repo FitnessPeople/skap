@@ -6381,7 +6381,7 @@ span {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 100px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
@@ -7506,11 +7506,19 @@ span {
     color: var(--gt-tertiary);
     text-shadow: 1px 1px 4px var(--gt-white);
 }
-.swiper-slide .gt-about-section-3 .gt-about-content p {
+/**/
+.swiper-slide .gt-about-section-3 .gt-about-content .gt-about-title {
     margin-top: 10px;
     font-size: 25px;
     color: var(--gt-white);
     text-shadow: 2px 2px 4px var(--gt-black);
+}
+.swiper-slide .gt-about-section-3 .gt-about-content .gt-about-description {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--gt-white);
+    text-shadow: 1px 1px 2px var(--gt-black);
 }
 .swiper-slide .gt-about-section-3 .gt-about-content .gt-about-list li {
     font-size: 20px;
@@ -7693,6 +7701,10 @@ span {
         padding: 30px 5px;
     }
 
+    .gt-service-section .gt-section-title .service-text {
+        line-height: 1.2;
+    }
+
     .gt-service-section .row-espacios .service-box-items h4 {
         font-size: 13px;
         font-weight: 300;
@@ -7830,5 +7842,17 @@ span {
 
     .gt-footer-section .footer-bottom-2 .footer-wrapper .footer-note {
         font-size: 13px;
+    }
+
+    /* + */
+
+    .modal .modal-dialog {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .modal img {
+        width: 100%;
+        height: auto;
     }
 }

@@ -61,10 +61,12 @@
                 <div class="gt-hero-content">
                     <span class="wow fadeInUp" data-wow-delay=".4s"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO SKAP</span>
                     <h1 class="wow fadeInUp" data-wow-delay=".4s">
-                        Un Club Exclusivo Donde el Entrenamiento Se Siente Diferente
+                        Entrenar no es moverse. 
+                        <br />
+                        Es avanzar con intención.
                     </h1>
                     <p class="wow fadeInUp" data-wow-delay=".4s">
-                        Un lugar donde el diseño, la calma y la guía experta se integran para ofrecerte una experiencia de entrenamiento impecable.
+                        En SKAP estructuramos cada sesión con criterio, técnica y enfoque, para que tu entrenamiento deje de ser rutina y se convierta en evolución real.
                     </p>
                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>--%>
@@ -79,15 +81,21 @@
     <!-- GT Spaces Section Start -->
     <section class="gt-service-section fix section-padding pb-4">
         <div class="container">
-            <div class="gt-section-title text-center">
+            <div class="gt-section-title text-center mb-0">
                 <h6 class="justify-content-center wow fadeInUp">
                     <img src="img/arrow-left.svg" alt="img" />
                         MÉTODO SKAP
                     <img src="img/arrow-right-2.svg" alt="img" />
                 </h6>
                 <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                    Una experiencia que trasciende el entrenamiento
+                    Progresar con lógica, no con improvisación.
                 </h2>
+                <p class="service-text wow fadeInUp mt-3" data-wow-delay=".4s">
+                    En SKAP, tu entrenamiento no se deja al azar. 
+                    Activar tu energía, elevar tu capacidad, avanzar con inteligencia y equilibrar tu cuerpo: 
+                    Esa es la base que guía todo lo que hacemos. 
+                    Cada clase, cada espacio, cada detalle existe para sostener tu progreso físico, mental y técnico. 
+                </p>
             </div>
             <div class="row row-espacios justify-content-center g-4">
                 <div class="col-6 col-md-4 col-lg-3 col-xl-auto wow fadeInUp espacio-item">
@@ -269,10 +277,14 @@
                                                  SKAP HYROX
                                             </h2>
                                         </div>
-                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Alta intensidad, máxima energía.
+                                        <p class="gt-about-text gt-about-title wow fadeInUp" data-wow-delay=".4s">
+                                            Fuerza, resistencia y estrategia.
                                         </p>
-                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                        <p class="gt-about-text gt-about-description wow fadeInUp" data-wow-delay=".4s">
+                                            Entrenamiento de alto rendimiento que combina fuerza funcional y cardio bajo un enfoque técnico y exigente. 
+                                            Diseñado para activar todo tu cuerpo, mejorar tu capacidad y retarte con criterio. 
+                                        </p>
+                                        <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Cardio, fuerza y potencia.
@@ -281,7 +293,7 @@
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Sesiones dinámicas y controladas.
                                             </li>
-                                        </ul>
+                                        </ul>--%>
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -307,13 +319,34 @@
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                                 SKAP FORM
+                                                 SKAP ESTUDIO
                                             </h2>
                                         </div>
-                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Define tu silueta con intención.
+                                        <p class="gt-about-text gt-about-title wow fadeInUp" data-wow-delay=".4s">
+                                            Cuerpo completo. Atención real.
                                         </p>
-                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                        <p class="gt-about-text gt-about-description wow fadeInUp" data-wow-delay=".4s">
+                                            Clases semipersonalizadas con guía experta. 
+                                            Una metodología progresiva que te ayuda a construir fuerza, técnica y conciencia corporal sin improvisar.
+                                        </p>
+                                        <p class="gt-about-text gt-about-description wow fadeInUp mt-3" data-wow-delay=".4s">
+                                            Incluye clases:
+                                        </p>
+                                        <ul class="gt-about-list wow fadeInUp mt-2" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                SKAP FULL BODY → equilibrio total.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                SKAP LOWER → potencia del tren inferior.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                SKAP UPPER → postura y presencia.
+                                            </li>
+                                        </ul>
+                                        <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Glúteo, abdomen y piernas en una clase.
@@ -322,7 +355,7 @@
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Estética, eficiencia y guiada.
                                             </li>
-                                        </ul>
+                                        </ul>--%>
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -348,13 +381,34 @@
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                                 SKAP LEVEL
+                                                 SKAP STRENGTH
                                             </h2>
                                         </div>
-                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Construye fuerza. Sube de nivel.
+                                        <p class="gt-about-text gt-about-title wow fadeInUp" data-wow-delay=".4s">
+                                            Fuerza en equilibrio.
+                                        </p>
+                                        <p class="gt-about-text gt-about-description wow fadeInUp" data-wow-delay=".4s">
+                                            Aquí vive la construcción física.
                                         </p>
                                         <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Peso libre.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Mancuernas.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Hammer Strength.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                Poleas.
+                                            </li>
+                                        </ul>
+                                        <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Entrenamiento estructural con técnica.
@@ -363,7 +417,7 @@
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Carga y progresión real.
                                             </li>
-                                        </ul>
+                                        </ul>--%>
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -389,24 +443,28 @@
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                                 SKAP PILATES
+                                                 SKAP BALANCE
                                             </h2>
                                         </div>
-                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Estabilidad, fuerza y control.
+                                        <p class="gt-about-text gt-about-title wow fadeInUp" data-wow-delay=".4s">
+                                            Fuerza desde el control.
+                                        </p>
+                                        <p class="gt-about-text gt-about-description wow fadeInUp" data-wow-delay=".4s">
+                                            Entrenamientos precisos que fortalecen desde el centro. 
+                                            Respira, alinea, estiliza: cada movimiento tiene intención y corrección, en un espacio diseñado para el enfoque.
                                         </p>
                                         <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Movimiento preciso.
+                                                Pilates Reformer.
                                             </li>
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Respiración consciente.
+                                                Mat Pilates.
                                             </li>
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
-                                                Técnica elegante.
+                                                SKAP CALM.
                                             </li>
                                         </ul>
                                         <div class="gt-hero-1">
@@ -437,10 +495,14 @@
                                                  SKAP RECOVERY
                                             </h2>
                                         </div>
-                                        <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
-                                            Tu cuerpo también necesita volver al equilibrio.
+                                        <p class="gt-about-text gt-about-title wow fadeInUp" data-wow-delay=".4s">
+                                            Cuidarte también es parte del entrenamiento.
                                         </p>
-                                        <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                        <p class="gt-about-text gt-about-description my-3 wow fadeInUp" data-wow-delay=".4s">
+                                            Masajes terapéuticos, crioterapia (inmersión en hielo) y sauna infrarrojo. 
+                                            Recuperación pensada para sostener el progreso, no para detenerlo.
+                                        </p>
+                                        <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Espacios en calma.
@@ -449,7 +511,7 @@
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 Técnicas de recuperación post-entrenamiento.
                                             </li>
-                                        </ul>
+                                        </ul>--%>
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -656,7 +718,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/planes/01_plan_23-12-2025.jpg" alt="img" />
+                                <img src="img/planes/01_plan_22-01-2026.jpg" alt="img" />
                                 <div class="gt-post-box text-center">
                                     <p class="fs-13">$349.000 | REFERENCIA</p>
                                     <p class="fw-semibold">$249.000 | AHORA</p>
@@ -673,6 +735,29 @@
                                 <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
 
                                 <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sesiones semi personalizadas en SKAP STUDIO y SKAP HYROX.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sistema de reservas con cupos limitados por sesión.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        App de seguimiento para registrar y analizar tu evolución.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Valoración inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Permanencia mínima de 12 meses.
+                                    </li>
+                                </ul>
+
+                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
                                         Acceso al SKAP club (sede de tu elección).
@@ -697,7 +782,7 @@
                                         <i class="fa-solid fa-circle-check"></i>
                                         Permanencia mínima de 12 meses.
                                     </li>
-                                </ul>
+                                </ul>--%>
                                 
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
@@ -732,6 +817,41 @@
                                 <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
+                                        Sesiones semi personalizadas en SKAP STUDIO y SKAP HYROX.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        4 sesiones de Pilates.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Ingreso ilimitado a SKAP CYCLE.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Valoración inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        1 cita con nutricionista.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sistema de reservas con cupos limitados por sesión.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        App de seguimiento para registrar y analizar tu evolución.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sin permanencia.
+                                    </li>
+                                </ul>
+
+                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
                                         Acceso completo al SKAP club (todas las sedes).
                                     </li>
                                     <li>
@@ -762,7 +882,7 @@
                                         <i class="fa-solid fa-circle-check"></i>
                                         Permanencia mínima de 12 meses.
                                     </li>
-                                </ul>
+                                </ul>--%>
             
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
@@ -797,6 +917,56 @@
                                 <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
+                                        Acceso completo a sesiones semi personalizadas en SKAP STUDIO y SKAP HYROX.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        4 sesiones de Pilates.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Ingreso ilimitado a SKAP CYCLE.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Valoración inicial con fisioterapeuta.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        1 cita con nutricionista.
+                                    </li>
+                                     <li>
+                                         <i class="fa-solid fa-circle-check"></i>
+                                         3 sesiones de recovery.
+                                         <ul class="ps-5">
+                                            <li style="list-style-type: disc;">
+                                                1 masaje.
+                                            </li>
+                                            <li style="list-style-type: disc;">
+                                                1 crioterapia.
+                                            </li>
+                                            <li style="list-style-type: disc;">
+                                                1 sesión de técnicas de restauración.
+                                            </li>
+                                         </ul>
+                                     </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sistema de reservas con cupos limitados por sesión.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        App de seguimiento para registrar tu progreso y optimizar resultados.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Sin permanencia.
+                                    </li>
+                                </ul>
+
+                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
                                         Acceso completo al SKAP club (todas las sedes).
                                     </li>
                                     <li>
@@ -827,7 +997,7 @@
                                         <i class="fa-solid fa-circle-check"></i>
                                         Sin permanencia.
                                     </li>
-                                </ul>
+                                </ul>--%>
             
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
@@ -1071,20 +1241,19 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="modalPromoScroll" tabindex="-1">
+    <div class="modal fade" id="modalPromoScroll" tabindex="-1" style="z-index: 10000;">
         <div class="modal-dialog modal-dialog-centered modal-sm">
             <div class="modal-content" style="background: transparent; border: none;">
                 <button type="button"
                         class="btn-close position-absolute end-0 me-2 mt-2 bg-white"
                         data-bs-dismiss="modal"
                         aria-label="Close"
-                        tabindex="-1"
-                        style="z-index: 10;"></button>
+                        tabindex="-1">
+                </button>
 
                 <img src="img/modals/modal-01.jpg"
                      class="img-fluid rounded"
-                     alt="Promoción" 
-                     />
+                     alt="Promoción" />
             </div>
         </div>
     </div>
