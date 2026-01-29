@@ -14,6 +14,24 @@
     <meta name="description" content="Skap Training Club"/>
     <!-- ========== End Meta Tags ========== -->
 
+    <!-- ========== Facebook Pixel Code ========== -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '869056582689909');
+        fbq('track', 'PageView');
+    </script>
+    <!-- ========== End Facebook Pixel Code ========== -->
+
     <!-- ========== Microsoft Clarity ========== -->
     <script type="text/javascript">
         (function (c, l, a, r, i, t, y) {
@@ -25,7 +43,7 @@
     <!-- ========== End Microsoft Clarity ========== -->
 
     <!-- ======== Page title ============ -->
-    <title>Skap</title>
+    <title>Skap Training Club</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="img/favicon.png"/>
     <!--<< Bootstrap min.css >>-->
@@ -356,6 +374,41 @@
                                                 Estética, eficiencia y guiada.
                                             </li>
                                         </ul>--%>
+                                        <div class="gt-hero-1">
+                                            <div class="gt-hero-content pt-0" >
+                                                <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="swiper-slide slide-6">
+                <section class="gt-about-section-3 section-padding fix">
+                    <div class="container">
+                        <div class="gt-about-wrapper-3">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="gt-about-content">
+                                        <div class="gt-section-title mb-0">
+                                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                                                 SKAP CYCLE
+                                            </h2>
+                                        </div>
+                                        <p class="gt-about-text gt-about-title wow fadeInUp" data-wow-delay=".4s">
+                                            Ritmo, potencia y mente clara.
+                                        </p>
+                                        <p class="gt-about-text gt-about-description wow fadeInUp" data-wow-delay=".4s">
+                                            Sesiones que desafían tu resistencia física y mental. 
+                                            Música, respiración y energía en su punto justo para llevar tu capacidad cardiovascular al siguiente nivel.
+                                        </p>
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -787,7 +840,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2442" class="gt-theme-btn">Saber Más</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2442" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -821,7 +874,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        4 sesiones de Pilates.
+                                        Acceso completo a 4 sesiones de SKAP BALANCE.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -921,7 +974,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        4 sesiones de Pilates.
+                                        Acceso completo a 4 sesiones de SKAP BALANCE.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1348,5 +1401,8 @@
 
     </script>
 
+    <noscript>
+        <img height="1" width="1" class="d-none" src="https://www.facebook.com/tr?id=869056582689909&ev=PageView&noscript=1"/>
+    </noscript>
 </body>
 </html>

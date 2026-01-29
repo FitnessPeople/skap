@@ -4486,8 +4486,8 @@ span {
   }
 }
 .gt-hero-section {
-    background-image: url('../img/banners/banner-inicio.jpg'); 
-    height: 100dvh;
+  background-image: url('../img/banners/banner-inicio.jpg'); 
+  height: 100dvh;
 }
 .gt-hero-section .container-fluid {
   height: 100%;
@@ -7490,6 +7490,7 @@ span {
 .slide-3 { background-image: url('../img/banners-clases/03_skap-level_10-12-2025.jpg'); }
 .slide-4 { background-image: url('../img/banners-clases/04_skap-control_10-12-2025.jpg'); }
 .slide-5 { background-image: url('../img/banners-clases/05_skap-recovery_10-12-2025.jpg'); }
+.slide-6 { background-image: url('../img/banners-clases/06_skap-clycle_23-01-2026.jpg'); }
 /* Asignación de imágenes */
 .swiper-slide .gt-about-section-3 {
     padding: 0;
@@ -7659,6 +7660,32 @@ span {
 }
 /*   */
 
+/* - Elite Founder - */
+
+.gt-hero-section-2 {
+    background-image: url('../img/banners/banner-inicio_elite-founder.jpg');
+    height: 100dvh;
+}
+
+.gt-service-wrapper-3 .service-content .img-elite-founder {
+    width: 100%;
+}
+
+/* - */
+
+.founder-experience-2 {
+    background-image: url('../img/banners/banner_elite-founder.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.founder-experience-2 .service-content .img-elite-founder {
+    display: none;
+}
+
+/* - Elite Founder - */
+
 @media (max-width: 920px) {
     .gt-theme-btn {
         padding: 19px 26px;
@@ -7770,6 +7797,7 @@ span {
     .slide-3 { background-image: url('../img/banners-clases/03_skap-level-mobile.jpg'); }
     .slide-4 { background-image: url('../img/banners-clases/04_skap-control-mobile_15-12-2025.jpg'); }
     .slide-5 { background-image: url('../img/banners-clases/05_skap-recovery-mobile.jpg'); }
+    .slide-6 { background-image: url('../img/banners-clases/06_skap-clycle-mobile.jpg'); }
 
     .swiper-button-next,
     .swiper-button-prev {
@@ -7855,4 +7883,35 @@ span {
         width: 100%;
         height: auto;
     }
+
+    /* - Elite Founder - */
+
+    .gt-hero-section-2 {
+        background-image: url('../img/banners/banner-inicio_elite-founder_mobile.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gt-hero-section .container-fluid-2 {
+        padding-top: 50px;
+        align-items: flex-start;
+    }
+
+    /* - */
+
+    .founder-experience-2 {
+        background-image: none;
+        height: auto;
+    }
+
+    .founder-experience-2 .information-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .founder-experience-2 .service-content .img-elite-founder {
+        display: block;
+    }
+
+    /* - Elite Founder - */ 
 }
