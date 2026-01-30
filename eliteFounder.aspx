@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="eliteFounder.aspx.cs" Inherits="Skap.eliteFounder" %>
 
 <%@ Register Src="~/Controls/MainMenu.ascx" TagPrefix="uc" TagName="MainMenu" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc" TagName="Footer" %>
 
 <!DOCTYPE html>
 
@@ -75,47 +76,44 @@
 
     <!-- GT Main Section Start -->
     <section class="gt-hero-section gt-hero-section-2 gt-hero-1 fix bg-cover">
-        <div class="container-fluid container-fluid-2">
+        <div class="container-fluid container-fluid-founder">
             <div class="row g-4">
-                <div class="gt-hero-content">
+                <div class="gt-hero-content mb-5">
                     <span class="wow fadeInUp" data-wow-delay=".4s"><img src="img/arrow-right.svg" alt="img"/> SÉ ELITE FOUNDER</span>
                     <h1 class="wow fadeInUp" data-wow-delay=".4s">
-                        Empieza en el nivel más alto. 
+                        30% de descuento exclusivo por preapertura.
                     </h1>
                     <p class="wow fadeInUp" data-wow-delay=".4s">
-                        Accede al plan más completo de SKAP con un beneficio exclusivo por preapertura.
+                        Accede al plan más completo de SKAP. <br />
+                        Paga solo $413.000 el primer mes y entrena con método, tecnología y recuperación integrada.
                     </p>
                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>--%>
-                        <a href="#conocenos" class="gt-theme-btn">Quiero ser ELITE FOUNDER</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- GT Plans Section Start -->
-    <section class="gt-room-section fix section-padding section-bg">
-        <div class="gt-room-wrapper">
-            <div class="container" style="max-width: 500px;">
-                <h4 class="mb-3 text-center">¡No puedes dejar pasar esta oportunidad!</h4>
-
-                <div class="progress" style="height: 28px;">
-                    <div 
-                        id="barraCupos"
-                        class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                        role="progressbar"
-                        style="width: 0%"
-                        aria-valuemin="0"
-                        aria-valuemax="50">
+                        <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Quiero iniciar con el mejor plan</a>
                     </div>
                 </div>
 
-                <p class="mt-2 text-center fw-bold">
-                    <strong>Cupos disponibles: <span id="cuposActuales">0</span> / 50</strong>
-                </p>
+                <div class="container-progress-bar">
+                    <div class="div-progress-bar">
+                        <h4 class="mb-3 text-center wow fadeInUp fw-semibold" data-wow-delay=".4s">Este beneficio es solo para los primeros 50.</h4>
+
+                        <div class="progress" style="height: 28px;" data-wow-delay=".4s">
+                            <div 
+                                id="barraCupos"
+                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                role="progressbar"
+                                style="width: 0%; background-color: #003336;"
+                                aria-valuemin="0"
+                                aria-valuemax="50"
+                                data-wow-delay=".4s">
+                            </div>
+                        </div>
+
+                        <p class="wow fadeInUp text-center fw-semibold mt-2" data-wow-delay=".4s">
+                            Cupos disponibles: <span id="cuposActuales">0</span> / 50
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -143,56 +141,77 @@
                             </div>
 
                             <p class="service-text wow fadeInUp" data-wow-delay=".4s">
-                                Es entrenar con todo, antes que todos. <br />
-                                Es formar parte del grupo que vive la experiencia SKAP completa desde el primer día. <br />
+                                <%--Es entrenar con todo, antes que todos. <br />
+                                Es formar parte del grupo que vive la experiencia SKAP completa desde el primer día. <br />--%>
                                 Es acceder al más alto estándar, con beneficios únicos por ser parte del inicio.
                             </p>
 
-                            <p class="service-text wow fadeInUp mb-2 fw-semibold" data-wow-delay=".4s">¿QUÉ INCLUYE TU PLAN?</p>
+                            <p class="service-text wow fadeInUp mb-2 fw-semibold" data-wow-delay=".4s">¿QUÉ INCLUYE ESTE PLAN?</p>
 
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".1s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Entrenamiento completo en SKAP Studio y HYROX.
+                                </h3>
+                            </div>
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".2s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Sesiones semanales de Pilates Reformer (SKAP Balance).
+                                </h3>
+                            </div>
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".3s">
+                                <h3>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Ingreso ilimitado a Indoor Cycling (SKAP Cycle).
+                                </h3>
+                            </div>
                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".4s">
                                 <h3>
                                     <i class="fa-solid fa-circle-check"></i>
-                                    Plan SKAP SUPREME completo.
+                                    Valoración inicial con fisioterapeuta.
                                 </h3>
                             </div>
-                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".5s">
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".5s">
                                 <h3>
                                     <i class="fa-solid fa-circle-check"></i>
-                                    Tarifa exclusiva por preapertura.
+                                    Cita con nutricionista.
                                 </h3>
                             </div>
-                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".6s">
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".6s">
                                 <h3>
                                     <i class="fa-solid fa-circle-check"></i>
-                                    Banda de telemetría incluida (valor: USD $200).
+                                    Acceso a Recovery: masaje, crioterapia y técnicas restaurativas.
                                 </h3>
                             </div>
-                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".7s">
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".7s">
                                 <h3>
                                     <i class="fa-solid fa-circle-check"></i>
-                                    Acceso a todas las clases: HYROX, SKAP Estudio, Pilates Reformer, Indoor Cycling
+                                    App de seguimiento para tu progreso.
                                 </h3>
                             </div>
-                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".8s">
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".8s">
                                 <h3>
                                     <i class="fa-solid fa-circle-check"></i>
-                                    Ingreso total a Zona Recovery: sauna, crioterapia, masajes.
+                                    Sistema de reservas con cupos controlados.
                                 </h3>
                             </div>
-                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".9s">
+                            <div class="faq-item wow fadeInUp my-1" data-wow-delay=".9s">
                                 <h3>
                                     <i class="fa-solid fa-circle-check"></i>
-                                    Prioridad en agenda y asesoría personalizada.
+                                    Sin cláusula de permanencia.
                                 </h3>
                             </div>
 
-                            <p class="service-text wow fadeInUp mb-0" data-wow-delay=".4s">Todo el método. Todos los espacios. Desde el día uno.</p>
+                            <p class="service-text wow fadeInUp mb-0" data-wow-delay=".5s">
+                                Beneficio Elite Founder: <br />
+                                30% OFF en el primer mes → paga solo $413.000
+                            </p>
 
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp mt-4" data-wow-delay=".6s">
-                                        <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Sí, quiero ser Elite Founder</a>
                                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>--%>
                                     </div>
                                 </div>
@@ -234,7 +253,7 @@
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp mt-0" data-wow-delay=".6s">
-                                        <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Quiero Ser Parte de Skap</a>
                                     </div>
                                 </div>
                             </div>
@@ -257,81 +276,18 @@
     <section class="gt-room-section fix section-padding section-bg">
         <div class="gt-room-wrapper">
             <div class="container">
-                <h4 class="mb-3 text-center" data-wow-delay=".4s">¡Quiero iniciar al más alto nivel!</h4>
+                <h3 class="mb-3 text-center" data-wow-delay=".5s">¡Quiero iniciar al más alto nivel!</h3>
 
-                <div class="gt-hero-button wow fadeInUp text-center" data-wow-delay=".6s">
-                    <a href="#conocenos" class="gt-theme-btn">Sí, quiero ser ELITE FOUNDER</a>
+                <div class="gt-hero-button wow fadeInUp text-center" data-wow-delay=".4s">
+                    <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Acceder al plan más completo con 30% OFF</a>
                 </div>
             </div>
         </div>
     </section>
 
 
+    <uc:footer runat="server" ID="Footer" />
 
-    <!-- GT Footer Section Start -->
-    <footer id="footer" class="gt-footer-section fix bg-cover">
-        <div class="container">
-            <div class="gt-footer-widget-wrapper">
-                <div class="row">
-                    <div class="gt-footer-main col-xl-8 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="gt-footer-widget-items">
-                            <div class="gt-widget-head">
-                                <a href="default.aspx" class="gt-footer-logo">
-                                    <img src="img/footer/logo-footer.png" alt="img" height="32" />
-                                </a>
-                            </div>
-                            <div class="gt-footer-content">
-                                <div class="gt-social-icon d-flex flex-column">
-                                    <a href="https://api.whatsapp.com/send/?phone=573102186485" target="_blank"><i class="far fa-phone"></i> 310 218 6485</a>
-                                    <a href="default.aspx"><i class="fal fa-map-marker-alt"></i> Cra 29A #45-25, Sotomayor, Bucaramanga, Santander</a>
-                                    <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><i class="fal fa-envelope"></i> skaptrainingclub.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gt-footer-main-2 col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="gt-footer-widget-items">
-                            <ul class="gt-contact-list">
-                                <li><a href="default.aspx">Inicio</a></li>
-                                <li><a href="#servicios">Servicios</a></li>
-                                <li><a href="#conocenos">Conocenos</a></li>
-                                <li><a href="#planes">Planes</a></li>
-                                <li><a href="#footer">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
-            <div class="container">
-                <div class="footer-wrapper gt-about-content d-flex justify-content-normal">
-                    <%--<p>
-                        <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
-                    </p>--%>
-                    <div class="gt-hero-1">
-                        <div class="gt-hero-content">
-                            <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank" class="gt-theme-btn style-3"><i class="fa-brands fa-instagram"></i> Instagram</a>
-                                <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-facebook"></i> Facebook</a>--%>
-                                <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank" class="gt-theme-btn style-3"><i class="fa-solid fa-envelope"></i> Gmail</a>
-                                <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>--%>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom-2 wow fadeInUp">
-            <div class="container">
-                <div class="footer-wrapper d-flex align-items-center justify-content-between">
-                    <p class="footer-note">
-                        Copyright © 2025 Club Training Palmas. – Todos los derechos reservados.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <!--<< All JS Plugins >>-->
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -401,7 +357,7 @@
                 const porcentaje = (cupos / CUPOS_MAX) * 100;
 
                 barra.style.width = porcentaje + "%";
-                barra.textContent = `${cupos} cupos`;
+                barra.textContent = `${cupos} Elite Founder's`;
                 texto.textContent = cuposDisponibles;
             }
         })();

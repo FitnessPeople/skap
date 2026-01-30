@@ -52,7 +52,7 @@ Version: 1.0.0
   --gt-bg2: #F8F8F8;
   --gt-bg3: #F7F3EE;
   --gt-secondary: #D5BB96;
-  --gt-tertiary: #103639;
+  --gt-tertiary: #003336;
   --gt-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
 }
 
@@ -3599,7 +3599,21 @@ span {
   align-items: center;
 }
 /* Centrar logo de NavBar */
-
+@media (max-width: 1800px) {
+  .header-main .main-menu ul li {
+      margin-inline-end: 30px;
+  }
+}
+@media (max-width: 1600px) {
+  .header-main .main-menu ul li {
+      margin-inline-end: 20px;
+  }
+}
+@media (max-width: 1300px) {
+    .header-main .main-menu ul li {
+        margin-inline-end: 15px;
+    }
+}
 .header-1 .container-fluid {
   padding: 0 155px;
 }
@@ -4529,7 +4543,7 @@ span {
 .gt-hero-1 .gt-hero-content p {
   max-width: 550px;
   color: var(--gt-theme);
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   margin-top: 20px;
 }
 .gt-hero-1 .gt-hero-content .gt-hero-button {
@@ -5975,7 +5989,7 @@ span {
   position: fixed;
   display: inline-block;
   z-index: 999;
-  right: 30px;
+  right: 90px;
   bottom: 30px;
   transition: all 0.4s ease-in-out;
   opacity: 0;
@@ -5991,6 +6005,37 @@ span {
   animation: slideUp 600ms;
 }
 .gt-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0);
+}
+
+.gt-whatsapp {
+  background-color: var(--gt-theme);
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  color: var(--gt-white);
+  font-size: 23px;
+  position: fixed;
+  display: inline-block;
+  z-index: 999;
+  right: 30px;
+  bottom: 30px;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  border-radius: 4px;
+}
+.gt-whatsapp:hover {
+  background-color: var(--gt-header);
+  color: var(--gt-white);
+}
+.gt-whatsapp:hover img {
+  animation: slideUp 600ms;
+}
+.gt-whatsapp.show {
   opacity: 1;
   visibility: visible;
   transform: translate(0);
@@ -7671,6 +7716,10 @@ span {
     width: 100%;
 }
 
+.gt-hero-section .container-fluid-founder .container-progress-bar {
+    max-width: 450px;
+}
+
 /* - */
 
 .founder-experience-2 {
@@ -7686,6 +7735,10 @@ span {
 
 /* - Elite Founder - */
 
+
+
+
+
 @media (max-width: 920px) {
     .gt-theme-btn {
         padding: 19px 26px;
@@ -7697,7 +7750,7 @@ span {
         background-position: center;
     }
 
-    .gt-hero-section .container-fluid {
+    .gt-hero-section .container-fluid-inicio {
         align-items: flex-end;
     }
 
@@ -7875,7 +7928,7 @@ span {
     /* + */
 
     .modal .modal-dialog {
-        max-width: 300px;
+        max-width: 350px;
         margin: auto;
     }
 
@@ -7892,9 +7945,28 @@ span {
         background-position: center;
     }
 
-    .gt-hero-section .container-fluid-2 {
+    .gt-hero-section .container-fluid-founder .row {
+        height: 100%;
+    }
+
+    .gt-hero-section .container-fluid-founder .gt-hero-content {
         padding-top: 50px;
-        align-items: flex-start;
+    }
+
+    .gt-hero-section .container-fluid-founder .gt-hero-content h1 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .gt-hero-section .container-fluid-founder .container-progress-bar {
+        align-content: flex-end;
+        padding-bottom: 60px;
+    }
+
+    .gt-hero-section .container-fluid-founder .container-progress-bar .div-progress-bar {
+        padding: 10px;
+        background-color: var(--gt-white);
+        border-radius: 8px;
     }
 
     /* - */

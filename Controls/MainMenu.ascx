@@ -25,6 +25,11 @@
     <i class="fa-solid fa-chevrons-up"></i>
 </button>
 
+<!-- GT Whatsapp -->
+<button id="gt-whatsapp" class="gt-whatsapp show">
+    <i class="fa-brands fa-whatsapp"></i>
+</button>
+
 
 <!-- Offcanvas Area Start -->
 <div class="fix-area">
@@ -55,7 +60,7 @@
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Cra 29A #45-25, Sotomayor, Bucaramanga, Santander</a>
+                                <a href="https://maps.app.goo.gl/oruePqntStGhnjcSA" target="_blank">Cra 29 #45-25, Sotomayor, Bucaramanga, Santander</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -71,7 +76,7 @@
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="https://api.whatsapp.com/send/?phone=573102186485" target="_blank">310 218 6485</a>
+                                <a href="https://api.whatsapp.com/send/?phone=573226985390" target="_blank">322 698 5390</a>
                             </div>
                         </li>
                     </ul>
@@ -109,10 +114,11 @@
                                 <nav id="mobile-menu">
                                     <ul>
                                         <li><a href="default.aspx">Inicio</a></li>
-                                        <li><a href="#servicios">Servicios</a></li>
-                                        <li><a href="#conocenos">Conocenos</a></li>
-                                        <li><a href="#planes">Planes</a></li>
+                                        <li><a href="default.aspx#servicios">Servicios</a></li>
+                                        <li><a href="default.aspx#conocenos">Conócenos</a></li>
+                                        <li><a href="default.aspx#planes">Planes</a></li>
                                         <li><a href="#footer">Contacto</a></li>
+                                        <li><a href="eliteFounder.aspx" style="color: var(--gt-tertiary);">Elite Founder</a></li>
                                     </ul>
                                 </nav>
                             </div>

@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Skap._default" Debug="true"%>
 
 <%@ Register Src="~/Controls/MainMenu.ascx" TagPrefix="uc" TagName="MainMenu" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc" TagName="Footer" %>
 
 <!DOCTYPE html>
 
@@ -74,7 +75,7 @@
 
     <!-- GT Main Section Start -->
     <section class="gt-hero-section gt-hero-1 fix bg-cover">
-        <div class="container-fluid">
+        <div class="container-fluid container-fluid-inicio">
             <div class="row g-4">
                 <div class="gt-hero-content">
                     <span class="wow fadeInUp" data-wow-delay=".4s"><img src="img/arrow-right.svg" alt="img"/> WELCOME TO SKAP</span>
@@ -740,8 +741,8 @@
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="#planes" class="gt-theme-btn">Inscribirse</a>
-                                        <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
+                                        <%--<a href="#planes" class="gt-theme-btn">Inscribirse</a>--%>
+                                        <a href="eliteFounder.aspx" class="gt-theme-btn style-3">Saber Más</a>
                                     </div>
                                 </div>
                             </div>
@@ -773,8 +774,8 @@
                             <div class="gt-thumb">
                                 <img src="img/planes/01_plan_22-01-2026.jpg" alt="img" />
                                 <div class="gt-post-box text-center">
-                                    <p class="fs-13">$349.000 | REFERENCIA</p>
-                                    <p class="fw-semibold">$249.000 | AHORA</p>
+                                    <%--<p class="fs-13">$ 174.500 | 1er Mes</p>--%>
+                                    <p class="fw-semibold fs-4">$ 349.000</p>
                                 </div>
                             </div>
 
@@ -840,7 +841,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2442" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2564" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -853,8 +854,9 @@
                             <div class="gt-thumb">
                                 <img src="img/planes/01_plan-focus.jpg" alt="img" />
                                 <div class="gt-post-box text-center">
-                                    <p class="fs-13">$445.000 | REFERENCIA</p>
-                                    <p class="fw-semibold">$345.000 | AHORA</p>
+                                    <%--<p class="fs-13">$445.000 | REFERENCIA</p>
+                                    <p class="fw-semibold">$345.000 | AHORA</p>--%>
+                                    <p class="fw-semibold fs-4">$ 445.000</p>
                                 </div>
                             </div>
 
@@ -940,7 +942,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2440" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2565" class="gt-theme-btn">Inscribirse</a>
                                         </div>
                                     </div>
                                 </div>
@@ -953,8 +955,9 @@
                             <div class="gt-thumb">
                                 <img src="img/planes/02_plan-supreme.jpg" alt="img" />
                                 <div class="gt-post-box text-center">
-                                    <p class="fs-13">$590.000 | REFERENCIA</p>
-                                    <p class="fw-semibold">$490.000 | AHORA</p>
+                                    <%--<p class="fs-13">$590.000 | REFERENCIA</p>
+                                    <p class="fw-semibold">$490.000 | AHORA</p>--%>
+                                    <p class="fw-semibold fs-4">$ 490.000</p>
                                 </div>
                             </div>
 
@@ -1055,7 +1058,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2441" class="gt-theme-btn">Inscribirse</a>
+                                            <a href="eliteFounder.aspx" class="gt-theme-btn">Saber más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1229,73 +1232,11 @@
     </section>--%>
 
 
-    <!-- GT Footer Section Start -->
-    <footer id="footer" class="gt-footer-section fix bg-cover">
-        <div class="container">
-            <div class="gt-footer-widget-wrapper">
-                <div class="row">
-                    <div class="gt-footer-main col-xl-8 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="gt-footer-widget-items">
-                            <div class="gt-widget-head">
-                                <a href="default.aspx" class="gt-footer-logo">
-                                    <img src="img/footer/logo-footer.png" alt="img" height="32" />
-                                </a>
-                            </div>
-                            <div class="gt-footer-content">
-                                <div class="gt-social-icon d-flex flex-column">
-                                    <a href="https://api.whatsapp.com/send/?phone=573102186485" target="_blank"><i class="far fa-phone"></i> 310 218 6485</a>
-                                    <a href="default.aspx"><i class="fal fa-map-marker-alt"></i> Cra 29A #45-25, Sotomayor, Bucaramanga, Santander</a>
-                                    <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><i class="fal fa-envelope"></i> skaptrainingclub.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gt-footer-main-2 col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="gt-footer-widget-items">
-                            <ul class="gt-contact-list">
-                                <li><a href="default.aspx">Inicio</a></li>
-                                <li><a href="#servicios">Servicios</a></li>
-                                <li><a href="#conocenos">Conocenos</a></li>
-                                <li><a href="#planes">Planes</a></li>
-                                <li><a href="#footer">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
-            <div class="container">
-                <div class="footer-wrapper gt-about-content d-flex justify-content-normal">
-                    <%--<p>
-                        <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
-                    </p>--%>
-                    <div class="gt-hero-1">
-                        <div class="gt-hero-content">
-                            <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank" class="gt-theme-btn style-3"><i class="fa-brands fa-instagram"></i> Instagram</a>
-                                <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-facebook"></i> Facebook</a>--%>
-                                <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank" class="gt-theme-btn style-3"><i class="fa-solid fa-envelope"></i> Gmail</a>
-                                <%--<a href="#" class="gt-theme-btn style-3"><i class="fa-brands fa-tiktok"></i> Tik Tok</a>--%>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom-2 wow fadeInUp">
-            <div class="container">
-                <div class="footer-wrapper d-flex align-items-center justify-content-between">
-                    <p class="footer-note">
-                        Copyright © 2025 Club Training Palmas. – Todos los derechos reservados.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <uc:footer runat="server" ID="Footer" />
+
 
     <div class="modal fade" id="modalPromoScroll" tabindex="-1" style="z-index: 10000;">
-        <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-dialog modal-dialog-centered modal-md">
             <div class="modal-content" style="background: transparent; border: none;">
                 <button type="button"
                         class="btn-close position-absolute end-0 me-2 mt-2 bg-white"
@@ -1304,9 +1245,11 @@
                         tabindex="-1">
                 </button>
 
-                <img src="img/modals/modal-01.jpg"
-                     class="img-fluid rounded"
-                     alt="Promoción" />
+                <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2564">
+                    <img src="img/modals/modal-02.jpg"
+                         class="img-fluid rounded"
+                         alt="Promoción" />
+                </a>
             </div>
         </div>
     </div>

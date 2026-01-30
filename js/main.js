@@ -464,7 +464,26 @@
         return false;
     });
 
-    
+
+   /* ================================
+        WhatsApp Floating Button
+     ================================ */
+
+        //$windowOn.on('scroll', function () {
+        //    if ($(this).scrollTop() > 20) {
+        //        $("#gt-whatsapp").addClass("show");
+        //    } else {
+        //        $("#gt-whatsapp").removeClass("show");
+        //    }
+        //});
+
+        $documentOn.on('click', '#gt-whatsapp', function () {
+            const phone = "573226985390";
+            const message = "Hola, quiero más información 👋";
+
+            const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        });
     }); // End Document Ready Function
 
      function loader() {

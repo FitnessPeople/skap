@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\MainMenu.ascx" />
     <Content Include="css\all.min.css" />
     <Content Include="css\animate.css" />
@@ -525,6 +526,13 @@
     <Content Include="webfonts\fa-v4compatibility.woff2" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\MainMenu.ascx.cs">
       <DependentUpon>MainMenu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
