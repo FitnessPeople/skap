@@ -28,7 +28,7 @@
             s.parentNode.insertBefore(t, s)
         }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '869056582689909');
+        fbq('init', '921914123626484');
         fbq('track', 'PageView');
     </script>
     <!-- ========== End Facebook Pixel Code ========== -->
@@ -85,7 +85,7 @@
                     </h1>
                     <p class="wow fadeInUp" data-wow-delay=".4s">
                         Accede al plan más completo de SKAP. <br />
-                        Paga solo $413.000 el primer mes y entrena con método, tecnología y recuperación integrada.
+                        <strong>Paga solo $413.000</strong> el primer mes y entrena con método, tecnología y recuperación integrada.
                     </p>
                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>--%>
@@ -181,7 +181,7 @@
                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".6s">
                                 <h3>
                                     <i class="fa-solid fa-circle-check"></i>
-                                    Acceso a Recovery: masaje, crioterapia y técnicas restaurativas.
+                                    Acceso a Recovery: masaje, crioterapia y sauna infrarrojo.
                                 </h3>
                             </div>
                             <div class="faq-item wow fadeInUp my-1" data-wow-delay=".7s">
@@ -205,7 +205,7 @@
 
                             <p class="service-text wow fadeInUp mb-0" data-wow-delay=".5s">
                                 Beneficio Elite Founder: <br />
-                                30% OFF en el primer mes → paga solo $413.000
+                                <strong>30% OFF en el primer mes → paga solo $413.000</strong>
                             </p>
 
                             <div class="gt-hero-1">
@@ -364,7 +364,7 @@
     </script>
 
     <noscript>
-        <img height="1" width="1" class="d-none" src="https://www.facebook.com/tr?id=869056582689909&ev=PageView&noscript=1"/>
+        <img height="1" width="1" class="d-none" src="https://www.facebook.com/tr?id=921914123626484&ev=PageView&noscript=1"/>
     </noscript>
 </body>
 </html>

@@ -28,7 +28,7 @@
             s.parentNode.insertBefore(t, s)
         }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '869056582689909');
+        fbq('init', '921914123626484');
         fbq('track', 'PageView');
     </script>
     <!-- ========== End Facebook Pixel Code ========== -->
@@ -345,7 +345,7 @@
                                             Cuerpo completo. Atención real.
                                         </p>
                                         <p class="gt-about-text gt-about-description wow fadeInUp" data-wow-delay=".4s">
-                                            Clases semipersonalizadas con guía experta. 
+                                            Sesiones semipersonalizadas con guía experta. 
                                             Una metodología progresiva que te ayuda a construir fuerza, técnica y conciencia corporal sin improvisar.
                                         </p>
                                         <p class="gt-about-text gt-about-description wow fadeInUp mt-3" data-wow-delay=".4s">
@@ -556,6 +556,27 @@
                                             Masajes terapéuticos, crioterapia (inmersión en hielo) y sauna infrarrojo. 
                                             Recuperación pensada para sostener el progreso, no para detenerlo.
                                         </p>
+                                        <p class="gt-about-text gt-about-description wow fadeInUp mt-3" data-wow-delay=".4s">
+                                            Incluye clases:
+                                        </p>
+                                        <ul class="gt-about-list wow fadeInUp mt-2" data-wow-delay=".8s">
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                SKAP THERMAL.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                SKAP LAB.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                SKAP ICE.
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                SKAP RELAX.
+                                            </li>
+                                        </ul>
                                         <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
                                             <li>
                                                 <i class="fa-solid fa-circle-check"></i>
@@ -957,7 +978,7 @@
                                 <div class="gt-post-box text-center">
                                     <%--<p class="fs-13">$590.000 | REFERENCIA</p>
                                     <p class="fw-semibold">$490.000 | AHORA</p>--%>
-                                    <p class="fw-semibold fs-4">$ 490.000</p>
+                                    <p class="fw-semibold fs-4">$ 590.000</p>
                                 </div>
                             </div>
 
@@ -993,16 +1014,19 @@
                                     </li>
                                      <li>
                                          <i class="fa-solid fa-circle-check"></i>
-                                         3 sesiones de recovery.
+                                         4 sesiones de Recovery.
                                          <ul class="ps-5">
-                                            <li style="list-style-type: disc;">
-                                                1 masaje.
+                                            <li style="list-style-type: disc; line-height: 1.3; margin-bottom: 10px;">
+                                                <strong>SKAP THERMAL:</strong> Calor consciente para regenerar cuerpo y mente.
                                             </li>
-                                            <li style="list-style-type: disc;">
-                                                1 crioterapia.
+                                            <li style="list-style-type: disc; line-height: 1.3; margin-bottom: 10px;">
+                                                <strong>SKAP LAB:</strong> Donde la ciencia entiende tu cuerpo.
                                             </li>
-                                            <li style="list-style-type: disc;">
-                                                1 sesión de técnicas de restauración.
+                                            <li style="list-style-type: disc; line-height: 1.3; margin-bottom: 10px;">
+                                                <strong>SKAP ICE:</strong> El lujo de resistir en silencio.
+                                            </li>
+                                            <li style="list-style-type: disc; line-height: 1.3;">
+                                                <strong>SKAP RELAX:</strong> El lenguaje silencioso del descanso.
                                             </li>
                                          </ul>
                                      </li>
@@ -1336,7 +1360,7 @@
                 prevEl: ".swiper-button-prev",
             },
             autoplay: {
-                delay: 3000,
+                delay: 5000,
                 disableOnInteraction: false,
             },
             speed: 1500
@@ -1345,7 +1369,7 @@
     </script>
 
     <noscript>
-        <img height="1" width="1" class="d-none" src="https://www.facebook.com/tr?id=869056582689909&ev=PageView&noscript=1"/>
+        <img height="1" width="1" class="d-none" src="https://www.facebook.com/tr?id=921914123626484&ev=PageView&noscript=1"/>
     </noscript>
 </body>
 </html>
