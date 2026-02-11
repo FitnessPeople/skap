@@ -25,9 +25,9 @@
                     <div class="gt-footer-widget-items">
                         <ul class="gt-contact-list">
                             <li><a href="default.aspx">Inicio</a></li>
-                            <li><a href="#servicios">Servicios</a></li>
-                            <li><a href="#conocenos">Conócenos</a></li>
-                            <li><a href="#planes">Planes</a></li>
+                            <li><a href="default.aspx#servicios">Servicios</a></li>
+                            <li><a href="default.aspx#conocenos">Conócenos</a></li>
+                            <li><a href="default.aspx#planes">Planes</a></li>
                             <li><a href="#footer">Contacto</a></li>
                             <li><a href="eliteFounder.aspx" style="color: var(--gt-white);">Elite Founder</a></li>
                         </ul>
