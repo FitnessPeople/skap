@@ -116,7 +116,7 @@
                                         <li><a href="default.aspx">Inicio</a></li>
                                         <li><a href="default.aspx#servicios">Servicios</a></li>
                                         <li><a href="default.aspx#conocenos">Conócenos</a></li>
-                                        <li><a href="default.aspx#planes">Planes</a></li>
+                                        <li><a href="default.aspx#planes">Membresías</a></li>
                                         <li><a href="#footer">Contacto</a></li>
                                         <li><a href="eliteFounder.aspx" style="color: var(--gt-tertiary);">Elite Founder</a></li>
                                     </ul>

@@ -87,7 +87,7 @@
                         Accede al plan más completo de SKAP. <br />
                         <strong>Paga solo $413.000</strong> el primer mes y entrena con método, tecnología y recuperación integrada.
                     </p>
-                    <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
+                    <div class="gt-hero-button wow zoomIn" data-wow-delay=".6s">
                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Inscribirse</a>--%>
                         <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Quiero iniciar con el mejor plan</a>
                     </div>
@@ -210,7 +210,7 @@
 
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
-                                    <div class="gt-hero-button wow fadeInUp mt-4" data-wow-delay=".6s">
+                                    <div class="gt-hero-button wow zoomIn mt-4" data-wow-delay=".6s">
                                         <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Sí, quiero ser Elite Founder</a>
                                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>--%>
                                     </div>
@@ -252,7 +252,7 @@
                             </p>
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
-                                    <div class="gt-hero-button wow fadeInUp mt-0" data-wow-delay=".6s">
+                                    <div class="gt-hero-button wow zoomIn mt-0" data-wow-delay=".6s">
                                         <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Quiero Ser Parte de Skap</a>
                                     </div>
                                 </div>
@@ -278,8 +278,12 @@
             <div class="container">
                 <h3 class="mb-3 text-center" data-wow-delay=".5s">¡Quiero iniciar al más alto nivel!</h3>
 
-                <div class="gt-hero-button wow fadeInUp text-center" data-wow-delay=".4s">
-                    <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Acceder al plan más completo con 30% OFF</a>
+                <div class="gt-hero-1">
+                    <div class="gt-hero-content pt-0">
+                        <div class="gt-hero-button wow fadeInUp justify-content-center mt-0" data-wow-delay=".4s">
+                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" target="_blank" class="gt-theme-btn">Acceder al plan más completo con 30% OFF</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -316,12 +320,12 @@
 
     <script>
         (() => {
-            const CUPOS_MIN = 10;
+            const CUPOS_MIN = 40;
             const CUPOS_MAX = 50;
 
             // 🔧 Ajusta estas fechas si lo necesitas
-            const fechaInicio = new Date("2026-01-26T00:00:00");
-            const fechaFin = new Date("2026-02-14T23:59:59");
+            const fechaInicio = new Date("2026-02-24T00:00:00");
+            const fechaFin = new Date("2026-03-11T23:59:59");
 
             const ahora = new Date();
 

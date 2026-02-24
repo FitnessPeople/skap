@@ -782,7 +782,7 @@
                  <div class="gt-section-title text-center">
                     <h6 class="wow fadeInUp justify-content-center">
                         <img src="img/arrow-left.svg" alt="img" />
-                           PLANES SKAP
+                           MEMBRESÍAS SKAP
                         <img src="img/arrow-right.svg" alt="img" />
                     </h6>
                     <%--<h2 class="wow fadeInUp" data-wow-delay=".2s">
