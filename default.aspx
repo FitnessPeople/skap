@@ -400,7 +400,7 @@
                                     <div class="gt-about-content">
                                         <div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                                 SKAP CYCLE
+                                                 SKAP CYCLING
                                             </h2>
                                         </div>
                                         <p class="gt-about-text gt-about-title wow fadeInUp" data-wow-delay=".4s">
@@ -820,7 +820,11 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        App de seguimiento para registrar y analizar tu evolución.
+                                        Nutrición y valoración física con seguimiento en la App.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Medición de progreso desde la App (incluye bioimpedancia).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -828,7 +832,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Permanencia mínima de 12 meses.
+                                        Fidelidad mínima de 6 meses.
                                     </li>
                                 </ul>
 
@@ -855,7 +859,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Permanencia mínima de 12 meses.
+                                        Fidelidad mínima de 12 meses.
                                     </li>
                                 </ul>--%>
                                 
@@ -901,7 +905,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Ingreso ilimitado a SKAP CYCLE.
+                                        Ingreso ilimitado a SKAP CYCLING.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -917,7 +921,11 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        App de seguimiento para registrar y analizar tu evolución.
+                                        Nutrición y valoración física con seguimiento en la App.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Medición de progreso desde la App (incluye bioimpedancia).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -956,7 +964,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Permanencia mínima de 12 meses.
+                                        Fidelidad mínima de 12 meses.
                                     </li>
                                 </ul>--%>
             
@@ -1002,7 +1010,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Ingreso ilimitado a SKAP CYCLE.
+                                        Ingreso ilimitado a SKAP CYCLING.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1017,16 +1025,13 @@
                                          4 sesiones de Recovery.
                                          <ul class="ps-5">
                                             <li style="list-style-type: disc; line-height: 1.3; margin-bottom: 10px;">
-                                                <strong>SKAP THERMAL:</strong> Calor consciente para regenerar cuerpo y mente.
+                                                <strong>2 SESIONES DE SKAP THERMAL:</strong> Calor consciente para regenerar cuerpo y mente.
                                             </li>
                                             <li style="list-style-type: disc; line-height: 1.3; margin-bottom: 10px;">
-                                                <strong>SKAP LAB:</strong> Donde la ciencia entiende tu cuerpo.
-                                            </li>
-                                            <li style="list-style-type: disc; line-height: 1.3; margin-bottom: 10px;">
-                                                <strong>SKAP ICE:</strong> El lujo de resistir en silencio.
+                                                <strong>1 SESIÓN DE SKAP ICE:</strong> El lujo de resistir en silencio.
                                             </li>
                                             <li style="list-style-type: disc; line-height: 1.3;">
-                                                <strong>SKAP RELAX:</strong> El lenguaje silencioso del descanso.
+                                                <strong>1 SESIÓN DE SKAP RELAX:</strong> El lenguaje silencioso del descanso.
                                             </li>
                                          </ul>
                                      </li>
@@ -1036,7 +1041,11 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        App de seguimiento para registrar tu progreso y optimizar resultados.
+                                        Nutrición y valoración física con seguimiento en la App.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Medición de progreso desde la App (incluye bioimpedancia).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>

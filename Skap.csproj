@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -282,6 +285,7 @@
     <Content Include="js\swiper-bundle.min.js" />
     <Content Include="js\viewport.jquery.js" />
     <Content Include="js\wow.min.js" />
+    <Content Include="ofertas.aspx" />
     <Content Include="planSkapOne.aspx" />
     <Content Include="plantilla\404.html" />
     <Content Include="plantilla\about.html" />
@@ -526,6 +530,7 @@
     <Content Include="webfonts\fa-v4compatibility.woff2" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controls\Footer.ascx.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -556,6 +561,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ofertas.aspx.cs">
+      <DependentUpon>ofertas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ofertas.aspx.designer.cs">
+      <DependentUpon>ofertas.aspx</DependentUpon>
     </Compile>
     <Compile Include="planSkapOne.aspx.cs">
       <DependentUpon>planSkapOne.aspx</DependentUpon>
