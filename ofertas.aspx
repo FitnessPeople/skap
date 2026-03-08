@@ -73,6 +73,8 @@
     <uc:mainmenu runat="server" ID="MainMenu" />
 
 
+    <section class="bannerMain"></section>
+
 
     <!-- GT Plans Section Start -->
     <section id="planes" class="gt-room-section fix section-padding section-bg">
@@ -81,12 +83,9 @@
                  <div class="gt-section-title text-center">
                     <h6 class="wow fadeInUp justify-content-center">
                         <img src="img/arrow-left.svg" alt="img" />
-                           MEMBRESÍAS SKAP
+                           ELIGE TU MEMBRESÍA
                         <img src="img/arrow-right.svg" alt="img" />
                     </h6>
-                    <%--<h2 class="wow fadeInUp" data-wow-delay=".2s">
-                      Rooms & Suttes
-                    </h2>--%>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-xl-4 col-lg-6 col-md-6">
@@ -106,9 +105,12 @@
                                     Para quienes forjan su disciplina desde el primer día.
                                 </p>
 
-                                <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
+                                <div class="plan-toggle">
+                                    <span>Beneficios</span>
+                                    <i class="fa fa-chevron-down toggle-icon"></i>
+                                </div>
 
-                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
                                         Sesiones semi personalizadas en SKAP STUDIO y SKAP HYROX.
@@ -131,33 +133,6 @@
                                     </li>
                                 </ul>
 
-                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Acceso al SKAP club (sede de tu elección).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas de FORM y HYROX (semi personalizadas).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Valoración inicial con fisioterapeuta.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sistema de reservas para cupos limitados en cada sesión.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        App de seguimiento para registrar tu evolución.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Permanencia mínima de 12 meses.
-                                    </li>
-                                </ul>--%>
-                            
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -187,9 +162,12 @@
                                     Para quienes entrenan con enfoque y acompañamiento integral.
                                 </p>
 
-                                <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
+                                <div class="plan-toggle">
+                                    <span>Beneficios</span>
+                                    <i class="fa fa-chevron-down toggle-icon"></i>
+                                </div>
 
-                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
                                         Sesiones semi personalizadas en SKAP STUDIO y SKAP HYROX.
@@ -224,41 +202,6 @@
                                     </li>
                                 </ul>
 
-                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Acceso completo al SKAP club (todas las sedes).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas de FORM y HYROX (semi personalizadas).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        4 sesiones de Pilates.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Cita con nutricionista.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Valoración inicial con fisioterapeuta.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sistema de reservas para cupos limitados en cada sesión.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        App de seguimiento para registrar tu evolución.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Permanencia mínima de 12 meses.
-                                    </li>
-                                </ul>--%>
-        
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -288,9 +231,12 @@
                                     Para quienes llevan la experiencia SKAP a su máximo nivel.
                                 </p>
 
-                                <p class="gt-post-cat wow fadeInUp" data-wow-delay=".8s">Incluye</p>
+                                <div class="plan-toggle">
+                                    <span>Beneficios</span>
+                                    <i class="fa fa-chevron-down toggle-icon"></i>
+                                </div>
 
-                                <ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
+                                <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
                                         Acceso completo a sesiones semi personalizadas en SKAP STUDIO y SKAP HYROX.
@@ -343,41 +289,6 @@
                                     </li>
                                 </ul>
 
-                                <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Acceso completo al SKAP club (todas las sedes).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas de FORM y HYROX (semi personalizadas).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        4 sesiones de Pilates.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        3 sesiones de recovery (1 de masaje, 1 de crioterapia y 1 de técnicas de restauración).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Valoración inicial con fisioterapeuta.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sistema de reservas para cupos limitados en cada sesión.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        App de seguimiento para registrar tu progreso y optimizar resultados.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sin permanencia.
-                                    </li>
-                                </ul>--%>
-        
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -428,6 +339,170 @@
     <script src="js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="js/main.js"></script>
+
+    <style>
+
+        .bannerMain {
+            background-image: url('img/banners/banner-terciario.png');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+        }
+
+
+        .plans-switch {
+            display: flex;
+            justify-content: center;
+        }
+
+        .switch-btn {
+            background: transparent;
+            border: 2px solid #d6ff00;
+            color: #d6ff00;
+            padding: 10px 25px;
+            margin: 0 10px;
+            font-weight: 600;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .switch-btn:hover {
+            background: #d6ff00;
+            color: #000;
+        }
+
+        .switch-btn.active {
+            background: #d6ff00;
+            color: #000;
+        }
+
+
+
+        .plan-features {
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+            transition: max-height 0.35s ease, opacity 0.25s ease;
+        }
+
+        .plan-features.open {
+            opacity: 1;
+        }
+
+        .plan-toggle {
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .plan-toggle .toggle-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .plan-toggle.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+
+
+        .plans-wrapper {
+            margin: 60px auto 0px 0;
+            /*gap: 16px;*/
+        }
+
+        
+
+    </style>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            //const buttons = document.querySelectorAll(".switch-btn");
+            //const recurrentes = document.querySelector(".plans-recu");
+            //const unicos = document.querySelector(".plans-unic");
+            //const masVendidos = document.querySelector(".plans-mas-vend");
+
+            //unicos.style.display = "none";
+            //recurrentes.style.display = "none";
+
+            const toggles = document.querySelectorAll(".plan-toggle");
+            const features = document.querySelectorAll(".plan-features");
+
+            let isOpen = false;
+
+            //buttons.forEach(btn => {
+            //    btn.addEventListener("click", function () {
+
+            //        // Quitar activo a todos
+            //        buttons.forEach(b => b.classList.remove("active"));
+
+            //        // Activar el actual
+            //        this.classList.add("active");
+
+            //        const target = this.getAttribute("data-target");
+
+            //        if (target === "recurrentes") {
+            //            recurrentes.style.display = "flex";
+            //            unicos.style.display = "none";
+            //            masVendidos.style.display = "none";
+            //        } else if (target === "unicos") {
+            //            recurrentes.style.display = "none";
+            //            unicos.style.display = "flex";
+            //            masVendidos.style.display = "none";
+            //        } else {
+            //            recurrentes.style.display = "none";
+            //            unicos.style.display = "none";
+            //            masVendidos.style.display = "flex";
+            //        }
+
+            //        // Cerrar todos
+            //        features.forEach(f => {
+            //            f.classList.remove("open");
+            //            f.style.maxHeight = null;
+            //        });
+
+            //        toggles.forEach(t => t.classList.remove("active"));
+
+            //        isOpen = false;
+            //    });
+            //});
+
+            toggles.forEach(toggle => {
+                toggle.addEventListener("click", function () {
+                    console.log('Hola');
+
+                    if (!isOpen) {
+                        // Abrir todos
+                        features.forEach(f => {
+                            f.classList.add("open");
+                            f.style.maxHeight = f.scrollHeight + "px";
+                        });
+
+                        toggles.forEach(t => t.classList.add("active"));
+
+                        isOpen = true;
+                    } else {
+                        // Cerrar todos
+                        features.forEach(f => {
+                            f.classList.remove("open");
+                            f.style.maxHeight = null;
+                        });
+
+                        toggles.forEach(t => t.classList.remove("active"));
+
+                        isOpen = false;
+                    }
+
+                });
+            });
+
+        });
+    </script>
 
 
 

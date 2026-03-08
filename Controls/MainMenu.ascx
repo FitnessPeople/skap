@@ -5,7 +5,7 @@
     <div class="animation-preloader">
         <div class="spinner">                
         </div>
-        <a href="default.aspx" class="header-logo-2">
+        <a href="default" class="header-logo-2">
             <img src="img/logo/black-logo.png" alt="logo-img" height="50" />
         </a>
         <p class="text-center mt-3">Loading</p>
@@ -38,7 +38,7 @@
             <div class="offcanvas__content">
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
-                        <a href="default.aspx">
+                        <a href="default">
                             <img src="../img/logo/black-logo.png" alt="logo-img" height="25" />
                         </a>
                     </div>
@@ -101,10 +101,10 @@
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <div class="logo d-xl-none">
-                        <a href="default.aspx" class="header-logo">
+                        <a href="default" class="header-logo">
                             <img src="../img/logo/black-logo.png" alt="logo-img" height="25" />
                         </a>
-                        <a href="default.aspx" class="header-logo-2">
+                        <a href="default" class="header-logo-2">
                             <img src="../img/logo/black-logo.png" alt="logo-img" height="25" />
                         </a>
                     </div>
@@ -113,21 +113,21 @@
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li><a href="default.aspx">Inicio</a></li>
-                                        <li><a href="default.aspx#servicios">Servicios</a></li>
-                                        <li><a href="default.aspx#conocenos">Conócenos</a></li>
-                                        <li><a href="default.aspx#planes">Membresías</a></li>
+                                        <li><a href="default">Inicio</a></li>
+                                        <li><a href="default#servicios">Servicios</a></li>
+                                        <li><a href="default#conocenos">Conócenos</a></li>
+                                        <li><a href="default#membresias">Membresías</a></li>
                                         <li><a href="#footer">Contacto</a></li>
-                                        <li><a href="eliteFounder.aspx" style="color: var(--gt-tertiary);">Elite Founder</a></li>
+                                        <li><a href="eliteFounder" style="color: var(--gt-tertiary);">Elite Founder</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="logo d-none d-xl-block">
-                            <a href="default.aspx" class="header-logo">
+                            <a href="default" class="header-logo">
                                 <img src="../img/logo/black-logo.png" alt="logo-img" height="25" />
                             </a>
-                            <a href="default.aspx" class="header-logo-2">
+                            <a href="default" class="header-logo-2">
                                 <img src="../img/logo/black-logo.png" alt="logo-img" height="25" />
                             </a>
                         </div>

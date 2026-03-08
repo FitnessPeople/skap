@@ -267,7 +267,7 @@
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                        <a href="#membresias" class="gt-theme-btn">Inscribirse</a>
                                         <%--<a href="default.aspx" class="gt-theme-btn style-2">Saber Más</a>--%>
                                     </div>
                                 </div>
@@ -316,8 +316,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#membresias" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#membresias" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -378,8 +378,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#membresias" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#membresias" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -413,8 +413,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#membresias" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#membresias" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -475,8 +475,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#membresias" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#membresias" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -524,8 +524,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="#planes" class="gt-theme-btn style-3">Saber Más</a>
+                                                    <a href="#membresias" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#membresias" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -590,8 +590,8 @@
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                                    <a href="#planes" class="gt-theme-btn">Inscribirse</a>
-                                                    <a href="#planes" class="gt-theme-btn style-2">Saber Más</a>
+                                                    <a href="#membresias" class="gt-theme-btn">Inscribirse</a>
+                                                    <a href="#membresias" class="gt-theme-btn style-2">Saber Más</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -763,7 +763,7 @@
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
                                         <%--<a href="#planes" class="gt-theme-btn">Inscribirse</a>--%>
-                                        <a href="eliteFounder.aspx" class="gt-theme-btn style-3">Saber Más</a>
+                                        <a href="eliteFounder" class="gt-theme-btn style-3">Saber Más</a>
                                     </div>
                                 </div>
                             </div>
@@ -776,7 +776,7 @@
     
 
     <!-- GT Plans Section Start -->
-    <section id="planes" class="gt-room-section fix section-padding section-bg">
+    <section id="membresias" class="gt-room-section fix section-padding section-bg">
         <div class="gt-room-wrapper">
             <div class="container">
                  <div class="gt-section-title text-center">
@@ -1091,7 +1091,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="eliteFounder.aspx" class="gt-theme-btn">Saber más</a>
+                                            <a href="eliteFounder" class="gt-theme-btn">Saber más</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1337,12 +1337,12 @@
 
             /* CLICK MENU (desktop + mobile) */
             document.body.addEventListener('click', function (e) {
-                const link = e.target.closest('a[href="#planes"]');
+                const link = e.target.closest('a[href="#membresias"]');
                 if (link) showModal();
             });
 
             /* SCROLL */
-            const planes = document.getElementById('planes');
+            const planes = document.getElementById('membresias');
             if (planes && 'IntersectionObserver' in window) {
                 const observer = new IntersectionObserver(entries => {
                     entries.forEach(entry => {

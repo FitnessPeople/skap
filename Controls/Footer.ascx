@@ -8,7 +8,7 @@
                 <div class="gt-footer-main col-xl-8 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-footer-widget-items">
                         <div class="gt-widget-head">
-                            <a href="default.aspx" class="gt-footer-logo">
+                            <a href="default" class="gt-footer-logo">
                                 <img src="img/footer/logo-footer.png" alt="img" height="32" />
                             </a>
                         </div>
@@ -24,12 +24,12 @@
                 <div class="gt-footer-main-2 col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".8s">
                     <div class="gt-footer-widget-items">
                         <ul class="gt-contact-list">
-                            <li><a href="default.aspx">Inicio</a></li>
-                            <li><a href="default.aspx#servicios">Servicios</a></li>
-                            <li><a href="default.aspx#conocenos">Conócenos</a></li>
-                            <li><a href="default.aspx#planes">Membresías</a></li>
+                            <li><a href="default">Inicio</a></li>
+                            <li><a href="default#servicios">Servicios</a></li>
+                            <li><a href="default#conocenos">Conócenos</a></li>
+                            <li><a href="default#membresias">Membresías</a></li>
                             <li><a href="#footer">Contacto</a></li>
-                            <li><a href="eliteFounder.aspx" style="color: var(--gt-white);">Elite Founder</a></li>
+                            <li><a href="eliteFounder" style="color: var(--gt-white);">Elite Founder</a></li>
                         </ul>
                     </div>
                 </div>

@@ -3355,11 +3355,11 @@ span {
 /* NavBar */
 .header-main .main-menu ul li a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--gt-black);
   font-family: "Poppins", sans-serif;
-  padding: 20px 0;
+  padding: 5px 0;
   text-align: left;
   position: relative;
   text-transform: capitalize;
