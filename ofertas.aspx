@@ -343,10 +343,10 @@
     <style>
 
         .bannerMain {
-            background-image: url('img/banners/banner-terciario.png');
+            background-image: url('img/banners/founder-experience.jpg');
             background-size: cover;
             background-position: center;
-            height: 400px;
+            height: 420px;
         }
 
 
