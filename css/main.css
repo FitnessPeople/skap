@@ -1733,17 +1733,17 @@ span {
   margin-top: 20px;
 }
 
-.gt-room-wrapper .row > div:nth-child(2) .gt-theme-btn {
+.gt-room-wrapper .row > div:nth-child(even) .gt-theme-btn {
   color: var(--gt-black);
   background-color: var(--gt-white);
 }
 
-.gt-room-wrapper .row > div:nth-child(2) .gt-hero-button .gt-theme-btn:hover {
+.gt-room-wrapper .row > div:nth-child(even) .gt-hero-button .gt-theme-btn:hover {
   color: var(--gt-white);
   background-color: var(--gt-theme);
 }
 
-.gt-room-wrapper .row > div:nth-child(2) .gt-hero-button .gt-theme-btn::before {
+.gt-room-wrapper .row > div:nth-child(even) .gt-hero-button .gt-theme-btn::before {
   color: var(--gt-white);
   background-color: var(--gt-theme);
 }
@@ -7687,7 +7687,7 @@ span {
 }
 
 .gt-room-section .gt-room-box-items .gt-content .gt-about-list {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .gt-room-section .gt-room-box-items .gt-content .gt-about-list li i {
@@ -7985,5 +7985,17 @@ span {
         display: block;
     }
 
-    /* - Elite Founder - */ 
+    /* - Elite Founder - */
+
+    .gt-room-section .gt-room-box-items .gt-content .gt-about-text {
+        font-size: 15px;
+    }
+
+    .gt-room-section .gt-room-box-items .gt-content .gt-about-list {
+        font-size: 15px;
+    }
+
+    .bannerMain {
+        background-image: url('../img/banners-clases/02_skap-form-mobile.jpg');
+    }
 }
