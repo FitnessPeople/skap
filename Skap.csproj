@@ -84,6 +84,7 @@
     <Content Include="css\nice-select.css" />
     <Content Include="css\swiper-bundle.min.css" />
     <Content Include="default.aspx" />
+    <Content Include="descripcion.aspx" />
     <Content Include="eliteFounder.aspx" />
     <Content Include="fonts\nohemi\Befonts-License.txt" />
     <Content Include="Global.asax" />
@@ -551,6 +552,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="descripcion.aspx.cs">
+      <DependentUpon>descripcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="descripcion.aspx.designer.cs">
+      <DependentUpon>descripcion.aspx</DependentUpon>
     </Compile>
     <Compile Include="eliteFounder.aspx.cs">
       <DependentUpon>eliteFounder.aspx</DependentUpon>

@@ -87,117 +87,40 @@
                         <img src="img/arrow-right.svg" alt="img" />
                     </h6>
                 </div>
-                <div class="row justify-content-center g-3">
-                    <div class="col-xl-3 col-lg-6 col-md-6">
+
+                <div class="row justify-content-center g-3 membresias-cards">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
                             <div class="gt-thumb">
-                                <img src="img/planes/skap-dynamic.jpg" alt="img" />
-                                <div class="gt-post-box text-center">
-                                    <p class="fw-semibold fs-7">$ 235.000</p>
+                                <img src="img/planes/skap-one.jpg" alt="img" />
+                                <div class="gt-post-box text-end">
+                                    <p class="fs-13">Pagas mes a mes</p>
+                                    <p class="">$ 349.000</p>
                                 </div>
                             </div>
 
                             <div class="gt-content">
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP DYNAMIC</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ONE LITE</a></h3>
 
-                                <p class="gt-about-text wow fadeInUp fs-13" data-wow-delay=".4s">
-                                    Para quienes entrenan con energía constante y actitud imparable.
-                                </p>
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">DÉBITO AUTOMÁTICO</p>
 
-                                <div class="plan-toggle">
-                                    <span>Beneficios</span>
-                                    <i class="fa fa-chevron-down toggle-icon"></i>
-                                </div>
-
-                                <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Dynamic.
-                                    </li>
-                                    <li class="opacity-50">
-                                        <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Balance.
-                                    </li>
-                                    <li class="opacity-50">
-                                        <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a clases de SKAP Cycling.
-                                    </li>
-                                    <li class="opacity-50">
-                                        <i class="fa-solid fa-circle-xmark"></i>
-                                        Sesiones semi personalizadas (SKAP Studio + HYROX).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Valoración inicial clínica con fisioterapia.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
-                                    </li>
-                                    <li class="opacity-50">
-                                        <i class="fa-solid fa-circle-xmark"></i>
-                                        Nutrición + valoración física con seguimiento en App.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Medición de progreso en App (incluye bioimpedancia).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Bioimpedancia (SKAP Laboratory - pendiente renombre).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Sistema de reservas con cupos limitados.
-                                    </li>
-                                    <li class="opacity-50">
-                                        <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
-                                    </li>
-                                    <li class="opacity-50">
-                                        <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Ice (1 sesión).
-                                    </li>
-                                    <li class="opacity-50">
-                                        <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Relax (1 sesión).
-                                    </li>
-                                </ul>
-
-                                <div class="gt-hero-1">
-                                    <div class="gt-hero-content">
-                                        <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2564" class="gt-theme-btn">Comprar Ya</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="gt-room-box-items">
-                            <div class="gt-thumb">
-                                <img src="img/planes/01_plan_22-01-2026.jpg" alt="img" />
-                                <div class="gt-post-box text-center">
-                                    <%--<p class="fs-13">$ 174.500 | 1er Mes</p>--%>
-                                    <p class="fw-semibold fs-7">$ 349.000</p>
-                                </div>
-                            </div>
-
-                            <div class="gt-content">
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ONE</a></h3>
-
-                                <p class="gt-about-text wow fadeInUp fs-13" data-wow-delay=".4s">
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes construyen disciplina real desde el primer día.
+                                    <%--Construye disciplina real desde el primer día.--%>
                                 </p>
 
-                                <div class="plan-toggle">
-                                    <span>Beneficios</span>
+                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold mb-0" style="color: var(--gt-green);" data-wow-delay=".4s">
+                                    Primer mes: $97.720
+                                </p>
+
+                                <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s">Luego pagas: $349.000/mes</p>
+
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">Exclusivo venta web</p>
+
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Fidelidad de 12 meses</p>
+
+                                <div class="plan-toggle wow fadeInUp" data-wow-delay=".6s">
+                                    <span>Incluye</span>
                                     <i class="fa fa-chevron-down toggle-icon"></i>
                                 </div>
 
@@ -216,15 +139,15 @@
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a clases de SKAP Cycling.
+                                        Acceso a clases de SKAP Cyclo.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones semi personalizadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas (SKAP Studio + HYROX).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración inicial clínica con fisioterapia.
+                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -232,15 +155,11 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición + valoración física con seguimiento en App.
+                                        Nutrición con seguimiento en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Medición de progreso en App (incluye bioimpedancia).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Bioimpedancia (SKAP Laboratory - pendiente renombre).
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -263,7 +182,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2564" class="gt-theme-btn">Comprar Ya</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-3783" class="gt-theme-btn style-4">Comprar Ya</a>
                                         </div>
                                     </div>
                                 </div>
@@ -271,24 +190,40 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-6 planes">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
+                            <p class="ribbon-3">Más vendido</p>
+
                             <div class="gt-thumb">
-                                <img src="img/planes/01_plan-focus.jpg" alt="img" />
-                                <div class="gt-post-box text-center">
-                                    <p class="fw-semibold fs-7">$ 445.000</p>
+                                <img src="img/planes/skap-all.jpg" alt="img" />
+                                <div class="gt-post-box text-end">
+                                    <p class="fs-13">Pagas mes a mes</p>
+                                    <p class="">$ 445.000</p>
                                 </div>
                             </div>
 
                             <div class="gt-content">
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ALL</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ALL LITE</a></h3>
 
-                                <p class="gt-about-text wow fadeInUp fs-13" data-wow-delay=".4s">
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">DÉBITO AUTOMÁTICO</p>
+
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes entrenan con enfoque y acompañamiento integral.
+                                    <%--Entrena con enfoque y acompañamiento integral.--%>
                                 </p>
 
-                                <div class="plan-toggle">
-                                    <span>Beneficios</span>
+                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold mb-0" style="color: var(--gt-green);" data-wow-delay=".4s">
+                                    Primer mes: $48.950
+                                </p>
+
+                                <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s">Luego pagas: $445.000/mes</p>
+
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">Exclusivo venta web</p>
+
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Fidelidad de 12 meses</p>
+
+                                <div class="plan-toggle wow fadeInUp" data-wow-delay=".6s">
+                                    <span>Incluye</span>
                                     <i class="fa fa-chevron-down toggle-icon"></i>
                                 </div>
 
@@ -307,15 +242,15 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a clases de SKAP Cycling.
+                                        Acceso a clases de SKAP Cyclo.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones semi personalizadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas (SKAP Studio + HYROX).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración inicial clínica con fisioterapia.
+                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -323,15 +258,11 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición + valoración física con seguimiento en App.
+                                        Nutrición con seguimiento en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Medición de progreso en App (incluye bioimpedancia).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Bioimpedancia (SKAP Laboratory - pendiente renombre).
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -354,7 +285,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2565" class="gt-theme-btn">Comprar Ya</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-3784" class="gt-theme-btn style-4">Comprar Ya</a>
                                         </div>
                                     </div>
                                 </div>
@@ -362,24 +293,40 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-6 planes">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
+                            <p class="ribbon-3">Más beneficios</p>
+
                             <div class="gt-thumb">
                                 <img src="img/planes/02_plan-supreme.jpg" alt="img" />
-                                <div class="gt-post-box text-center">
-                                    <p class="fw-semibold fs-7">$ 590.000</p>
+                                <div class="gt-post-box text-end">
+                                    <p class="fs-13">Pagas única vez</p>
+                                    <p class="">$ 413.000</p>
                                 </div>
                             </div>
 
                             <div class="gt-content">
                                 <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP SUPREME</a></h3>
 
-                                <p class="gt-about-text wow fadeInUp fs-13" data-wow-delay=".4s">
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: #024238;">PAGO MES A MES</p>
+
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes llevan la experiencia SKAP a su máximo nivel.
+                                    <%--Lleva la experiencia SKAP a su máximo nivel.--%>
                                 </p>
 
-                                <div class="plan-toggle">
-                                    <span>Beneficios</span>
+                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold mb-0" style="color: var(--gt-green);" data-wow-delay=".4s">
+                                    Precio web: $413.000
+                                </p>
+
+                                <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s">Precio anterior: $590.000</p>
+
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-bold mt-0 info-oculta" data-wow-delay=".4s" style="color: var(--gt-green);">Exclusivo venta web</p>
+
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Sin fidelidad</p>
+
+                                <div class="plan-toggle wow fadeInUp" data-wow-delay=".6s">
+                                    <span>Incluye</span>
                                     <i class="fa fa-chevron-down toggle-icon"></i>
                                 </div>
 
@@ -398,15 +345,15 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a clases de SKAP Cycling.
+                                        Acceso a clases de SKAP Cyclo.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones semi personalizadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas (SKAP Studio + HYROX).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración inicial clínica con fisioterapia.
+                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -414,15 +361,11 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición + valoración física con seguimiento en App.
+                                        Nutrición con seguimiento en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Medición de progreso en App (incluye bioimpedancia).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Bioimpedancia (SKAP Laboratory - pendiente renombre).
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -445,7 +388,7 @@
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
                                         <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" class="gt-theme-btn">Comprar Ya</a>
+                                            <a href="https://dash.fitmewise.com/admin/register/app/693c0902bf6d3-2566" class="gt-theme-btn style-4">Comprar Ya</a>
                                         </div>
                                     </div>
                                 </div>
@@ -453,6 +396,10 @@
                         </div>
                     </div>
                 </div> 
+
+                <div class="col-12 mt-4 text-center">
+                    <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Aplican términos y condiciones.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -494,6 +441,23 @@
     <script src="js/main.js"></script>
 
     <style>
+        .ribbon-3 {
+	        width: 200px;
+	        padding: 5px 15px;
+	        /*height: 97px;*/
+	        position: absolute;
+	        left: 30px;
+	        top: -17px;
+	        display: block;
+	        background-color: #D5BB96;
+	        border-radius: 15px;
+	        color: #191919;
+	        font-weight: 600;
+	        text-align: center;
+	        /*background: url(../img/ribbon.png) no-repeat 0 0;*/
+	        z-index: 101;
+        }
+
 
         .bannerMain {
             background-image: url('img/banners-clases/02_skap-form_10-12-2025.jpg');
@@ -571,6 +535,14 @@
         @media (max-width: 920px) {
             .bannerMain {
                 background-image: url('../img/banners-clases/02_skap-form-mobile-2.jpg');
+            }
+
+            .membresias-cards {
+                flex-direction: column-reverse;
+            }
+
+            .info-oculta {
+                display: none;
             }
         }
 
