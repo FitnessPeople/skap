@@ -52,8 +52,7 @@ Version: 1.0.0
   --gt-bg2: #F8F8F8;
   --gt-bg3: #F7F3EE;
   --gt-secondary: #D5BB96;
-  --gt-tertiary: #003336;
-  --gt-green: #103639;
+  --gt-tertiary: #103639;
   --gt-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
 }
 
@@ -769,17 +768,13 @@ span {
 
 .gt-hero-button .style-4 {
   color: var(--gt-white);
-  background-color: var(--gt-green);
-  border: 1px solid var(--gt-secondary);
+  background-color: var(--gt-tertiary);
+  border: 1px solid var(--gt-theme);
 }
 .gt-hero-button .style-4:hover {
-  color: var(--gt-green);
+  color: var(--gt-tertiary);
   background-color: var(--gt-secondary);
-  border: 1px solid var(--gt-black);
-}
-.gt-hero-button .style-4::before {
-  color: var(--gt-green);
-  background-color: var(--gt-secondary);
+  border: 1px solid var(--gt-theme);
 }
 
 .gt-about-section-3 {
@@ -7675,6 +7670,21 @@ span {
 /* +++ */
 
 /* --- */
+.ribbon {
+    width: 200px;
+    padding: 5px 15px;
+    position: absolute;
+    left: 30px;
+    top: -17px;
+    display: block;
+    background-color: var(--gt-secondary);
+    border-radius: 15px;
+    color: var(--gt-theme);
+    font-weight: 600;
+    text-align: center;
+    z-index: 101;
+}
+
 .gt-room-section .planes {
     /* VISUALIZAR SOLO 2 PLANES */
     /*max-width: 500px;*/

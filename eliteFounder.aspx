@@ -15,23 +15,18 @@
     <meta name="description" content="Skap Training Club"/>
     <!-- ========== End Meta Tags ========== -->
 
-    <!-- ========== Facebook Pixel Code ========== -->
+    <!-- ========== Google Tag Manager ========== -->
     <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '921914123626484');
-        fbq('track', 'PageView');
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NDCCGD5T');
     </script>
-    <!-- ========== End Facebook Pixel Code ========== -->
+    <!-- ========== End Google Tag Manager ========== -->
 
     <!-- ========== Microsoft Clarity ========== -->
     <script type="text/javascript">
@@ -320,12 +315,12 @@
 
     <script>
         (() => {
-            const CUPOS_MIN = 40;
+            const CUPOS_MIN = 45;
             const CUPOS_MAX = 50;
 
             // 🔧 Ajusta estas fechas si lo necesitas
-            const fechaInicio = new Date("2026-02-24T00:00:00");
-            const fechaFin = new Date("2026-03-11T23:59:59");
+            const fechaInicio = new Date("2026-03-18T00:00:00");
+            const fechaFin = new Date("2026-03-31T23:59:59");
 
             const ahora = new Date();
 
@@ -367,8 +362,10 @@
         })();
     </script>
 
-    <noscript>
-        <img height="1" width="1" class="d-none" src="https://www.facebook.com/tr?id=921914123626484&ev=PageView&noscript=1"/>
+    <!-- ========== Google Tag Manager ========== -->
+    <noscript> 
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDCCGD5T" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
+    <!-- ========== End Google Tag Manager ========== -->
 </body>
 </html>

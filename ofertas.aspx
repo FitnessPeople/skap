@@ -15,23 +15,18 @@
     <meta name="description" content="Skap Training Club"/>
     <!-- ========== End Meta Tags ========== -->
 
-    <!-- ========== Facebook Pixel Code ========== -->
+    <!-- ========== Google Tag Manager ========== -->
     <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '921914123626484');
-        fbq('track', 'PageView');
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NDCCGD5T');
     </script>
-    <!-- ========== End Facebook Pixel Code ========== -->
+    <!-- ========== End Google Tag Manager ========== -->
 
     <!-- ========== Microsoft Clarity ========== -->
     <script type="text/javascript">
@@ -102,20 +97,20 @@
                             <div class="gt-content">
                                 <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ONE LITE</a></h3>
 
-                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">DÉBITO AUTOMÁTICO</p>
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">DÉBITO AUTOMÁTICO</p>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes construyen disciplina real desde el primer día.
                                     <%--Construye disciplina real desde el primer día.--%>
                                 </p>
 
-                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold mb-0" style="color: var(--gt-green);" data-wow-delay=".4s">
+                                <p class="gt-about-text wow fadeInUp fw-semibold mb-0" style="color: var(--gt-tertiary); font-size: 17px;" data-wow-delay=".4s">
                                     Primer mes: $97.720
                                 </p>
 
                                 <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s">Luego pagas: $349.000/mes</p>
 
-                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">Exclusivo venta web</p>
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">Exclusivo venta web</p>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Fidelidad de 12 meses</p>
 
@@ -192,7 +187,7 @@
 
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
-                            <p class="ribbon-3">Más vendido</p>
+                            <p class="ribbon">Más vendido</p>
 
                             <div class="gt-thumb">
                                 <img src="img/planes/skap-all.jpg" alt="img" />
@@ -205,20 +200,20 @@
                             <div class="gt-content">
                                 <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP ALL LITE</a></h3>
 
-                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">DÉBITO AUTOMÁTICO</p>
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">DÉBITO AUTOMÁTICO</p>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes entrenan con enfoque y acompañamiento integral.
                                     <%--Entrena con enfoque y acompañamiento integral.--%>
                                 </p>
 
-                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold mb-0" style="color: var(--gt-green);" data-wow-delay=".4s">
+                                <p class="gt-about-text wow fadeInUp fw-semibold mb-0" style="color: var(--gt-tertiary); font-size: 17px;" data-wow-delay=".4s">
                                     Primer mes: $48.950
                                 </p>
 
                                 <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s">Luego pagas: $445.000/mes</p>
 
-                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-green);">Exclusivo venta web</p>
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">Exclusivo venta web</p>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Fidelidad de 12 meses</p>
 
@@ -295,35 +290,35 @@
 
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
-                            <p class="ribbon-3">Más beneficios</p>
+                            <p class="ribbon">Más beneficios</p>
 
                             <div class="gt-thumb">
                                 <img src="img/planes/02_plan-supreme.jpg" alt="img" />
                                 <div class="gt-post-box text-end">
-                                    <p class="fs-13">Pagas única vez</p>
-                                    <p class="">$ 413.000</p>
+                                    <p class="fs-13">Pago mes a mes</p>
+                                    <p class="">$ 590.000</p>
                                 </div>
                             </div>
 
                             <div class="gt-content">
                                 <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP SUPREME</a></h3>
 
-                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: #024238;">PAGO MES A MES</p>
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">PAGO MES A MES</p>
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
                                     Para quienes llevan la experiencia SKAP a su máximo nivel.
                                     <%--Lleva la experiencia SKAP a su máximo nivel.--%>
                                 </p>
 
-                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold mb-0" style="color: var(--gt-green);" data-wow-delay=".4s">
-                                    Precio web: $413.000
+                                <p class="gt-about-text wow fadeInUp fw-semibold mb-0" style="color: var(--gt-tertiary); font-size: 17px;" data-wow-delay=".4s">
+                                    Precio comprando hoy en web: $413.000
                                 </p>
 
-                                <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s">Precio anterior: $590.000</p>
+                                <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s">Después pagas cada mes $590.000</p>
 
-                                <p class="gt-about-text wow fadeInUp fs-13 fw-bold mt-0 info-oculta" data-wow-delay=".4s" style="color: var(--gt-green);">Exclusivo venta web</p>
+                                <p class="gt-about-text wow fadeInUp fs-13 fw-bold mt-0 info-oculta" data-wow-delay=".4s" style="color: var(--gt-tertiary);">Exclusivo venta web</p>
 
-                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Sin fidelidad</p>
+                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Fidelidad de 6 meses</p>
 
                                 <div class="plan-toggle wow fadeInUp" data-wow-delay=".6s">
                                     <span>Incluye</span>
@@ -395,10 +390,10 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
 
                 <div class="col-12 mt-4 text-center">
-                    <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Aplican términos y condiciones.</p>
+                    <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Precios exclusivos para compra online. Aplican términos y condiciones.</p>
                 </div>
             </div>
         </div>
@@ -441,22 +436,6 @@
     <script src="js/main.js"></script>
 
     <style>
-        .ribbon-3 {
-	        width: 200px;
-	        padding: 5px 15px;
-	        /*height: 97px;*/
-	        position: absolute;
-	        left: 30px;
-	        top: -17px;
-	        display: block;
-	        background-color: #D5BB96;
-	        border-radius: 15px;
-	        color: #191919;
-	        font-weight: 600;
-	        text-align: center;
-	        /*background: url(../img/ribbon.png) no-repeat 0 0;*/
-	        z-index: 101;
-        }
 
 
         .bannerMain {
@@ -467,33 +446,31 @@
         }
 
 
-        .plans-switch {
-            display: flex;
-            justify-content: center;
-        }
-
+        /* Botones tipo switch */
         .switch-btn {
-            background: transparent;
-            border: 2px solid #d6ff00;
-            color: #d6ff00;
-            padding: 10px 25px;
-            margin: 0 10px;
-            font-weight: 600;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: all 0.3s ease;
+            background-color: var(--gt-white);
+            color: var(--gt-theme);
+            border: 1px solid var(--gt-theme);
         }
 
+        /* Quitamos el efecto diagonal del tema */
+        .switch-btn::before {
+            display: none;  
+        }
+
+        /* Hover */
         .switch-btn:hover {
-            background: #d6ff00;
-            color: #000;
+            background-color: var(--gt-theme);
+            color: var(--gt-white) !important;
+            border: 1px solid var(--gt-theme);
         }
 
+        /* Botón activo */
         .switch-btn.active {
-            background: #d6ff00;
-            color: #000;
+            background-color: var(--gt-theme);
+            color: #fff;
+            border-color: var(--gt-theme);
         }
-
 
 
         .plan-features {
@@ -524,18 +501,47 @@
             transform: rotate(180deg);
         }
 
+        /* - */
 
-
-        .plans-wrapper {
-            margin: 60px auto 0px 0;
-            /*gap: 16px;*/
+        .swiper-button-next, .swiper-button-prev, 
+        .swiper-button-next:hover, .swiper-button-prev:hover {
+            /*top: 45%;*/ /*La imagen tiene 310px*/
+            top: 355px;
+            background-color: transparent;
+            color: var(--gt-theme);
         }
 
+        /*.swiper-button-next {
+            background-color: none;
+
+        }*/
+
+
+        .swiper-pagination-bullet {
+            background-color: #b7b7b7;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: var(--gt-theme);
+        }
+
+        /* - */
 
         @media (max-width: 920px) {
             .bannerMain {
                 background-image: url('../img/banners-clases/02_skap-form-mobile-2.jpg');
             }
+
+
+            .gt-hero-1 .gt-hero-content .gt-hero-button {
+                flex-wrap: nowrap;
+            }
+
+            .switch-btn {
+                padding: 10px 15px;
+                font-size: 13px;
+            }
+
 
             .membresias-cards {
                 flex-direction: column-reverse;
@@ -553,9 +559,9 @@
         document.addEventListener("DOMContentLoaded", function () {
 
             //const buttons = document.querySelectorAll(".switch-btn");
-            //const recurrentes = document.querySelector(".plans-recu");
-            //const unicos = document.querySelector(".plans-unic");
-            //const masVendidos = document.querySelector(".plans-mas-vend");
+            //const recurrentes = document.querySelector(".memb-recu");
+            //const unicos = document.querySelector(".memb-unic");
+            //const masVendidos = document.querySelector(".memb-mas-vend");
 
             //unicos.style.display = "none";
             //recurrentes.style.display = "none";
@@ -604,8 +610,6 @@
 
             toggles.forEach(toggle => {
                 toggle.addEventListener("click", function () {
-                    console.log('Hola');
-
                     if (!isOpen) {
                         // Abrir todos
                         features.forEach(f => {
@@ -635,9 +639,45 @@
     </script>
 
 
+    <script>
 
-    <noscript>
-        <img height="1" width="1" class="d-none" src="https://www.facebook.com/tr?id=921914123626484&ev=PageView&noscript=1"/>
+        var swiper = new Swiper(".membresiasSwiper", {
+            slidesPerView: 3,
+            spaceBetween: 15,
+            loop: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                576: {
+                    slidesPerView: 1
+                },
+                768: {
+                    slidesPerView: 2
+                },
+                1200: {
+                    slidesPerView: 3
+                }
+            }
+        });
+
+    </script>
+
+    <!-- ========== Google Tag Manager ========== -->
+    <noscript> 
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDCCGD5T" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
+    <!-- ========== End Google Tag Manager ========== -->
 </body>
 </html>

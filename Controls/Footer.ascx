@@ -17,7 +17,7 @@
                                 <a href="https://api.whatsapp.com/send/?phone=573226985390" target="_blank"><i class="far fa-phone"></i> 322 698 5390</a>
                                 <a href="https://maps.app.goo.gl/oruePqntStGhnjcSA" target="_blank"><i class="fal fa-map-marker-alt"></i> Cra 29 #45-25, Sotomayor, Bucaramanga, Santander</a>
                                 <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><i class="fal fa-envelope"></i> skaptrainingclub.com</a>
-                                <a href="#" target="_blank" class="mt-2"><i class="fal fa-file-lines"></i> Términos y condiciones.</a>
+                                <a href="#" target="_blank" class="mt-2 text-decoration-underline"><i class="fal fa-file-lines"></i> Términos y condiciones</a>
                             </div>
                         </div>
                     </div>
