@@ -828,15 +828,15 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
+                                        Acceso a SKAP Strength (Zona de equipos).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Dynamic.
+                                        Acceso a SKAP Dynamic (Funcional).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Balance.
+                                        Acceso a SKAP Balance (Pilates x4 sesiones).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
@@ -844,23 +844,27 @@
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Sesiones guiadas (SKAP Studio + HYROX).
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
+                                        Sesiones guiadas SKAP Studio (Circuito x55 min).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Nutrición con seguimiento en App.
+                                        Sesiones guiadas SKAP Hyrox.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
+                                        Valoración fisica inicial con fisioterapeuta y seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Seguimiento del entrenamiento mediante la APP SKAP.
+                                    </li>
+                                    <li class="opacity-50">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                        Nutrición con seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -868,15 +872,15 @@
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
+                                        Recovery - SKAP Thermal (Sauna infrarrojos x2 sesiones).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Ice (1 sesión).
+                                        Recovery - SKAP Ice (Inmersión en Hielo x1 sesión).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Relax (1 sesión).
+                                        Recovery - SKAP Relax (Masaje relajante x1 sesión).
                                     </li>
                                 </ul>
 
@@ -927,15 +931,15 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
+                                        Acceso a SKAP Strength (Zona de equipos).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Dynamic.
+                                        Acceso a SKAP Dynamic (Funcional).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Balance.
+                                        Acceso a SKAP Balance (Pilates x4 sesiones).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
@@ -943,23 +947,27 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas SKAP Studio (Circuito x55 min).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
+                                        Sesiones guiadas SKAP Hyrox.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
+                                        Valoración fisica inicial con fisioterapeuta y seguimiento a través de la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento en App.
+                                        Seguimiento del entrenamiento mediante la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
+                                        Nutrición con seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -967,15 +975,15 @@
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
+                                        Recovery - SKAP Thermal (Sauna infrarrojos x2 sesiones).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Ice (1 sesión).
+                                        Recovery - SKAP Ice (Inmersión en Hielo x1 sesión).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Relax (1 sesión).
+                                        Recovery - SKAP Relax (Masaje relajante x1 sesión).
                                     </li>
                                 </ul>
 
@@ -992,7 +1000,7 @@
 
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
-                            <p class="ribbon">Más vendido</p>
+                            <%--<p class="ribbon">Más vendido</p>--%>
 
                             <div class="gt-thumb">
                                 <img src="img/planes/skap-all.jpg" alt="img" />
@@ -1028,15 +1036,15 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
+                                        Acceso a SKAP Strength (Zona de equipos).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Dynamic.
+                                        Acceso a SKAP Dynamic (Funcional).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Balance.
+                                        Acceso a SKAP Balance (Pilates x4 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1044,23 +1052,27 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas SKAP Studio (Circuito x55 min).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
+                                        Sesiones guiadas SKAP Hyrox.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
+                                        Valoración fisica inicial con fisioterapeuta y seguimiento a través de la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento en App.
+                                        Seguimiento del entrenamiento mediante la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
+                                        Nutrición con seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1068,15 +1080,15 @@
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
+                                        Recovery - SKAP Thermal (Sauna infrarrojos x2 sesiones).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Ice (1 sesión).
+                                        Recovery - SKAP Ice (Inmersión en Hielo x1 sesión).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Recovery - SKAP Relax (1 sesión).
+                                        Recovery - SKAP Relax (Masaje relajante x1 sesión).
                                     </li>
                                 </ul>
 
@@ -1095,7 +1107,8 @@
 
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="gt-room-box-items">
-                            <p class="ribbon">Más beneficios</p>
+                            <%--<p class="ribbon">Más beneficios</p>--%>
+                            <p class="ribbon">Más vendido</p>
 
                             <div class="gt-thumb">
                                 <img src="img/planes/02_plan-supreme.jpg" alt="img" />
@@ -1131,15 +1144,15 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
+                                        Acceso a SKAP Strength (Zona de equipos).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Dynamic.
+                                        Acceso a SKAP Dynamic (Funcional).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Balance.
+                                        Acceso a SKAP Balance (Pilates x4 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1147,23 +1160,27 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas SKAP Studio (Circuito x55 min).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
+                                        Sesiones guiadas SKAP Hyrox.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
+                                        Valoración fisica inicial con fisioterapeuta y seguimiento a través de la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento en App.
+                                        Seguimiento del entrenamiento mediante la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
+                                        Nutrición con seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1171,15 +1188,15 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
+                                        Recovery - SKAP Thermal (Sauna infrarrojos x2 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Ice (1 sesión).
+                                        Recovery - SKAP Ice (Inmersión en Hielo x1 sesión).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Relax (1 sesión).
+                                        Recovery - SKAP Relax (Masaje relajante x1 sesión).
                                     </li>
                                 </ul>
 
@@ -1207,7 +1224,7 @@
                             </div>
 
                             <div class="gt-content">
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP SUPREME</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SKAP PRIME</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">PAGO MES A MES</p>
 
@@ -1232,15 +1249,15 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
+                                        Acceso a SKAP Strength (Zona de equipos).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Dynamic.
+                                        Acceso a SKAP Dynamic (Funcional).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Balance.
+                                        Acceso a SKAP Balance (Pilates x4 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1248,23 +1265,27 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas SKAP Studio (Circuito x55 min).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
+                                        Sesiones guiadas SKAP Hyrox.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
+                                        Valoración fisica inicial con fisioterapeuta y seguimiento a través de la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento en App.
+                                        Seguimiento del entrenamiento mediante la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
+                                        Nutrición con seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1272,15 +1293,15 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
+                                        Recovery - SKAP Thermal (Sauna infrarrojos x2 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Ice (1 sesión).
+                                        Recovery - SKAP Ice (Inmersión en Hielo x1 sesión).
                                     </li>
-                                    <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Relax (1 sesión).
+                                    <li class="opacity-50">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                        Recovery - SKAP Relax (Masaje relajante x1 sesión).
                                     </li>
                                 </ul>
 
@@ -1332,15 +1353,15 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
+                                        Acceso a SKAP Strength (Zona de equipos).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Dynamic.
+                                        Acceso a SKAP Dynamic (Funcional).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Balance.
+                                        Acceso a SKAP Balance (Pilates x4 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1348,23 +1369,27 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas SKAP Studio (Circuito x55 min).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
+                                        Sesiones guiadas SKAP Hyrox.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
+                                        Valoración fisica inicial con fisioterapeuta y seguimiento a través de la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento en App.
+                                        Seguimiento del entrenamiento mediante la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
+                                        Nutrición con seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1372,15 +1397,15 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
+                                        Recovery - SKAP Thermal (Sauna infrarrojos x2 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Ice (1 sesión).
+                                        Recovery - SKAP Ice (Inmersión en Hielo x1 sesión).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Relax (1 sesión).
+                                        Recovery - SKAP Relax (Masaje relajante x1 sesión).
                                     </li>
                                 </ul>
 
@@ -1430,15 +1455,15 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Strength.
+                                        Acceso a SKAP Strength (Zona de equipos).
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Acceso a SKAP Dynamic.
+                                        Acceso a SKAP Dynamic (Funcional).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Acceso a SKAP Balance.
+                                        Acceso a SKAP Balance (Pilates x4 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1446,23 +1471,27 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Sesiones guiadas (SKAP Studio + HYROX).
+                                        Sesiones guiadas SKAP Studio (Circuito x55 min).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Valoración clínica inicial con fisioterapia y seguimiento en App.
+                                        Sesiones guiadas SKAP Hyrox.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Seguimiento del entrenamiento mediante la App.
+                                        Valoración fisica inicial con fisioterapeuta y seguimiento a través de la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento en App.
+                                        Seguimiento del entrenamiento mediante la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en App.
+                                        Nutrición con seguimiento a través de la APP SKAP.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        SKAP Check - Maquina de Bioimpedancia con medición de progreso en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1470,15 +1499,15 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Thermal (2 sesiones).
+                                        Recovery - SKAP Thermal (Sauna infrarrojos x2 sesiones).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Ice (1 sesión).
+                                        Recovery - SKAP Ice (Inmersión en Hielo x1 sesión).
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Recovery - SKAP Relax (1 sesión).
+                                        Recovery - SKAP Relax (Masaje relajante x1 sesión).
                                     </li>
                                 </ul>
 
