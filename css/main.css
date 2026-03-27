@@ -4561,7 +4561,7 @@ span {
 .gt-hero-1 .gt-hero-content .gt-hero-button {
   display: flex;
   align-items: center;
-  margin-top: 48px;
+  margin-top: 40px;
   gap: 18px;
 }
 @media (max-width: 1199px) {
@@ -6734,7 +6734,7 @@ span {
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
-  margin: 15px 0 20px;
+  margin: 15px 0;
 }
 .gt-service-wrapper-3 .service-content .faq-item h3 {
   color: var(--gt-theme);
@@ -7670,6 +7670,11 @@ span {
 /* +++ */
 
 /* --- */
+.plan-features li {
+    line-height: 1.5; /* más compacto el texto */
+    margin-bottom: 10px; /* espacio entre items */
+}
+
 .ribbon {
     width: 200px;
     padding: 5px 15px;

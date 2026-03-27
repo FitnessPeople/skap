@@ -157,55 +157,49 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/01-escena.jpg" alt="img" />
+                                        <img src="img/escenas/01-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/02-escena.jpg" alt="img" />
+                                        <img src="img/escenas/02-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/03-escena.jpg" alt="img" />
+                                        <img src="img/escenas/03-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/04-escena.jpg" alt="img" />
+                                        <img src="img/escenas/04-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/05-escena.jpg" alt="img" />
+                                        <img src="img/escenas/05-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/06-escena.jpg" alt="img" />
+                                        <img src="img/escenas/06-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/07-escena.jpg" alt="img" />
+                                        <img src="img/escenas/07-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
-                                 <div class="swiper-slide">
+                                <div class="swiper-slide">
                                     <div class="service-image">
-                                        <img src="img/escenas/08-escena.jpg" alt="img" />
-                                        <%--<span class="offer-text">From $269 / NIGHT</span>--%>
-                                    </div>
-                                </div>
-                                 <div class="swiper-slide">
-                                    <div class="service-image">
-                                        <img src="img/escenas/09-escena.jpg" alt="img" />
+                                        <img src="img/escenas/08-escena_2026-03-26.jpg" alt="img" />
                                         <%--<span class="offer-text">From $269 / NIGHT</span>--%>
                                     </div>
                                 </div>
@@ -229,7 +223,7 @@
                                 Entrenar puede sentirse distinto.
                                 </h2>
                             </div>
-                            <p class="service-text wow fadeInUp" data-wow-delay=".4s">
+                            <p class="service-text wow fadeInUp" style="line-height: 1.5;" data-wow-delay=".4s">
                                 En SKAP, cada detalle está pensado para que moverse sea un acto de enfoque, estética y calma. No se trata solo de entrenar, sino de habitar un espacio que te exige, te eleva y te representa.
                             </p>
                             <div class="faq-item wow fadeInUp" data-wow-delay=".5s">
@@ -1333,7 +1327,7 @@
 
                                 <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">PAGO ÚNICO · 6 MESES</p>
 
-                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                <p class="gt-about-text wow fadeInUp" style="font-size: 14px;" data-wow-delay=".4s">
                                     Para quienes buscan resultados reales en menos tiempo, con compromiso total.
                                 </p>
 
@@ -1435,7 +1429,7 @@
 
                                 <p class="gt-about-text wow fadeInUp fs-13 fw-semibold mt-0" data-wow-delay=".4s" style="color: var(--gt-tertiary);">PAGO ÚNICO · 12 MESES</p>
 
-                                <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">
+                                <p class="gt-about-text wow fadeInUp" style="font-size: 14px;" data-wow-delay=".4s">
                                     Para quienes hacen del entrenamiento un estilo de vida con enfoque total.
                                 </p>
 
