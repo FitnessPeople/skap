@@ -854,7 +854,7 @@
                                     </li>
                                     <li class="opacity-50">
                                         <i class="fa-solid fa-circle-xmark"></i>
-                                        Nutrición con seguimiento a través de la APP SKAP.
+                                        Valoración inicial con nutricionista y seguimientos en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -957,7 +957,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento a través de la APP SKAP.
+                                        Valoración inicial con nutricionista y seguimientos en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1062,7 +1062,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento a través de la APP SKAP.
+                                        Valoración inicial con nutricionista y seguimientos en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1170,7 +1170,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento a través de la APP SKAP.
+                                        Valoración inicial con nutricionista y seguimientos en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1275,7 +1275,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento a través de la APP SKAP.
+                                        Valoración inicial con nutricionista y seguimientos en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1379,7 +1379,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento a través de la APP SKAP.
+                                        Valoración inicial con nutricionista y seguimientos en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
@@ -1481,7 +1481,7 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
-                                        Nutrición con seguimiento a través de la APP SKAP.
+                                        Valoración inicial con nutricionista y seguimientos en la APP SKAP.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-circle-check"></i>
