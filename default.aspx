@@ -678,12 +678,10 @@
 
 
     <!-- GT Video Section Start -->
-    <section id="conocenos" class="gt-booking-reserve-section fix">
+    <%--<section id="conocenos" class="gt-booking-reserve-section fix">
         <div class="gt-section-title mb-0">
             <h3 class="wow fadeInUp" data-wow-delay=".2s">
-                <%--<img src="img/arrow-left.svg" alt="img"/>--%>
                 Así se vive el rendimiento de alto nivel.
-                <%--<img src="img/arrow-right.svg" alt="img"/>--%>
             </h3>
         </div>
         <div class="gt-video-wrapper">
@@ -704,7 +702,7 @@
         <p class="service-text wow fadeInUp fw-semibold pt-0" data-wow-delay=".4s">
             SKAP no es un lugar más. Es un club exclusivo.
         </p>
-    </section>
+    </section>--%>
 
 
     <!-- GT About Section Start -->
