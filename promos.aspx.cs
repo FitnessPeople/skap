@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Skap
 {
-    public partial class ofertas : System.Web.UI.Page
+    public partial class promos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("default", true);
+
         }
     }
 }

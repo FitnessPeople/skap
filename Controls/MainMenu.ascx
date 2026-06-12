@@ -76,7 +76,7 @@
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="https://api.whatsapp.com/send/?phone=573226985390" target="_blank">322 698 5390</a>
+                                <a href="https://api.whatsapp.com/send/?phone=573226913520" target="_blank">322 691 3520</a>
                             </div>
                         </li>
                     </ul>

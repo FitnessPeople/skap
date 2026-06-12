@@ -7767,7 +7767,22 @@ span {
 
 /* - Elite Founder - */
 
+/* - Promos */
 
+.banner-main-promos {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.banner-main-promos img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* - End Promos */
 
 
 

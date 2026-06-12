@@ -11,7 +11,7 @@ namespace Skap
 {
 
 
-    public partial class descripcionMembresia
+    public partial class promo
     {
 
         /// <summary>
@@ -24,24 +24,6 @@ namespace Skap
         protected global::Skap.Controls.MainMenu MainMenu;
 
         /// <summary>
-        /// Control lnkBanner.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor lnkBanner;
-
-        /// <summary>
-        /// Control secBanner.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl secBanner;
-
-        /// <summary>
         /// Control imgPlan.
         /// </summary>
         /// <remarks>
@@ -49,6 +31,15 @@ namespace Skap
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlImage imgPlan;
+
+        /// <summary>
+        /// Control lblTextPrecio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblTextPrecio;
 
         /// <summary>
         /// Control lblPrecio.
@@ -96,6 +87,15 @@ namespace Skap
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblPrecioAdd;
 
         /// <summary>
+        /// Control lblPrecioDes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblPrecioDes;
+
+        /// <summary>
         /// Control lblFidelidad.
         /// </summary>
         /// <remarks>
@@ -121,15 +121,6 @@ namespace Skap
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkComprar;
-
-        /// <summary>
-        /// Control form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// Control Footer.

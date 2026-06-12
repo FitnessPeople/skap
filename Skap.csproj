@@ -84,7 +84,7 @@
     <Content Include="css\nice-select.css" />
     <Content Include="css\swiper-bundle.min.css" />
     <Content Include="default.aspx" />
-    <Content Include="descripcion.aspx" />
+    <Content Include="promo.aspx" />
     <Content Include="eliteFounder.aspx" />
     <Content Include="fonts\nohemi\Befonts-License.txt" />
     <Content Include="Global.asax" />
@@ -514,6 +514,7 @@
     <Content Include="plantilla\team-details.html" />
     <Content Include="plantilla\team.html" />
     <Content Include="plantilla\testimonial.html" />
+    <Content Include="promos.aspx" />
     <Content Include="Web.config" />
     <Content Include="webfonts\fa-brands-400.ttf" />
     <Content Include="webfonts\fa-brands-400.woff2" />
@@ -553,12 +554,12 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="descripcion.aspx.cs">
-      <DependentUpon>descripcion.aspx</DependentUpon>
+    <Compile Include="promo.aspx.cs">
+      <DependentUpon>promo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="descripcion.aspx.designer.cs">
-      <DependentUpon>descripcion.aspx</DependentUpon>
+    <Compile Include="promo.aspx.designer.cs">
+      <DependentUpon>promo.aspx</DependentUpon>
     </Compile>
     <Compile Include="eliteFounder.aspx.cs">
       <DependentUpon>eliteFounder.aspx</DependentUpon>
@@ -583,6 +584,13 @@
     </Compile>
     <Compile Include="planSkapOne.aspx.designer.cs">
       <DependentUpon>planSkapOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="promos.aspx.cs">
+      <DependentUpon>promos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="promos.aspx.designer.cs">
+      <DependentUpon>promos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

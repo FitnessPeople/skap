@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="descripcion.aspx.cs" Inherits="Skap.descripcionMembresia" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="promo.aspx.cs" Inherits="Skap.promo" %>
 
 <%@ Register Src="~/Controls/MainMenu.ascx" TagPrefix="uc" TagName="MainMenu" %>
 <%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc" TagName="Footer" %>
@@ -38,8 +38,26 @@
     </script>
     <!-- ========== End Microsoft Clarity ========== -->
 
+    <!-- ========== Meta Pixel Code ========== -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '921914123626484');
+        fbq('track', 'PageView');
+    </script>
+    <!-- ========== End Meta Pixel Code ========== -->
+
     <!-- ======== Page title ============ -->
-    <title>Skap Training Club</title>
+    <title>Promoción de Membresía | Skap Training Club</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="img/favicon.png"/>
     <!--<< Bootstrap min.css >>-->
@@ -64,27 +82,47 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 <body>
+    <!-- ========== Meta Pixel Code ========== -->
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=921914123626484&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- ========== End Meta Pixel Code ========== -->
 
     <uc:mainmenu runat="server" ID="MainMenu" />
 
+    <section class="banner-main-promos">
+        <picture>
+            <source 
+                media="(max-width: 920px)" 
+                srcset="img/banners-clases/banner-promos_mobile.jpg" />
 
-    <a id="lnkBanner" runat="server">
-        <section runat="server" id="secBanner"></section>
-    </a>
-
-    <%--<section class="bannerMain"></section>--%>
-
+            <img 
+                src="img/banners-clases/banner-promos.jpg" 
+                alt="Banner Principal" />
+        </picture>
+    </section>
 
     <!-- GT Plans Section Start -->
-    <section id="planes" class="gt-room-section fix section-padding section-bg">
+    <section id="membresias" class="gt-room-section fix section-padding section-bg">
         <div class="gt-room-wrapper">
             <div class="container">
+                <div class="gt-section-title text-center">
+                    <h6 class="wow fadeInUp justify-content-center mb-0">
+                        <img src="img/arrow-left.svg" alt="img" />
+                            MEMBRESÍA SKAP
+                        <img src="img/arrow-right.svg" alt="img" />
+                    </h6>
+                </div>
+
                 <div class="row justify-content-center g-3">
-                    <div class="col-md-5 p-5">
-                        <div class="gt-room-box-items">
+                    <div class="col-md-5 py-5 px-2 mt-0">
+                        <div class="gt-room-box-items mt-0">
+                            <p class="ribbon">Más vendido</p>
+
                             <div class="gt-thumb">
-                                <img id="imgPlan" runat="server" alt="Imagen de memebresia" />
-                                <div class="gt-post-box text-center">
+                                <img id="imgPlan" runat="server" alt="Imagen de membresía" />
+                                <div class="gt-post-box text-end">
+                                    <p class="fs-13" id="lblTextPrecio" runat="server"></p>
                                     <p class="" id="lblPrecio" runat="server"></p>
                                 </div>
                             </div>
@@ -96,9 +134,11 @@
 
                                 <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s" id="lblDescripcion" runat="server"></p>
 
-                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold info-oculta" style="color: #024238;" data-wow-delay=".4s" id="lblPrecioAdd" runat="server">
+                                <p class="gt-about-text wow fadeInUp fs-5 fw-semibold mb-0 info-oculta" style="color: #024238;" data-wow-delay=".4s" id="lblPrecioAdd" runat="server">
                                     &nbsp;
                                 </p>
+
+                                <p class="gt-about-text wow fadeInUp mt-0 fs-13" data-wow-delay=".4s" id="lblPrecioDes" runat="server"></p>
 
                                 <p class="gt-about-text wow fadeInUp mt-4" data-wow-delay=".4s" id="lblFidelidad" runat="server"></p>
 
@@ -107,13 +147,16 @@
                                     <i class="fa fa-chevron-down toggle-icon"></i>
                                 </div>
 
-                                <asp:Repeater ID="rptBeneficios" runat="server">
-                                    <ItemTemplate>
-                                        <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
-                                            <li><i class="fa-solid fa-circle-check"></i><%# Eval("Texto") %></li>
-                                        </ul>
-                                    </ItemTemplate>
-                                </asp:Repeater>
+                                <ul class="gt-about-list wow mt-3 fadeInUp plan-features" data-wow-delay=".8s">
+                                    <asp:Repeater ID="rptBeneficios" runat="server">
+                                        <ItemTemplate>
+                                            <li>
+                                                <i class="fa-solid fa-circle-check"></i>
+                                                <%# Eval("Texto") %>
+                                            </li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                </ul>
 
                                 <div class="gt-hero-1">
                                     <div class="gt-hero-content">
@@ -127,21 +170,16 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
+
+                <div class="col-12 mt-4 text-center">
+                    <p class="gt-about-text wow fadeInUp" data-wow-delay=".4s">Precios exclusivos para compra online. Aplican términos y condiciones.</p>
+                </div>
             </div>
         </div>
     </section>
 
-
-
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-
-
     <uc:footer runat="server" ID="Footer" />
-
 
     <!--<< All JS Plugins >>-->
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -169,74 +207,6 @@
     <script src="js/main.js"></script>
 
     <style>
-
-        #lnkBanner {
-            cursor: pointer;
-        }
-
-        #secBanner {
-            width: 100%; 
-            height: 470px; 
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-        }
-
-
-        .ribbon-3 {
-	        width: 200px;
-	        padding: 5px 15px;
-	        /*height: 97px;*/
-	        position: absolute;
-	        left: 30px;
-	        top: -17px;
-	        display: block;
-	        background-color: #D5BB96;
-	        border-radius: 15px;
-	        color: #191919;
-	        font-weight: 600;
-	        text-align: center;
-	        /*background: url(../img/ribbon.png) no-repeat 0 0;*/
-	        z-index: 101;
-        }
-
-
-        .bannerMain {
-            background-image: url('img/banners-clases/02_skap-form_10-12-2025.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 420px;
-        }
-
-
-        .plans-switch {
-            display: flex;
-            justify-content: center;
-        }
-
-        .switch-btn {
-            background: transparent;
-            border: 2px solid #d6ff00;
-            color: #d6ff00;
-            padding: 10px 25px;
-            margin: 0 10px;
-            font-weight: 600;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .switch-btn:hover {
-            background: #d6ff00;
-            color: #000;
-        }
-
-        .switch-btn.active {
-            background: #d6ff00;
-            color: #000;
-        }
-
-
 
         .plan-features {
             overflow: hidden;
@@ -267,16 +237,14 @@
         }
 
 
-
-        .plans-wrapper {
-            margin: 60px auto 0px 0;
-            /*gap: 16px;*/
-        }
-
-
         @media (max-width: 920px) {
-            .col-md-5 {
-                padding: 10px !important;
+            .gt-hero-1 .gt-hero-content .gt-hero-button {
+                flex-wrap: nowrap;
+            }
+
+
+            .info-oculta {
+                display: none;
             }
         }
 
@@ -284,61 +252,15 @@
 
 
     <script>
+
         document.addEventListener("DOMContentLoaded", function () {
-
-            //const buttons = document.querySelectorAll(".switch-btn");
-            //const recurrentes = document.querySelector(".plans-recu");
-            //const unicos = document.querySelector(".plans-unic");
-            //const masVendidos = document.querySelector(".plans-mas-vend");
-
-            //unicos.style.display = "none";
-            //recurrentes.style.display = "none";
-
             const toggles = document.querySelectorAll(".plan-toggle");
             const features = document.querySelectorAll(".plan-features");
 
             let isOpen = false;
 
-            //buttons.forEach(btn => {
-            //    btn.addEventListener("click", function () {
-
-            //        // Quitar activo a todos
-            //        buttons.forEach(b => b.classList.remove("active"));
-
-            //        // Activar el actual
-            //        this.classList.add("active");
-
-            //        const target = this.getAttribute("data-target");
-
-            //        if (target === "recurrentes") {
-            //            recurrentes.style.display = "flex";
-            //            unicos.style.display = "none";
-            //            masVendidos.style.display = "none";
-            //        } else if (target === "unicos") {
-            //            recurrentes.style.display = "none";
-            //            unicos.style.display = "flex";
-            //            masVendidos.style.display = "none";
-            //        } else {
-            //            recurrentes.style.display = "none";
-            //            unicos.style.display = "none";
-            //            masVendidos.style.display = "flex";
-            //        }
-
-            //        // Cerrar todos
-            //        features.forEach(f => {
-            //            f.classList.remove("open");
-            //            f.style.maxHeight = null;
-            //        });
-
-            //        toggles.forEach(t => t.classList.remove("active"));
-
-            //        isOpen = false;
-            //    });
-            //});
-
             toggles.forEach(toggle => {
                 toggle.addEventListener("click", function () {
-                    console.log('Hola');
 
                     if (!isOpen) {
                         // Abrir todos
@@ -366,6 +288,7 @@
             });
 
         });
+
     </script>
 
     <!-- ========== Google Tag Manager ========== -->
