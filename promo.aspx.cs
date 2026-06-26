@@ -11,6 +11,8 @@ namespace Skap
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Redirect("default", true);
+
             if (!IsPostBack)
             {
                 string tipoPlan = Request.QueryString["membresia"];

@@ -515,6 +515,7 @@
     <Content Include="plantilla\team.html" />
     <Content Include="plantilla\testimonial.html" />
     <Content Include="promos.aspx" />
+    <Content Include="skapTeens.aspx" />
     <Content Include="Web.config" />
     <Content Include="webfonts\fa-brands-400.ttf" />
     <Content Include="webfonts\fa-brands-400.woff2" />
@@ -593,6 +594,13 @@
       <DependentUpon>promos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="skapTeens.aspx.cs">
+      <DependentUpon>skapTeens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="skapTeens.aspx.designer.cs">
+      <DependentUpon>skapTeens.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css.map" />

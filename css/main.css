@@ -53,6 +53,7 @@ Version: 1.0.0
   --gt-bg3: #F7F3EE;
   --gt-secondary: #D5BB96;
   --gt-tertiary: #103639;
+  --gt-bronze: #C3744B;
   --gt-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
 }
 
@@ -200,12 +201,12 @@ h1 {
 }
 @media (max-width: 1399px) {
   h1 {
-    font-size: 56px;
+    /*font-size: 56px;*/
   }
 }
 @media (max-width: 1199px) {
   h1 {
-    font-size: 75px;
+   /*font-size: 75px;*/
   }
 }
 @media (max-width: 991px) {
@@ -776,6 +777,24 @@ span {
   background-color: var(--gt-secondary);
   border: 1px solid var(--gt-theme);
 }
+
+.gt-hero-button .style-5 {
+  color: var(--gt-black);
+  background-color: var(--gt-white);
+  border: 1px solid var(--gt-bronze) !important;
+}
+
+.gt-hero-button .style-5:hover {
+  color: var(--gt-white) !important;
+  background-color: var(--gt-bronze) !important;
+  border: 1px solid var(--gt-bronze) !important;
+}
+
+.gt-hero-button .style-5::before {
+  color: var(--gt-white) !important;
+  background-color: var(--gt-bronze) !important;
+}
+
 
 .gt-about-section-3 {
   position: relative;
@@ -6437,6 +6456,9 @@ span {
   background-color: var(--gt-white);
 }
 
+.section-bg-4 {
+  background-color: var(--gt-theme);
+}
 .section-padding {
   padding: 100px 0;
 }
@@ -6463,7 +6485,7 @@ span {
     box-sizing: border-box;
     /*min-height: 166px;*/
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     z-index: 9;
 }
@@ -7018,16 +7040,20 @@ span {
   position: relative;
 }
 .team-card-item-3 .team-image .team-content {
-  background-color: var(--gt-white);
-  padding: 16px 35px;
+  /*background-color: var(--gt-white);*/
+  background-color: transparent;
+  /*padding: 16px 35px;*/
+  padding: 15px;
   position: absolute;
   left: 0;
   bottom: 0;
   border-radius: 0px 16px;
 }
 .team-card-item-3 .team-image .team-content h4 {
-  font-weight: 800;
+  color: var(--gt-white);
+  font-weight: 500;
   margin-bottom: 5px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .5);
 }
 .team-card-item-3 .team-image .team-content h4 a:hover {
   color: var(--gt-theme);

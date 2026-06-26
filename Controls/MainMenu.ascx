@@ -116,9 +116,9 @@
                                         <li><a href="default">Inicio</a></li>
                                         <li><a href="default#servicios">Servicios</a></li>
                                         <li><a href="default#conocenos">Conócenos</a></li>
-                                        <li><a href="default#membresias">Membresías</a></li>
+                                        <li><a href="default#membresias" style="color: var(--gt-bronze);">Membresías</a></li>
                                         <li><a href="#footer">Contacto</a></li>
-                                        <li><a href="eliteFounder" style="color: var(--gt-tertiary);">Elite Founder</a></li>
+                                        <li><a href="skapTeens"><img src="../img/logo/logo-skapteens.png" style="width: 80px;" /></a></li>
                                     </ul>
                                 </nav>
                             </div>
