@@ -22,7 +22,7 @@
 
 <!-- GT Back To Top Start -->
 <button id="gt-back-top" class="gt-back-to-top show">
-    <i class="fa-solid fa-chevrons-up"></i>
+    <i class="fa-solid fa-angles-up"></i>
 </button>
 
 <!-- GT Whatsapp -->
@@ -57,7 +57,7 @@
                     <ul>
                         <li class="d-flex align-items-center">
                             <div class="offcanvas__contact-icon">
-                                <i class="fal fa-map-marker-alt"></i>
+                                <i class="fa-solid fa-map-marker-alt"></i>
                             </div>
                             <div class="offcanvas__contact-text">
                                 <a href="https://maps.app.goo.gl/oruePqntStGhnjcSA" target="_blank">Cra 29 #45-25, Sotomayor, Bucaramanga, Santander</a>
@@ -65,7 +65,7 @@
                         </li>
                         <li class="d-flex align-items-center">
                             <div class="offcanvas__contact-icon mr-15">
-                                <i class="fal fa-envelope"></i>
+                                <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div class="offcanvas__contact-text">
                                 <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><span class="mailto:comunicaciones@skaptrainingclub.com">skaptrainingclub.com</span></a>
@@ -73,7 +73,7 @@
                         </li>
                         <li class="d-flex align-items-center">
                             <div class="offcanvas__contact-icon mr-15">
-                                <i class="far fa-phone"></i>
+                                <i class="fa-solid fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
                                 <a href="https://api.whatsapp.com/send/?phone=573226913520" target="_blank">322 691 3520</a>

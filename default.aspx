@@ -76,8 +76,10 @@
     <link rel="stylesheet" href="css/nice-select.css"/>
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="css/flaticon.css"/>
-     <!--<< Main.css >>-->
+    <!--<< Main.css >>-->
     <link rel="stylesheet" href="css/main.css" />
+    <!--<< Font Awesome >>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
@@ -772,7 +774,7 @@
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <a href="#planes" class="gt-theme-btn">Inscribirse</a>
+                                        <%--<a href="#planes" class="gt-theme-btn">Inscribirse</a>--%>
                                         <a href="eliteFounder" class="gt-theme-btn style-3">Saber Más</a>
                                     </div>
                                 </div>

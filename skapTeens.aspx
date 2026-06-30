@@ -76,8 +76,10 @@
     <link rel="stylesheet" href="css/nice-select.css"/>
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="css/flaticon.css"/>
-     <!--<< Main.css >>-->
+    <!--<< Main.css >>-->
     <link rel="stylesheet" href="css/main.css" />
+    <!--<< Font Awesome >>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
@@ -235,7 +237,7 @@
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="service-box-items">
                         <div class="icon">
-                            <i class="fa-solid fa-user-group"></i>
+                            <i class="fa-solid fa-people-group"></i>
                         </div>
                         <h4 class="fw-semibold mt-2">Habilidades sociales</h4>
 
@@ -1125,7 +1127,7 @@
             display: block !important;
             background-image: none !important;
             content: "\f101";
-            font-family: "Font Awesome 6 Pro" !important;   
+            font-family: "Font Awesome 7 Free" !important;
             font-weight: 900;
             width: auto;
             height: auto;
