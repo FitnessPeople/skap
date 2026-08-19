@@ -76,10 +76,15 @@
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="https://api.whatsapp.com/send/?phone=573226913520" target="_blank">322 691 3520</a>
+                                <a href="https://api.whatsapp.com/send/?phone=573208553318" target="_blank">320 855 3318</a>
                             </div>
                         </li>
                     </ul>
+                    <div class="header-right d-flex justify-content-center mt-4">
+                        <div class="hero-button">
+                            <a href="default#membresias" class="gt-theme-btn">¡INSCRÍBETE YA!</a>
+                        </div>
+                    </div>
                     <div class="social-icon d-flex align-items-center">
                         <a href="https://www.instagram.com/skaptrainingclub?igsh=YTd4dGZicjZneTVt" target="_blank"><i class="fab fa-instagram"></i></a>
                         <%--<a href="#"><i class="fab fa-facebook-f"></i></a>--%>
@@ -116,9 +121,9 @@
                                         <li><a href="default">Inicio</a></li>
                                         <li><a href="default#servicios">Servicios</a></li>
                                         <li><a href="default#conocenos">Conócenos</a></li>
-                                        <li><a href="default#membresias" style="color: var(--gt-bronze);">Membresías</a></li>
+                                        <%--<li><a href="default#membresias" style="color: var(--gt-bronze);">Membresías</a></li>--%>
                                         <li><a href="#footer">Contacto</a></li>
-                                        <li><a href="skapTeens"><img src="../img/logo/logo-skapteens.png" style="width: 80px;" /></a></li>
+                                        <%--<li><a href="skapTeens"><img src="../img/logo/logo-skapteens.png" style="width: 80px;" /></a></li>--%>
                                     </ul>
                                 </nav>
                             </div>
@@ -133,9 +138,9 @@
                         </div>
                     </div>
                     <div class="header-right d-flex justify-content-end align-items-center">
-                        <%--<div class="hero-button">
-                            <a href="contact.html" class="gt-theme-btn">INICIAR SESIÓN</a>
-                        </div>--%>
+                        <div class="hero-button">
+                            <a href="default#membresias" class="gt-theme-btn">¡INSCRÍBETE YA!</a>
+                        </div>
                         <div class="header__hamburger my-auto">
                             <div class="sidebar__toggle">
                                 <div class="header-bar">

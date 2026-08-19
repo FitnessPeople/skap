@@ -478,8 +478,8 @@
         //});
 
         $documentOn.on('click', '#gt-whatsapp', function () {
-            const phone = "573226985390";
-            const message = "Hola, quiero más información 👋";
+            const phone = "573208553318";
+            const message = "Hola, quiero más información";
 
             const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
             window.open(url, '_blank');

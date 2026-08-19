@@ -14,7 +14,7 @@
                         </div>
                         <div class="gt-footer-content">
                             <div class="gt-social-icon d-flex flex-column">
-                                <a href="https://api.whatsapp.com/send/?phone=573226913520" target="_blank"><i class="fa-solid fa-phone"></i> 322 691 3520</a>
+                                <a href="https://api.whatsapp.com/send/?phone=573208553318" target="_blank"><i class="fa-solid fa-phone"></i> 320 855 3318</a>
                                 <a href="https://maps.app.goo.gl/oruePqntStGhnjcSA" target="_blank"><i class="fa-solid fa-map-marker-alt"></i> Cra 29 #45-25, Sotomayor, Bucaramanga, Santander</a>
                                 <a href="mailto:comunicaciones@skaptrainingclub.com" target="_blank"><i class="fa-solid fa-envelope"></i> skaptrainingclub.com</a>
                                 <a href="#" target="_blank" class="mt-2 text-decoration-underline"><i class="fa-solid fa-file-lines"></i> Términos y condiciones</a>
@@ -28,9 +28,9 @@
                             <li><a href="default">Inicio</a></li>
                             <li><a href="default#servicios">Servicios</a></li>
                             <li><a href="default#conocenos">Conócenos</a></li>
-                            <li><a href="default#membresias" style="color: var(--gt-bronze);">Membresías</a></li>
+                            <%--<li><a href="default#membresias" style="color: var(--gt-bronze);">Membresías</a></li>--%>
                             <li><a href="#footer">Contacto</a></li>
-                            <li><a href="skapTeens" style="color: var(--gt-bronze);">Skap Teens</a></li>
+                            <%--<li><a href="skapTeens" style="color: var(--gt-bronze);">Skap Teens</a></li>--%>
                         </ul>
                     </div>
                 </div>

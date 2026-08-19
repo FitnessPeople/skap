@@ -35,10 +35,6 @@ namespace Skap
 
             string linkPago = "";
 
-            string itemId = "";
-            string itemName = "";
-            string price = "";
-
             switch (tipoPlan.ToLower())
             {
                 // ===============================
