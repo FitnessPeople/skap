@@ -118,7 +118,7 @@
 
 
     <!-- GT Spaces Section Start -->
-    <section class="gt-service-section fix section-padding pb-4">
+    <section class="gt-service-section fix section-padding pb-4" id="conocenos">
         <div class="container">
             <div class="gt-section-title text-center mb-0">
                 <h6 class="justify-content-center wow fadeInUp">
@@ -305,7 +305,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
-                                        <div class="gt-section-title mb-0">
+                                        <%--<div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                                  SKAP HYROX
                                             </h2>
@@ -317,16 +317,6 @@
                                             Entrenamiento de alto rendimiento que combina fuerza funcional y cardio bajo un enfoque técnico y exigente. 
                                             Diseñado para activar todo tu cuerpo, mejorar tu capacidad y retarte con criterio. 
                                         </p>
-                                        <%--<ul class="gt-about-list wow fadeInUp" data-wow-delay=".8s">
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Cardio, fuerza y potencia.
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                Sesiones dinámicas y controladas.
-                                            </li>
-                                        </ul>--%>
                                         <div class="gt-hero-1">
                                             <div class="gt-hero-content pt-0" >
                                                 <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
@@ -334,7 +324,7 @@
                                                     <a href="#membresias" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>--%>
                                     </div>
                                 </div>
                             </div>
@@ -731,7 +721,7 @@
 
 
     <!-- GT About Section Start -->
-    <section class="founder-experience">
+    <%--<section class="founder-experience">
         <section class="gt-about-section-3 fix bg-cover">
             <div class="container">
                 <div class="gt-about-wrapper-3">
@@ -774,7 +764,6 @@
                             <div class="gt-hero-1">
                                 <div class="gt-hero-content pt-0" >
                                     <div class="gt-hero-button wow fadeInUp" data-wow-delay=".6s">
-                                        <%--<a href="#planes" class="gt-theme-btn">Inscribirse</a>--%>
                                         <a href="eliteFounder" class="gt-theme-btn style-3">Saber Más</a>
                                     </div>
                                 </div>
@@ -784,7 +773,7 @@
                 </div>
             </div>
         </section>
-    </section>
+    </section>--%>
     
 
     <!-- GT Plans Section Start -->
@@ -803,7 +792,7 @@
 
                         <div class="btn-type-product wow fadeInUp" data-wow-delay=".2s">
                             <div class="hero-button">
-                                <a href="javascript:void(0);" class="gt-theme-btn" id="btnTipoProducto">PLANES DE CLASES</a>
+                                <a href="javascript:void(0);" class="gt-theme-btn" id="btnTipoProducto">MÁS PLANES</a>
                             </div>
                         </div>
                     </div>
@@ -1061,6 +1050,58 @@
                             </div>
                         </div>
                     </div>
+
+                    <%-- RECOVERY --%>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="gt-room-box-items plan-principal">
+                            <div class="gt-content">
+                                <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
+
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>RECOVERY</a></h3>
+
+                                <p class="gt-about-text wow fadeInUp fw-semibold mt-0 sub-title-principal" data-wow-delay=".4s" style="">RECUPERACIÓN Y BIENESTAR</p>
+
+                                <p class="gt-about-text wow fadeInUp fw-semibold sub-title-secondary" data-wow-delay=".4s">
+                                    Una experiencia pensada para recuperar el cuerpo, bajar el ritmo y volver a entrenar mejor.
+                                </p>
+
+                                <div class="d-flex align-items-center gap-3 mt-2 section-before">
+                                    <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
+
+                                    <p class="wow fadeInUp title-price-before" data-wow-delay=".4s" style="text-decoration: none;">Única Sesión</p>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <h2 class="wow fadeInUp title-gray-now" data-wow-delay=".4s">PRECIO</h2>
+
+                                    <p class="wow fadeInUp title-price-now" data-wow-delay=".4s">$140.000<span></span></p>
+                                </div>
+
+                                <hr />
+
+                                <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        1 sesión de Relax – Masaje.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        1 sesión de Thermal – Sauna Infrarrojo.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check"></i>
+                                        1 sesión de Ice – Inmersión en Hielo de obsequio, si eliges realizarla.
+                                    </li>
+                                </ul>
+
+                                <div class="btn-primary wow fadeInUp mt-4" data-wow-delay=".2s">
+                                    <div class="hero-button w-100">
+                                        <a href="" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1285,7 +1326,7 @@
             // Estado inicial
             planes.classList.add("active");
             clases.classList.remove("active");
-            btn.textContent = "PLANES DE CLASES";
+            btn.textContent = "MÁS PLANES";
 
             btn.addEventListener("click", function () {
 
@@ -1305,7 +1346,7 @@
                     clases.classList.remove("active");
 
                     // Cambiar texto del botón
-                    btn.textContent = "PLANES DE CLASES";
+                    btn.textContent = "MÁS PLANES";
                 }
 
             });
@@ -1371,7 +1412,7 @@
                 prevEl: ".swiper-button-prev",
             },
             autoplay: {
-                delay: 5000,
+                delay: 500000, // 5000
                 disableOnInteraction: false,
             },
             speed: 1500

@@ -7585,10 +7585,52 @@ span {
 }
 .swiper-slide {
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
 }
+
+.myFullSlider .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* =========================================
+   SLIDER PRINCIPAL
+   ========================================= */
+
+/*.myFullSlider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}*/
+
+    /* Contenedor de los slides */
+    /*.myFullSlider .swiper-wrapper {
+        align-items: stretch;
+    }*/
+
+    /* Cada slide */
+    /*.myFullSlider .swiper-slide {
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }*/
+
+    /* Imagen */
+    /*.myFullSlider .slider-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }*/
+
 /* Asignación de imágenes */
-.slide-1 { background-image: url('../img/banners-clases/01_skap-hit_10-12-2025.jpg'); }
+.slide-1 { background-image: url('../img/banners-clases/MONTAJE-BANNER-2.png'); }
 .slide-2 { background-image: url('../img/banners-clases/02_skap-form_10-12-2025.jpg'); }
 .slide-3 { background-image: url('../img/banners-clases/03_skap-level_10-12-2025.jpg'); }
 .slide-4 { background-image: url('../img/banners-clases/04_skap-control_10-12-2025.jpg'); }
