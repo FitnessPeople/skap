@@ -305,7 +305,7 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="gt-about-content">
-                                        <%--<div class="gt-section-title mb-0">
+                                        <div class="gt-section-title mb-0">
                                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                                  SKAP HYROX
                                             </h2>
@@ -324,7 +324,7 @@
                                                     <a href="#membresias" class="gt-theme-btn style-3">Saber Más</a>
                                                 </div>
                                             </div>
-                                        </div>--%>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1044,32 +1044,26 @@
 
                                 <div class="btn-primary wow fadeInUp mt-4" data-wow-delay=".2s">
                                     <div class="hero-button w-100">
-                                        <a href="https://dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4742" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                        <a href="https://www.dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4880" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <%-- RECOVERY --%>
+                    <%-- RELAX --%>
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="gt-room-box-items plan-principal">
                             <div class="gt-content">
                                 <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
 
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>RECOVERY</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>RELAX</a></h3>
 
                                 <p class="gt-about-text wow fadeInUp fw-semibold mt-0 sub-title-principal" data-wow-delay=".4s" style="">RECUPERACIÓN Y BIENESTAR</p>
 
                                 <p class="gt-about-text wow fadeInUp fw-semibold sub-title-secondary" data-wow-delay=".4s">
                                     Una experiencia pensada para recuperar el cuerpo, bajar el ritmo y volver a entrenar mejor.
                                 </p>
-
-                                <div class="d-flex align-items-center gap-3 mt-2 section-before">
-                                    <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
-
-                                    <p class="wow fadeInUp title-price-before" data-wow-delay=".4s" style="text-decoration: none;">Única Sesión</p>
-                                </div>
 
                                 <div class="d-flex align-items-center gap-3 mb-3">
                                     <h2 class="wow fadeInUp title-gray-now" data-wow-delay=".4s">PRECIO</h2>
@@ -1082,15 +1076,11 @@
                                 <ul class="gt-about-list wow fadeInUp plan-features" data-wow-delay=".8s">
                                     <li>
                                         <i class="fa-solid fa-check"></i>
-                                        1 sesión de Relax – Masaje.
+                                        Masaje relajante o descontracturante - 50 min.
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-check"></i>
-                                        1 sesión de Thermal – Sauna Infrarrojo.
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        1 sesión de Ice – Inmersión en Hielo de obsequio, si eliges realizarla.
+                                        Sauna Infrarrojo - 30 min.
                                     </li>
                                 </ul>
 
@@ -1412,7 +1402,7 @@
                 prevEl: ".swiper-button-prev",
             },
             autoplay: {
-                delay: 500000, // 5000
+                delay: 5000, // 5000
                 disableOnInteraction: false,
             },
             speed: 1500
