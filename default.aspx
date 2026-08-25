@@ -805,7 +805,7 @@
                             <div class="gt-content">
                                 <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
 
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>ONE</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s">ONE</h3>
 
                                 <p class="gt-about-text wow fadeInUp fw-semibold mt-0 sub-title-principal" data-wow-delay=".4s" style="">DÉBITO AUTOMÁTICO</p>
 
@@ -869,7 +869,7 @@
                             <div class="gt-content">
                                 <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
 
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>ONE +</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s">ONE +</h3>
 
                                 <p class="gt-about-text wow fadeInUp fw-semibold mt-0 sub-title-principal" data-wow-delay=".4s" style="">PAGO MES A MES</p>
 
@@ -931,7 +931,7 @@
                             <div class="gt-content">
                                 <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
 
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>SUPREME</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s">SUPREME</h3>
 
                                 <p class="gt-about-text wow fadeInUp fw-semibold mt-0 sub-title-principal" data-wow-delay=".4s" style="">DÉBITO AUTOMÁTICO</p>
 
@@ -995,7 +995,7 @@
                             <div class="gt-content">
                                 <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
 
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>PILATES</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s">PILATES</h3>
 
                                 <p class="gt-about-text wow fadeInUp fw-semibold mt-0 sub-title-principal" data-wow-delay=".4s" style="">12 CLASES</p>
 
@@ -1057,7 +1057,7 @@
                             <div class="gt-content">
                                 <h2 class="wow fadeInUp title-gray" data-wow-delay=".4s">PLAN</h2>
 
-                                <h3 class="wow fadeInUp" data-wow-delay=".4s"><a>RELAX</a></h3>
+                                <h3 class="wow fadeInUp" data-wow-delay=".4s">RELAX</h3>
 
                                 <p class="gt-about-text wow fadeInUp fw-semibold mt-0 sub-title-principal" data-wow-delay=".4s" style="">RECUPERACIÓN Y BIENESTAR</p>
 
@@ -1086,7 +1086,7 @@
 
                                 <div class="btn-primary wow fadeInUp mt-4" data-wow-delay=".2s">
                                     <div class="hero-button w-100">
-                                        <a href="" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                        <a href="https://www.dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4896" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
                                     </div>
                                 </div>
                             </div>

@@ -7821,6 +7821,14 @@ span {
     margin: 0 0 30px 0;
 }
 
+.gt-room-section .gt-room-box-items {
+    border: 2px solid var(--gt-tertiary);
+}
+
+.gt-room-section .gt-room-box-items h3 {
+    font-weight: bold;
+}
+
 .gt-room-section .gt-room-box-items.plan-principal {
     background-color: var(--gt-tertiary);
     color: var(--gt-white);
