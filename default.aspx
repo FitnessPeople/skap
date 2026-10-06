@@ -854,7 +854,7 @@
 
                                 <div class="btn-secondary wow fadeInUp mt-4" data-wow-delay=".2s">
                                     <div class="hero-button w-100">
-                                        <a href="https://dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4675" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                        <a href="https://admin.fitmewise.com/registro/cliente/axseq9gyjao168i03jznsmtwcjjawsz0" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
                                     </div>
                                 </div>
                             </div>
@@ -918,7 +918,7 @@
 
                                 <div class="btn-primary wow fadeInUp mt-4" data-wow-delay=".2s">
                                     <div class="hero-button w-100">
-                                        <a href="https://dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4588" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                        <a href="https://admin.fitmewise.com/registro/cliente/0nl3egil5ssix0unuilirqlmz1owhvwn" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
                                     </div>
                                 </div>
                             </div>
@@ -980,7 +980,7 @@
 
                                 <div class="btn-secondary wow fadeInUp mt-4" data-wow-delay=".2s">
                                     <div class="hero-button w-100">
-                                        <a href="https://dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4796" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                        <a href="https://admin.fitmewise.com/registro/cliente/y2zexdsukpdl6qgigk4onu1xg3k7wvb1" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
                                     </div>
                                 </div>
                             </div>
@@ -1044,7 +1044,7 @@
 
                                 <div class="btn-primary wow fadeInUp mt-4" data-wow-delay=".2s">
                                     <div class="hero-button w-100">
-                                        <a href="https://www.dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4880" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                        <a href="https://admin.fitmewise.com/registro/cliente/i37fwzrbyia1qo4nrip5hptqxvjclhh4" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
                                     </div>
                                 </div>
                             </div>
@@ -1086,7 +1086,7 @@
 
                                 <div class="btn-primary wow fadeInUp mt-4" data-wow-delay=".2s">
                                     <div class="hero-button w-100">
-                                        <a href="https://www.dash.fitmewise.com/admin/users/register/without-redirect/693c0902bf6d3-4896" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
+                                        <a href="https://admin.fitmewise.com/registro/cliente/w6rxw5qlflgclegpupodtrmmcxm4ezhz" class="gt-theme-btn w-100">¡INSCRÍBETE AHORA!</a>
                                     </div>
                                 </div>
                             </div>
